@@ -51,9 +51,9 @@ D2 - Describe the problem
 D3 - Interim Containment Action (the “band-aid”)  
 D4 - Root Cause Analysis & Escape Point(s)  
 D5 - Permanent Corrective Actions  
-D6 - implement & Validate Corrective Actions  
-D7: Prevent reoccurrence(s)  
-D8: Closure & Celebration  
+D6 - Implement & Validate Corrective Actions  
+D7 - Prevent reoccurrence(s)  
+D8 - Closure & Celebration  
 ```
 
 
