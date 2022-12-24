@@ -103,15 +103,15 @@ E - Express yourself calmly
 * **PAUSE** -  
 ```
 P - Put things in perspective   
-A - Acknowledge feelings  
-U - Understand that you don’t have to act right away  
+A - Acknowledge your feelings and theirs
+U - Understand that you don’t have to act /react right away  
 S - Step Away from the situation  
 E - Evaluate options and plan before acting   
 ```
 * **CALM** -  
 ```
 C - Collect your thoughts  
-A - Acknowledge other persons feelings  
+A - Acknowledge other person's feelings  
 L - Listen and ask questions to *understand*  rather than to *respond*  
 M  - Manage your emotions calmly
 ```
