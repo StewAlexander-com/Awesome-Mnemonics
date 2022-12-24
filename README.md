@@ -1,5 +1,5 @@
 # Awesome-Mnemonics
-Awesome mnemonics to help daily life
+Awesome shortcuts (mnemonics) help problem solve and for daily life
 ## Problem Solving
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
 - - - -
