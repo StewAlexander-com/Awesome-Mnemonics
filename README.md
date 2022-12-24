@@ -38,7 +38,8 @@ D - Develop Solution
 E - Execute Solution   
 A - Assess Solution  
 * **5 Whys** - Keep asking why till root causes are identified
-* **8D Approach** -  
+* **8D Approach** -
+```
 D1 - Form a team  
 D2 - Describe the problem  
 D3 - Interim Containment Action (the “band-aid”)  
@@ -47,32 +48,40 @@ D5 - Permanent Corrective Actions
 D6 - implement & Validate Corrective Actions  
 D7: Prevent reoccurrence(s)  
 D8: Closure & Celebration  
+```
 * **5Ps** - Poor planning produces pitiful products  
 - - - -
 ## Positivity
 * Remember these mnemonics to stay positive, “PUSH”, “HOPE”, “SHINE”
 - - - -
 * **PUSH** -  
+```
 P - Practice Gratitude   
 U -  Use positive affirmations  
 S - Spend time with positive people  
 H - Have a positive outlook  
+```
 * **HOPE** -  
+```
 H - Harness positive thoughts  
 O - Open up to others   
 P - Prioritize self-care  
 E -Exercise regularly  
+```
 * **SHINE** -  
+```
 S - Stay present, in the moment  
 H - Have a healthy positive perspective  
 I - Identify and do positive activities   
 N - Nourish positive relationships  
 E - Express yourself  
+```
 - - - -
 ## Calmness during arguments
 * Remember these simple mnemonics for remaining calm during arguments; “BREATHE”, “PAUSE”, “CALM”,  “WAIT”
 - - - -
 * **BREATHE** -  
+```
 B - Breathe deeply and slowly   
 R - Remain rational and listen  
 E - Empathize with the other problem  
@@ -80,17 +89,22 @@ A - Ask questions to understand
 T - Take a break if needed  
 H - Hold back from reacting  
 E - Express yourself calmly  
+```
 * **PAUSE** -  
+```
 P - Put things in perspective   
 A - Acknowledge feelings  
 U - Understand that you don’t have to act right away  
 S - Step Away from the situation  
 E - Evaluate options and plan before acting   
+```
 * **CALM** -  
+```
 C - Collect your thoughts  
 A - Acknowledge other persons feelings  
 L - Listen and ask questions to *understand*  rather than to *respond*  
-M  - Manage your emotions calmly  
+M  - Manage your emotions calmly
+```
 * **WAIT** -  
 “Why am I troubled / talking?”  
 	* Not all things need an answer and or response; don’t seek trouble and or answer negativity 
