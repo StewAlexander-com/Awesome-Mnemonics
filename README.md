@@ -76,7 +76,7 @@ H - Have a positive outlook
 H - Harness positive thoughts  
 O - Open up to others   
 P - Prioritize self-care  
-E -Exercise regularly  
+E - Exercise regularly  
 ```
 * **SHINE** -  
 ```
