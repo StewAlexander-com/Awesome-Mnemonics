@@ -3,14 +3,14 @@ Awesome mnemonics to help daily life
 ## Problem Solving
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
 - - - -
-* PREPARE -
-P - Prioritize the problem
-R - Research & brainstorm solutions 
-E - Evaluate available options 
-P - Plan steps to resolve issue
-A -  Act on the plan
-R - Reflect on results 
-E - Evaluate and revise plan as necessary 
+* PREPARE -  
+P - Prioritize the problem  
+R - Research & brainstorm solutions  
+E - Evaluate available options  
+P - Plan steps to resolve issue  
+A - Act on the plan  
+R - Reflect on results  
+E - Evaluate and revise plan as necessary  
 * PADDER -
 P - Pinpoint problem 
 A - Analyze data and look for patterns
