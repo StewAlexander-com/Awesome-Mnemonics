@@ -17,7 +17,7 @@ E - Evaluate and revise plan as necessary
 ```
 P - Pinpoint problem  
 A - Analyze data and look for patterns  
-D - Develop solutions & consider solutions   
+D - Develop solution & consider other ways to solve the issue - try to have more than one   
 D - Design action plan  
 E - Execute action plan & Monitor Results  
 R - Reevaluate and refine plan as needed  
