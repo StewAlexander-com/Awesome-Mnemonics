@@ -67,7 +67,7 @@ D8 - Closure & Celebration
 * **PUSH** -  
 ```
 P - Practice Gratitude   
-U -  Use positive affirmations  
+U - Use positive affirmations  
 S - Spend time with positive people  
 H - Have a positive outlook  
 ```
