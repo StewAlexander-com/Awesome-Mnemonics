@@ -53,7 +53,7 @@ S - Spend time with positive people
 H - Have a positive outlook  
 * **HOPE** -  
 H - Harness positive thoughts  
-O - Open up to others  
+O - Open up to others   
 P - Prioritize self-care  
 E -Exercise regularly  
 * **SHINE** -  
@@ -67,26 +67,27 @@ E - Express yourself
 * Remember these simple mnemonics for remaining calm during arguments; “BREATHE”, “PAUSE”, “CALM”,  “WAIT”
 - - - -
 * **BREATHE** -  
-B - Breathe deeply and slowly  
+B - Breathe deeply and slowly   
 R - Remain rational and listen  
 E - Empathize with the other problem  
-A - Ask questions to understand 
-T - Take a break if needed
-H - Hold back from reacting
-E - Express yourself calmly
+A - Ask questions to understand  
+T - Take a break if needed  
+H - Hold back from reacting  
+E - Express yourself calmly  
 * **PAUSE** -  
-P - Put things in perspective 
-A - Acknowledge feelings 
-U - Understand that you don’t have to act right away
-S - Step Away from the situation 
-E - Evaluate options and plan before acting 
+P - Put things in perspective   
+A - Acknowledge feelings  
+U - Understand that you don’t have to act right away  
+S - Step Away from the situation  
+E - Evaluate options and plan before acting   
 * **CALM** -  
-C - Collect your thoughts
-A - Acknowledge other persons feelings
-L - Listen and ask questions to *understand*  rather than to *respond* 
-M  - Manage your emotions calmly
+C - Collect your thoughts  
+A - Acknowledge other persons feelings  
+L - Listen and ask questions to *understand*  rather than to *respond*  
+M  - Manage your emotions calmly  
+       * Cultivate inner peace
 * **WAIT** -  
-“Why am I troubled / talking?”
+“Why am I troubled / talking?”  
 	* Not all things need an answer and or response; don’t seek trouble and or answer negativity 
 
 
