@@ -94,7 +94,7 @@ E - Express yourself
 ```
 B - Breathe deeply and slowly   
 R - Remain rational and listen  
-E - Empathize with the other problem  
+E - Empathize with the other person's problem
 A - Ask questions to understand  
 T - Take a break if needed  
 H - Hold back from reacting  
