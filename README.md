@@ -85,7 +85,6 @@ C - Collect your thoughts
 A - Acknowledge other persons feelings  
 L - Listen and ask questions to *understand*  rather than to *respond*  
 M  - Manage your emotions calmly  
-       * Cultivate inner peace
 * **WAIT** -  
 “Why am I troubled / talking?”  
 	* Not all things need an answer and or response; don’t seek trouble and or answer negativity 
