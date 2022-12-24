@@ -11,22 +11,22 @@ P - Plan steps to resolve issue
 A - Act on the plan  
 R - Reflect on results  
 E - Evaluate and revise plan as necessary  
-* PADDER -
-P - Pinpoint problem 
-A - Analyze data and look for patterns
-D - Develop solutions & consider solutions 
-D - Design action plan
-E - Execute action plan & Monitor Results 
-R - Reevaluate and refine plan as needed
- * lCEBERG
-I - Identify issue(s)
-C - Collect data and analyze situation
-E - Examine possible (root) causes
-B - Brainstorms solutions 
-E - Execute solution(s)
-R - Review, evaluate, and adjust solutions
-G - Gather feedback
-* IDEA -
+* PADDER -  
+P - Pinpoint problem  
+A - Analyze data and look for patterns  
+D - Develop solutions & consider solutions   
+D - Design action plan  
+E - Execute action plan & Monitor Results  
+R - Reevaluate and refine plan as needed  
+ * lCEBERG  
+I - Identify issue(s)  
+C - Collect data and analyze situation  
+E - Examine possible (root) causes  
+B - Brainstorms solutions  
+E - Execute solution(s)  
+R - Review, evaluate, and adjust solutions  
+G - Gather feedback  
+* IDEA -  
 I - Identify problem 
 D - Develop Solution
 E - Execute Solution 
