@@ -47,29 +47,29 @@ D8: Closure & Celebration
 * Remember these mnemonics to stay positive, “PUSH”, “HOPE”, “SHINE”
 - - - -
 * **PUSH** -  
-P - Practice Gratitude 
-U -  Use positive affirmations 
-S - Spend time with positive people 
-H - Have a positive outlook
+P - Practice Gratitude   
+U -  Use positive affirmations  
+S - Spend time with positive people  
+H - Have a positive outlook  
 * **HOPE** -  
-H - Harness positive thoughts
-O - Open up to others
-P - Prioritize self-care
-E -Exercise regularly
+H - Harness positive thoughts  
+O - Open up to others  
+P - Prioritize self-care  
+E -Exercise regularly  
 * **SHINE** -  
-S - Stay present, in the moment
-H - Have a healthy positive perspective 
-I - Identify and do positive activities 
-N - Nourish positive relationships 
-E - Express yourself 
+S - Stay present, in the moment  
+H - Have a healthy positive perspective  
+I - Identify and do positive activities   
+N - Nourish positive relationships  
+E - Express yourself  
 - - - -
 ## Calmness during arguments
 * Remember these simple mnemonics for remaining calm during arguments; “BREATHE”, “PAUSE”, “CALM”,  “WAIT”
 - - - -
 * **BREATHE** -  
-B - Breathe deeply and slowly 
-R - Remain rational and listen
-E - Empathize with the other problem
+B - Breathe deeply and slowly  
+R - Remain rational and listen  
+E - Empathize with the other problem  
 A - Ask questions to understand 
 T - Take a break if needed
 H - Hold back from reacting
