@@ -31,17 +31,17 @@ I - Identify problem
 D - Develop Solution  
 E - Execute Solution   
 A - Assess Solution  
-* 5 Whys - Keep asking why till root causes are identified
-* 8D Approach - 
-D1 - Form a team
-D2 - Describe the problem 
-D3 - Interim Containment Action (the “band-aid”)
-D4 - Root Cause Analysis & Escape Point(s)
-D5 - Permanent Corrective Actions 
-D6 - implement & Validate Corrective Actions
-D7: Prevent reoccurrence(s)
-D8: Closure & Celebration
-* 5Ps - Poor planning produces pitiful products  
+* **5 Whys** - Keep asking why till root causes are identified
+* **8D Approach** -  
+D1 - Form a team  
+D2 - Describe the problem  
+D3 - Interim Containment Action (the “band-aid”)  
+D4 - Root Cause Analysis & Escape Point(s)  
+D5 - Permanent Corrective Actions  
+D6 - implement & Validate Corrective Actions  
+D7: Prevent reoccurrence(s)  
+D8: Closure & Celebration  
+* **5Ps** - Poor planning produces pitiful products  
 - - - -
 ## Positivity
 * Remember these mnemonics to stay positive, “PUSH”, “HOPE”, “SHINE”
