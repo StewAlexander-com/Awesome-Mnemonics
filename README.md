@@ -51,7 +51,7 @@ P - Practice Gratitude
 U -  Use positive affirmations 
 S - Spend time with positive people 
 H - Have a positive outlook
-* **HOPE** - 
+* **HOPE** -  
 H - Harness positive thoughts
 O - Open up to others
 P - Prioritize self-care
