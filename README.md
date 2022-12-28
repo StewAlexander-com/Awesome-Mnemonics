@@ -15,6 +15,7 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [RACI](#raci)
     + [PESTEL](#pestel)
     + [SWOT](#swot)
+    + [SET](#set)
   * [Problem Resolution Threats](#problem-resolution-threats)
     + [DICE](#dice)
     + [FATE](#fate)
@@ -118,6 +119,22 @@ W - Weaknesses
 O - Opportunities
 T - Threats
 ```
+### SET
+* S-ystems E-ngineering T-riangle
+```
+1. Draw a triangle
+2. Put one of these 3 words at each corner:
+ "good", "fast", "cheap" 
+3. Pick 2 of them
+4. The other word is what the solution will not likely be
+- A fast, cheap solution will not likely be good
+- A fast and good solution will not likely be cheap 
+- A good and cheap solution will not likely be fast
+```
+* From the [SeBok - Systems Engineering Body of Knowledge](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))
+
+
+
 
 - - - -
 ## Problem Resolution Threats
