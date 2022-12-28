@@ -7,6 +7,8 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
   * [Problem Analysis](#problem-analysis)
   * [Problem Resolution Threats](#problem-resolution-threats)
   * [Positivity](#positivity)
+  * [Argumentation Techniques](#argumentation-techniques)
+
 
 
 
@@ -159,7 +161,7 @@ N - Nourish positive relationships
 E - Express yourself  
 ```
 - - - -
-## Calmness during arguments
+## Argumentation Techniques
 * Remember these simple mnemonics for remaining calm during arguments; “BREATHE”, “PAUSE”, “CALM”,  “WAIT”
 - - - -
 * **BREATHE** -  
