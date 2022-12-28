@@ -20,8 +20,14 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [FATE](#fate)
     + [PEST](#pest)
   * [Positivity](#positivity)
+    + [PUSH](#push)
+    + [HOPE](#hope)
+    + [SHINE](#shine)
   * [Argumentation Techniques](#argumentation-techniques)
-
+    + [PREPARE](#prepare)
+    + [PREPARE](#prepare)
+    + [PREPARE](#prepare)
+- - - - 
 ## Problem Solving Techniques 
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
 - - - -
@@ -149,21 +155,21 @@ T - Technological
 ## Positivity
 * Remember these mnemonics to stay positive, “PUSH”, “HOPE”, “SHINE”
 - - - -
-* **PUSH** -  
+### PUSH
 ```
 P - Practice Gratitude   
 U - Use positive affirmations  
 S - Spend time with positive people  
 H - Have a positive outlook  
 ```
-* **HOPE** -  
+### HOPE
 ```
 H - Harness positive thoughts  
 O - Open up to others   
 P - Prioritize self-care  
 E - Exercise regularly  
 ```
-* **SHINE** -  
+### SHINE
 ```
 S - Stay present, in the moment  
 H - Have a healthy positive perspective  
