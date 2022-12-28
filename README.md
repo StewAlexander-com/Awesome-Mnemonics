@@ -90,7 +90,7 @@ T - Threats
 ```
 
 - - - -
-* **Threats to Problem Resolution**
+## Threats to Problem Resolution**
 - - - -
 
 * **DICE** -
@@ -102,7 +102,23 @@ C - Conflict
 E - External factors
 ```
 
+* **FATE** -
 
+```
+F - Funding
+A - Allocation (who gets assigned what)
+T - Time
+E - Expertise
+```
+
+* **PEST** -
+
+```
+P - Political
+E - Economic
+S - Social
+T - Technological let's different
+```
 
 - - - -
 ## Positivity
