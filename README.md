@@ -1,7 +1,7 @@
 # Awesome-Mnemonics
 Awesome shortcuts (mnemonics) help problem solve and for daily life
 
-### Table of Contents
+## Table of Contents
   
   * [Problem Solving](#problem-solving)
   * [Problem Analysis](#problem-analysis)
