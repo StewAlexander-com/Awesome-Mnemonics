@@ -6,7 +6,7 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
   * [Problem Solving Techniques](#problem-solving-techniques)
     + [PREPARE](#prepare)
     + [PADDER](#padder)
-    + [lCEBERG](#iceberg)
+    + [ICEBERG](#iceberg)
     + [IDEA](#idea)
     + [5 Whys](#5-whys)
   * [Problem Analysis](#problem-analysis)
@@ -39,7 +39,7 @@ D - Design action plan
 E - Execute action plan & Monitor Results  
 R - Reevaluate and refine plan as needed  
 ```
-### lCEBERG
+### ICEBERG
 ```
 I - Identify issue(s)  
 C - Collect data and analyze situation  
