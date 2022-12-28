@@ -90,6 +90,21 @@ T - Threats
 ```
 
 - - - -
+* **Threats to Problem Resolution**
+- - - -
+
+* **DICE** -
+
+```
+D - Delay
+I - Incompetence
+C - Conflict
+E - External factors
+```
+
+
+
+- - - -
 ## Positivity
 * Remember these mnemonics to stay positive, “PUSH”, “HOPE”, “SHINE”
 - - - -
