@@ -69,12 +69,17 @@ A - Acountable
 C - Consulted
 I - Informed
 ```
-* **PESTEL** 
+* **PESTEL** - used to identify and analyze the external factors that may impact a problem or decision
 
+```
+P - Political
+E - Economic
+S - Sociocultural
+T - Technological
+E - Environmental
+L - Legal
+```
 
-
-
-PESTEL: This mnemonic stands for "Political, Economic, Sociocultural, Technological, Environmental, Legal." It can be used to identify and analyze the external factors that may impact a problem or decision.
 
 SWOT: This mnemonic stands for "Strengths, Weaknesses, Opportunities, Threats." It can be used to identify and analyze the internal and external factors that may impact a problem or decision.
 
