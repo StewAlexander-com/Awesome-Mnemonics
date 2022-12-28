@@ -1,5 +1,14 @@
 # Awesome-Mnemonics
 Awesome shortcuts (mnemonics) help problem solve and for daily life
+
+### Table of Contents
+  
+  * [Problem Solving](#problem-solving)
+  * [Problem Analysis](#problem-analysis)
+  * [Problem Resolution Threats](#problem-resolution-threats)
+
+
+
 ## Problem Solving
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
 - - - -
@@ -90,7 +99,7 @@ T - Threats
 ```
 
 - - - -
-## Threats to Problem Resolution
+## Problem Resolution Threats
 - - - -
 
 * **DICE** -
