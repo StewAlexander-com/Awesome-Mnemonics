@@ -90,7 +90,7 @@ T - Threats
 ```
 
 - - - -
-## Threats to Problem Resolution**
+## Threats to Problem Resolution
 - - - -
 
 * **DICE** -
