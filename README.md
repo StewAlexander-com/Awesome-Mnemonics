@@ -106,7 +106,7 @@ E - External factors
 
 ```
 F - Funding
-A - Allocating Resources 
+A - Allocation of resources 
 T - Time
 E - Expertise
 ```
