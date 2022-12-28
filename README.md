@@ -12,6 +12,9 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [8D Approach](#8d-approach)
     + [5Ps](#5ps)
   * [Problem Analysis](#problem-analysis)
+    + [RACI](#raci)
+    + [PESTEL](#pestel)
+    + [SWOT](#swot)
   * [Problem Resolution Threats](#problem-resolution-threats)
   * [Positivity](#positivity)
   * [Argumentation Techniques](#argumentation-techniques)
@@ -79,14 +82,16 @@ D8 - Closure & Celebration
 - - - -
 ## Problem Analysis 
 - - - - 
-* **RACI** - Used to identify the roles and responsibilities of different stakeholders in a problem-solving process
+### RACI 
+* Used to identify the roles and responsibilities of different stakeholders in a problem-solving process
 ```
 R - Responsible
 A - Acountable
 C - Consulted
 I - Informed
 ```
-* **PESTEL** - used to identify and analyze the external factors that may impact a problem or decision
+### PESTEL 
+* Used to identify and analyze the external factors that may impact a problem or decision
 
 ```
 P - Political
@@ -97,7 +102,8 @@ E - Environmental
 L - Legal
 ```
 
-* **SWOT** - used to identify and analyze the internal and external factors that may impact a problem or decision
+### SWOT
+* Used to identify and analyze the internal and external factors that may impact a problem or decision
 
 ```
 S - Strengths
