@@ -120,6 +120,8 @@ S - Social
 T - Technological
 ```
 
+* Consider ways to combat or remove these theats
+
 - - - -
 ## Positivity
 * Remember these mnemonics to stay positive, “PUSH”, “HOPE”, “SHINE”
