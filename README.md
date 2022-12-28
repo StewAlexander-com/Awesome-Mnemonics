@@ -24,9 +24,10 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [HOPE](#hope)
     + [SHINE](#shine)
   * [Argumentation Techniques](#argumentation-techniques)
-    + [PREPARE](#prepare)
-    + [PREPARE](#prepare)
-    + [PREPARE](#prepare)
+    + [BREATHE](#breathe)
+    + [PAUSE](#pause)
+    + [CALM](#calm)
+    + [WAIT](#wait)
 - - - - 
 ## Problem Solving Techniques 
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
@@ -130,18 +131,14 @@ I - Incompetence
 C - Conflict
 E - External factors
 ```
-
 ### FATE
-
 ```
 F - Funding
 A - Allocation of resources 
 T - Time
 E - Expertise
 ```
-
 ### PEST
-
 ```
 P - Political
 E - Economic
@@ -181,7 +178,7 @@ E - Express yourself
 ## Argumentation Techniques
 * Remember these simple mnemonics for remaining calm during arguments; “BREATHE”, “PAUSE”, “CALM”,  “WAIT”
 - - - -
-* **BREATHE** -  
+### BREATHE 
 ```
 B - Breathe deeply and slowly   
 R - Remain rational and listen  
@@ -191,7 +188,7 @@ T - Take a break if needed
 H - Hold back from reacting  
 E - Express yourself calmly  
 ```
-* **PAUSE** -  
+### PAUSE
 ```
 P - Put things in perspective   
 A - Acknowledge your feelings and theirs
@@ -199,16 +196,15 @@ U - Understand that you don’t have to act /react right away
 S - Step Away from the situation  
 E - Evaluate options and plan before acting   
 ```
-* **CALM** -  
+### CALM
 ```
 C - Collect your thoughts  
 A - Acknowledge other person's feelings  
 L - Listen and ask questions to *understand*  rather than to *respond*  
 M  - Manage your emotions calmly
 ```
-* **WAIT** -  
-“Why am I troubled / talking?”  
-	
+### WAIT
+* “Why am I troubled / talking?”  
 * Not all things need an answer and or response; don’t seek trouble and or answer negativity / negatively 
 
 
