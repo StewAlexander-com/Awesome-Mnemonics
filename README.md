@@ -6,6 +6,7 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
   * [Problem Solving](#problem-solving)
   * [Problem Analysis](#problem-analysis)
   * [Problem Resolution Threats](#problem-resolution-threats)
+  * [Positivity](#positivity)
 
 
 
