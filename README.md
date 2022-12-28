@@ -201,7 +201,7 @@ E - Evaluate options and plan before acting
 C - Collect your thoughts  
 A - Acknowledge other person's feelings  
 L - Listen and ask questions to *understand*  rather than to *respond*  
-M  - Manage your emotions calmly
+M - Manage your emotions calmly
 ```
 ### WAIT
 * “Why am I troubled / talking?”  
