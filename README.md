@@ -87,7 +87,7 @@ S - Strengths
 W - Weaknesses
 O - Opportunities
 T - Threats
-``
+```
 
 - - - -
 ## Positivity
