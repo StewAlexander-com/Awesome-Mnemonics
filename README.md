@@ -179,6 +179,7 @@ M  - Manage your emotions calmly
 ```
 * **WAIT** -  
 “Why am I troubled / talking?”  
-	* Not all things need an answer and or response; don’t seek trouble and or answer negativity 
+	
+* Not all things need an answer and or response; don’t seek trouble and or answer negativity / negatively 
 
 
