@@ -19,7 +19,6 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [DICE](#dice)
     + [FATE](#fate)
     + [PEST](#pest)
-    + [PREPARE](#prepare)
   * [Positivity](#positivity)
   * [Argumentation Techniques](#argumentation-techniques)
 
