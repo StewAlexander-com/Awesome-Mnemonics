@@ -9,6 +9,8 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [ICEBERG](#iceberg)
     + [IDEA](#idea)
     + [5 Whys](#5-whys)
+    + [8D Approach](#8d-approach)
+    + [5Ps](#5ps)
   * [Problem Analysis](#problem-analysis)
   * [Problem Resolution Threats](#problem-resolution-threats)
   * [Positivity](#positivity)
@@ -59,7 +61,7 @@ A - Assess Solution
 ### 5 Whys
 * Keep asking why till root causes are identified
 
-* **8D Approach** -
+### 8D Approach
 ```
 D1 - Form a team  
 D2 - Describe the problem  
@@ -71,8 +73,8 @@ D7 - Prevent reoccurrence(s)
 D8 - Closure & Celebration  
 ```
 
-
-* **5Ps** - Poor planning produces pitiful products  
+### 5Ps
+* Poor planning produces pitiful products  
 
 - - - -
 ## Problem Analysis 
