@@ -120,7 +120,7 @@ S - Social
 T - Technological
 ```
 
-* Consider ways to combat or remove these theats
+* Consider ways to combat and / or remove these theats
 
 - - - -
 ## Positivity
