@@ -16,11 +16,12 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [PESTEL](#pestel)
     + [SWOT](#swot)
   * [Problem Resolution Threats](#problem-resolution-threats)
+    + [DICE](#dice)
+    + [FATE](#fate)
+    + [PEST](#pest)
+    + [PREPARE](#prepare)
   * [Positivity](#positivity)
   * [Argumentation Techniques](#argumentation-techniques)
-
-
-
 
 ## Problem Solving Techniques 
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
@@ -116,7 +117,7 @@ T - Threats
 ## Problem Resolution Threats
 - - - -
 
-* **DICE** -
+### DICE
 
 ```
 D - Delay
@@ -125,7 +126,7 @@ C - Conflict
 E - External factors
 ```
 
-* **FATE** -
+### FATE
 
 ```
 F - Funding
@@ -134,7 +135,7 @@ T - Time
 E - Expertise
 ```
 
-* **PEST** -
+### PEST
 
 ```
 P - Political
