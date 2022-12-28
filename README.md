@@ -117,7 +117,7 @@ E - Expertise
 P - Political
 E - Economic
 S - Social
-T - Technological let's different
+T - Technological
 ```
 
 - - - -
