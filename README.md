@@ -3,7 +3,12 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
 
 ## Table of Contents
   
-  * [Problem Solving](#problem-solving)
+  * [Problem Solving Techniques](#problem-solving-techniques)
+    + [PREPARE](#prepare)
+    + [PADDER](#padder)
+    + [lCEBERG](#iceberg)
+    + [IDEA](#idea)
+    + [5 Whys](#5-whys)
   * [Problem Analysis](#problem-analysis)
   * [Problem Resolution Threats](#problem-resolution-threats)
   * [Positivity](#positivity)
@@ -12,10 +17,10 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
 
 
 
-## Problem Solving
+## Problem Solving Techniques 
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
 - - - -
-* **PREPARE** -  
+### PREPARE  
 ```
 P - Prioritize the problem  
 R - Research & brainstorm solutions  
@@ -25,7 +30,7 @@ A - Act on the plan
 R - Reflect on results  
 E - Evaluate and revise plan as necessary  
 ```
-* **PADDER** -  
+### PADDER
 ```
 P - Pinpoint problem  
 A - Analyze data and look for patterns  
@@ -34,7 +39,7 @@ D - Design action plan
 E - Execute action plan & Monitor Results  
 R - Reevaluate and refine plan as needed  
 ```
- * **lCEBERG** -  
+### lCEBERG
 ```
 I - Identify issue(s)  
 C - Collect data and analyze situation  
@@ -44,17 +49,15 @@ E - Execute solution(s)
 R - Review, evaluate, and adjust solutions  
 G - Gather feedback  
 ```
-* **IDEA** -
+### IDEA
 ``` 
 I - Identify problem  
 D - Develop Solution  
 E - Execute Solution   
 A - Assess Solution  
 ```
-
-
-* **5 Whys** - Keep asking why till root causes are identified
-
+### 5 Whys
+* Keep asking why till root causes are identified
 
 * **8D Approach** -
 ```
