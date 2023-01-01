@@ -224,4 +224,54 @@ M - Manage your emotions calmly
 * “Why am I troubled / talking?”  
 * Not all things need an answer and or response; don’t seek trouble and or answer negativity / negatively 
 
+- - - -
+## Combating Stress
+* Here are a few mnemonic devices to help remember ways to combat stress:
+
+### “PACE”  
+ * This mnemonic can help you remember four strategies for managing stress: 
+```
+P - Physical activity
+A - Avoiding unhealthy behaviors
+C - Coping skills
+E - Emotional awareness.
+```
+
+### "STOP" 
+- This mnemonic can help you remember five quick stress-management techniques
+```
+S - Step back
+T - Take a deep breath
+O - Observe what is happening
+P  - Pull back and put things in perspective.
+```
+
+###  "ARIES" 
+- This mnemonic can help you remember six ways to reduce stress: 
+```
+A - Avoid unnecessary stress
+R - Relax and take breaks
+I - Incorporate physical activity into your routine
+E - Eat a healthy diet
+S - Sleep well.
+```
+
+###  "HELP" 
+* This mnemonic can help you remember five ways to manage stress: 
+```
+H - Handle problems one at a time
+E - Exercise regularly
+L - Learn to relax
+P - Pace yourself and set limits.
+```
+
+### “HANDLE" 
+- This mnemonic can help you remember six stress-management strategies: 
+```
+H - Have a positive attitude
+A - Avoid unnecessary stress
+N - Nurture a strong support system
+D - Deal with problems directly L - Learn to relax, 
+E - Exercise regularly
+```
 
