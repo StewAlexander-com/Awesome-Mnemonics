@@ -29,6 +29,13 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
     + [PAUSE](#pause)
     + [CALM](#calm)
     + [WAIT](#wait)
+  * [Combating Stress](#combating-stress)
+    + [pholder](#pholder)
+    + [pholder](#pholder)
+    + [pholder](#pholder)
+    + [pholder](#pholder)
+    + [pholder](#pholder)
+
 - - - - 
 ## Problem Solving Techniques 
 • Remember words and ideas “PREPARE”, “PADDER”, “ICEBERG”, “IDEA”, 5Whys,  8D & 5Ps
@@ -228,7 +235,7 @@ M - Manage your emotions calmly
 ## Combating Stress
 * Here are a few mnemonic devices to help remember ways to combat stress:
 
-### “PACE”  
+### PACE  
  * This mnemonic can help you remember four strategies for managing stress: 
 ```
 P - Physical activity
@@ -237,7 +244,7 @@ C - Coping skills
 E - Emotional awareness.
 ```
 
-### "STOP" 
+### STOP
 - This mnemonic can help you remember five quick stress-management techniques
 ```
 S - Step back
@@ -246,7 +253,7 @@ O - Observe what is happening
 P  - Pull back and put things in perspective.
 ```
 
-###  "ARIES" 
+### ARIES
 - This mnemonic can help you remember six ways to reduce stress: 
 ```
 A - Avoid unnecessary stress
@@ -256,7 +263,7 @@ E - Eat a healthy diet
 S - Sleep well.
 ```
 
-###  "HELP" 
+### HELP
 * This mnemonic can help you remember five ways to manage stress: 
 ```
 H - Handle problems one at a time
@@ -265,7 +272,7 @@ L - Learn to relax
 P - Pace yourself and set limits.
 ```
 
-### “HANDLE" 
+### HANDLE
 - This mnemonic can help you remember six stress-management strategies: 
 ```
 H - Have a positive attitude
