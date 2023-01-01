@@ -278,7 +278,8 @@ P - Pace yourself and set limits.
 H - Have a positive attitude
 A - Avoid unnecessary stress
 N - Nurture a strong support system
-D - Deal with problems directly L - Learn to relax, 
+D - Deal with problems directly 
+L - Learn to relax, 
 E - Exercise regularly
 ```
 
