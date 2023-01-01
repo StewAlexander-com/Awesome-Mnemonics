@@ -32,9 +32,9 @@ Awesome shortcuts (mnemonics) help problem solve and for daily life
   * [Combating Stress](#combating-stress)
     + [PACE](#pace)
     + [STOP](#stop)
-    + [pholder](#pholder)
-    + [pholder](#pholder)
-    + [pholder](#pholder)
+    + [ARIES](#aries)
+    + [HELP](#help)
+    + [HANDLE](#handle)
 
 - - - - 
 ## Problem Solving Techniques 
