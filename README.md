@@ -245,7 +245,7 @@ E - Emotional awareness.
 ```
 
 ### STOP
-- This mnemonic can help you remember five quick stress-management techniques
+- This mnemonic can help you remember four quick stress-management techniques
 ```
 S - Step back
 T - Take a deep breath
