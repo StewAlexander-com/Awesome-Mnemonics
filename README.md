@@ -254,7 +254,7 @@ P  - Pull back and put things in perspective.
 ```
 
 ### ARIES
-- This mnemonic can help you remember six ways to reduce stress: 
+- This mnemonic can help you remember five ways to reduce stress: 
 ```
 A - Avoid unnecessary stress
 R - Relax and take breaks
@@ -264,7 +264,7 @@ S - Sleep well.
 ```
 
 ### HELP
-* This mnemonic can help you remember five ways to manage stress: 
+* This mnemonic can help you remember four ways to manage stress: 
 ```
 H - Handle problems one at a time
 E - Exercise regularly
