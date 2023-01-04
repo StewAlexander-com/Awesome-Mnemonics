@@ -1,5 +1,5 @@
 # Awesome-Mnemonics
-Awesome mnemonics (aka _memory hacks_) to help with problem solving and other stuff
+Awesome mnemonics (aka "_memory hacks_") to help with problem solving and other stuff
 
 ## Table of Contents
   
