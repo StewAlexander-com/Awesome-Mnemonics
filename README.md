@@ -1,5 +1,5 @@
 # Awesome-Mnemonics
-Awesome shortcuts (mnemonics) help problem solve and for daily life
+Awesome mnemonics (aka _memory hacks_) to help with problem solving and other stuff
 
 ## Table of Contents
   
