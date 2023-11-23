@@ -27,7 +27,6 @@ Awesome mnemonics (aka "_memory hacks_") to help with problem solving and other 
   * [Argumentation Techniques](#argumentation-techniques)
     + [BREATHE](#breathe)
     + [PAUSE](#pause)
-    + [CALM](#calm)
     + [WAIT](#wait)
   * [Combating Stress](#combating-stress)
     + [PACE](#pace)
@@ -221,13 +220,7 @@ U - Understand that you don’t have to act /react right away
 S - Step Away from the situation  
 E - Evaluate options and plan before acting   
 ```
-### CALM
-```
-C - Collect your thoughts  
-A - Acknowledge other person's feelings  
-L - Listen and ask questions to *understand*  rather than to *respond*  
-M - Manage your emotions calmly
-```
+
 ### WAIT
 * “Why am I troubled / talking?”  
 * Not all things need an answer and or response; don’t seek trouble and or answer negativity / negatively 
