@@ -35,6 +35,7 @@ Awesome mnemonics (aka "_memory hacks_") to help with problem solving and other 
     + [ARIES](#aries)
     + [HELP](#help)
     + [HANDLE](#handle)
+    + [CALM](#calm)
 
 - - - - 
 ## Problem Solving Techniques 
