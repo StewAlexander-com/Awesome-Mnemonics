@@ -283,3 +283,11 @@ L - Learn to relax,
 E - Exercise regularly
 ```
 
+### CALM
+- This mnemonic can help you stay self-assured
+```
+C - Confidence: Believe in your abilities and strengths.
+A - Awareness: Stay conscious of your thoughts and feelings.
+L - Logic: Use rational thinking to overcome doubts.
+M - Mindfulness: Practice being present and focused
+```
