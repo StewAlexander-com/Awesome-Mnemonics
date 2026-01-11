@@ -183,6 +183,10 @@ A - Assess Solution
 - Crisis situations requiring immediate action
 - Use STOP first if under stress
 
+**⚠️ Common pitfalls:**
+- **Escalation failure** - Not moving to ICEBERG or PREPARE when problem reveals complexity. If you're past 10 minutes or hitting multiple blockers, escalate.
+- **Skipping assessment** - Executing without validating the solution worked. The "A" step prevents recurring issues.
+
 **🔗 Combines well with:** STOP (crisis stress management), PREPARE/ICEBERG (escalation path for complex issues)
 
 **📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
@@ -494,6 +498,10 @@ P - Pull back and put things in perspective
 - First response to ANY crisis - immediate stress management (2-5 min)
 - Start of STOP → TRACE → DEBUG → 8D crisis response chain
 - Use with IDEA for quick problem resolution in crisis
+
+**⚠️ Common pitfalls:**
+- **Going through motions** - Rushing through STOP without actually calming. The "Take a deep breath" must be intentional - pause for 3-5 seconds.
+- **Stopping at STOP** - Using STOP but not proceeding to next step (TRACE/IDEA). STOP is the foundation, not the solution.
 
 **🔗 Combines well with:** BREATHE + PAUSE (breathing techniques), IDEA (quick problem solving)
 
