@@ -8,6 +8,8 @@
 
 **Note:** Unlike traditional Awesome lists, this guide includes full mnemonic definitions, cross-references, usage guidance, and real-world examples for immediate practical use. Each mnemonic is self-contained with embedded content rather than external links.
 
+**Why this format?** Engineers facing production outages or high-pressure situations need immediate reference material, not another click to external resources. This guide prioritizes utility over format conformance, serving as a practical field guide you can reference during actual work.
+
 Mnemonics are memory aids that encode complex workflows into easy-to-remember acronyms. This guide focuses on practical, field-tested mnemonics used by engineers, DevOps professionals, and technical managers to navigate high-pressure situations systematically.
 
 ## ⚡ Quick Reference
