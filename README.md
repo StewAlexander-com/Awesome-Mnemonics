@@ -841,24 +841,46 @@ E - Expertise (FATE)
 ## 🎯 Common Mistakes to Avoid
 
 ### ❌ **Jumping to Solutions**
-**Problem:** Skipping [STOP](#stop) or [WAIT](#wait) when stressed → poor decisions  
-**Fix:** Always use [STOP](#stop) first in crises, [WAIT](#wait) before reacting in conflicts
+
+**🔴 Problem:** Skipping [STOP](#stop) or [WAIT](#wait) when stressed → poor decisions
+
+**✅ Fix:** Always use [STOP](#stop) first in crises, [WAIT](#wait) before reacting in conflicts
+
+**📋 Example:** *Production alert at 2 AM - Jumping straight to SSH without [STOP](#stop) → panic-driven wrong server reboot → extended downtime. Instead: [STOP](#stop) (30 seconds) → assess severity → then [TRACE](#trace-network-troubleshooting)*
+
+---
 
 ### ❌ **Using Wrong Pipeline**
-**Problem:** [IDEA](#idea) won't solve systemic issues  
-**Fix:** Use [ICEBERG](#iceberg) → [5 Whys](#5-whys) for recurring problems
+
+**🔴 Problem:** [IDEA](#idea) won't solve systemic issues
+
+**✅ Fix:** Use [ICEBERG](#iceberg) → [5 Whys](#5-whys) for recurring problems
+
+**📋 Example:** *Database timeouts happen weekly - Using [IDEA](#idea) to restart service each time → problem returns. Instead: [ICEBERG](#iceberg) → [5 Whys](#5-whys) reveals missing connection pool config → permanent fix*
+
+---
 
 ### ❌ **Incomplete Execution**
-**Problem:** Starting [8D Approach](#8d-approach) but stopping at D3 (band-aid)  
-**Fix:** Always reach D7 (Prevent Reoccurrence) or the problem returns
+
+**🔴 Problem:** Starting [8D Approach](#8d-approach) but stopping at D3 (band-aid)
+
+**✅ Fix:** Always reach D7 (Prevent Reoccurrence) or the problem returns
+
+---
 
 ### ❌ **Solo Hero Mode**
-**Problem:** Forgetting [RACI](#raci) → no accountability when you're unavailable  
-**Fix:** Use [RACI](#raci) in [8D Approach](#8d-approach)'s D1 (Form a team)
+
+**🔴 Problem:** Forgetting [RACI](#raci) → no accountability when you're unavailable
+
+**✅ Fix:** Use [RACI](#raci) in [8D Approach](#8d-approach)'s D1 (Form a team)
+
+---
 
 ### ❌ **Analysis Paralysis**
-**Problem:** [PREPARE](#prepare) → [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [8D](#8d-approach) for simple problems  
-**Fix:** Start with [IDEA](#idea), escalate only if complexity emerges
+
+**🔴 Problem:** [PREPARE](#prepare) → [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [8D](#8d-approach) for simple problems
+
+**✅ Fix:** Start with [IDEA](#idea), escalate only if complexity emerges
 
 - - - -
 
