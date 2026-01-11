@@ -96,6 +96,11 @@ Mnemonics are memory aids that encode complex workflows into easy-to-remember ac
   - [📊 Pipeline Selection Matrix](#-pipeline-selection-matrix)
   - [💡 Pro Tips for Using Pipelines](#-pro-tips-for-using-pipelines)
   - [🎯 Common Mistakes to Avoid](#-common-mistakes-to-avoid)
+    - [❌ **Jumping to Solutions**](#-jumping-to-solutions)
+    - [❌ **Using Wrong Pipeline**](#-using-wrong-pipeline)
+    - [❌ **Incomplete Execution**](#-incomplete-execution)
+    - [❌ **Solo Hero Mode**](#-solo-hero-mode)
+    - [❌ **Analysis Paralysis**](#-analysis-paralysis)
   - [🤝 Contributing](#-contributing)
 
 - - - - 
@@ -835,11 +840,25 @@ E - Expertise (FATE)
 
 ## 🎯 Common Mistakes to Avoid
 
-❌ **Jumping to solutions** - Skipping [STOP](#stop) or [WAIT](#wait) when stressed leads to poor decisions
-❌ **Using wrong pipeline** - [IDEA](#idea) won't solve systemic issues needing [ICEBERG](#iceberg) → [5 Whys](#5-whys)
-❌ **Incomplete execution** - Starting [8D Approach](#8d-approach) but not reaching D7 (Prevent Reoccurrence) means it will happen again
-❌ **Solo hero mode** - Forgetting [RACI](#raci) means no accountability when you're not available
-❌ **Analysis paralysis** - [PREPARE](#prepare) → [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [8D](#8d-approach) is overkill for simple problems
+### ❌ **Jumping to Solutions**
+**Problem:** Skipping [STOP](#stop) or [WAIT](#wait) when stressed → poor decisions  
+**Fix:** Always use [STOP](#stop) first in crises, [WAIT](#wait) before reacting in conflicts
+
+### ❌ **Using Wrong Pipeline**
+**Problem:** [IDEA](#idea) won't solve systemic issues  
+**Fix:** Use [ICEBERG](#iceberg) → [5 Whys](#5-whys) for recurring problems
+
+### ❌ **Incomplete Execution**
+**Problem:** Starting [8D Approach](#8d-approach) but stopping at D3 (band-aid)  
+**Fix:** Always reach D7 (Prevent Reoccurrence) or the problem returns
+
+### ❌ **Solo Hero Mode**
+**Problem:** Forgetting [RACI](#raci) → no accountability when you're unavailable  
+**Fix:** Use [RACI](#raci) in [8D Approach](#8d-approach)'s D1 (Form a team)
+
+### ❌ **Analysis Paralysis**
+**Problem:** [PREPARE](#prepare) → [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [8D](#8d-approach) for simple problems  
+**Fix:** Start with [IDEA](#idea), escalate only if complexity emerges
 
 - - - -
 
