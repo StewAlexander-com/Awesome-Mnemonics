@@ -81,7 +81,6 @@
     - [TRACE (Network Troubleshooting)](#trace-network-troubleshooting)
     - [SCALE (Infrastructure Design)](#scale-infrastructure-design)
     - [DEBUG (Code \& System Analysis)](#debug-code--system-analysis)
-    - [CICD (Deployment Pipeline Memory Aid)](#cicd-deployment-pipeline-memory-aid)
   - [🔗 Proven Mnemonic Pipelines](#-proven-mnemonic-pipelines)
     - [**1. CRISIS RESPONSE CHAIN**](#1-crisis-response-chain)
     - [**2. CONFLICT RESOLUTION CHAIN**](#2-conflict-resolution-chain)
@@ -503,21 +502,6 @@ G - Generate hypothesis and test
 - Use with **TRACE** for network/system issues
 
 **🔗 Cross-references:** Problem Solving (5 Whys, ICEBERG), Infrastructure (TRACE)
-
-### CICD (Deployment Pipeline Memory Aid)
-```
-C - Commit code changes
-I - Integrate automatically
-C - Continuous testing
-D - Deploy to production
-```
-
-**💡 Pro Tips:**
-- Use **8D** for pipeline failures - treat as production incidents
-- Apply **RACI** for team responsibilities in CI/CD workflows
-- Combine with **SCALE** principles for resilient deployment architecture
-
-**🔗 Cross-references:** Problem Solving (8D Approach), Problem Analysis (RACI), Infrastructure (SCALE)
 
 - - - -
 
