@@ -4,9 +4,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/StewAlexander-com/Awesome-Mnemonics/graphs/commit-activity)
 
-> 🧠 A curated collection of memorable acronyms and mnemonics for problem-solving, stress management, and technical troubleshooting
+> 🧠 A comprehensive field guide to memorable acronyms and mnemonics for problem-solving, stress management, and technical troubleshooting
 
-Mnemonics are memory aids that encode complex workflows into easy-to-remember acronyms. This guide focuses on practical, field-tested mnemonics used by engineers, DevOps professionals, and technical managers to navigate high-pressure situations systematically. Each mnemonic includes usage guidance, real-world examples, and cross-references to related frameworks.
+**Note:** Unlike traditional Awesome lists, this guide includes full mnemonic definitions, cross-references, usage guidance, and real-world examples for immediate practical use. Each mnemonic is self-contained with embedded content rather than external links.
+
+Mnemonics are memory aids that encode complex workflows into easy-to-remember acronyms. This guide focuses on practical, field-tested mnemonics used by engineers, DevOps professionals, and technical managers to navigate high-pressure situations systematically.
 
 ## ⚡ Quick Reference
 
