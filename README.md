@@ -57,7 +57,7 @@
     - [RACI](#raci)
     - [PESTEL](#pestel)
     - [SWOT](#swot)
-    - [SET](#set)
+    - [SET (Systems Engineering Triangle)](#set-systems-engineering-triangle)
   - [⚠️ Problem Resolution Threats](#️-problem-resolution-threats)
     - [DICE](#dice)
     - [FATE](#fate)
@@ -117,12 +117,14 @@ R - Reflect on results
 E - Evaluate and revise plan as necessary  
 ```
 
-**💡 Pro Tips:**
-- Use **RACI** to assign responsibilities during planning phase
-- Combine with **SWOT** for option evaluation
-- When reflection reveals deeper issues, escalate to **ICEBERG** or **5 Whys**
+**💡 When to use:**
+- Strategic planning sessions (1-2 hours)
+- Medium complexity problems with multiple stakeholders
+- When you need structured documentation
 
-**🔗 Cross-references:** Problem Analysis (RACI, SWOT), Root Cause (5 Whys, ICEBERG)
+**🔗 Combines well with:** RACI (assign responsibilities), SWOT (evaluate options), ICEBERG (if reflection reveals deeper issues)
+
+**📋 Real-world example:** *Planning infrastructure migration - Use PREPARE to structure approach, RACI during planning phase for role clarity, SWOT to evaluate cloud provider options*
 ### PADDER
 ```
 P - Pinpoint problem  
@@ -133,11 +135,14 @@ E - Execute action plan & Monitor Results
 R - Reevaluate and refine plan as needed  
 ```
 
-**💡 Pro Tips:**
-- Pairs well with **8D's D3** (Interim Containment Action) for quick fixes during execution
-- Use **IDEA** for simpler problems, **PADDER** for more structured approaches
+**💡 When to use:**
+- Data-driven problem solving
+- When patterns need to be identified
+- Pairs with 8D's D3 (Interim Containment) for quick fixes
 
-**🔗 Cross-references:** Problem Solving (IDEA, 8D Approach)
+**🔗 Combines well with:** IDEA (simpler version), 8D Approach (formal resolution)
+
+**📋 Real-world example:** *Recurring server crashes - Pinpoint timing, Analyze logs for patterns, Develop interim solutions (restart service) + permanent fix (increase memory), Monitor effectiveness*
 ### ICEBERG
 ```
 I - Identify issue(s)  
@@ -149,12 +154,14 @@ R - Review, evaluate, and adjust solutions
 G - Gather feedback  
 ```
 
-**💡 Pro Tips:**
-- Combine with **5 Whys** for deeper root cause analysis
-- Use **8D Approach** for formal resolution and prevention when issues are critical
-- Start with **IDEA** for simple problems, escalate to **ICEBERG** when complexity increases
+**💡 When to use:**
+- Complex problems requiring deep analysis (30-60 min)
+- When surface symptoms hide deeper root causes
+- Escalate from IDEA when complexity increases
 
-**🔗 Cross-references:** Root Cause (5 Whys), Problem Solving (IDEA, 8D Approach)
+**🔗 Combines well with:** 5 Whys (deeper root cause), 8D Approach (formal prevention), IDEA (start simple, escalate if needed)
+
+**📋 Real-world example:** *Network performance degradation - Identify slowness, Collect metrics (latency, packet loss), Examine causes (routing changes, bandwidth saturation), Brainstorm solutions, Execute, Review with team, Gather feedback from users*
 ### IDEA
 ``` 
 I - Identify problem  
@@ -163,21 +170,25 @@ E - Execute Solution
 A - Assess Solution  
 ```
 
-**💡 Pro Tips:**
-- Best for quick, simple problems (2-5 minutes)
-- Use **STOP** first if under stress during crisis
-- Escalate to **PREPARE** or **ICEBERG** if problem is complex
+**💡 When to use:**
+- Quick, simple problems (2-5 minutes)
+- Crisis situations requiring immediate action
+- Use STOP first if under stress
 
-**🔗 Cross-references:** Stress Management (STOP), Problem Solving (PREPARE, ICEBERG)
+**🔗 Combines well with:** STOP (crisis stress management), PREPARE/ICEBERG (escalation path for complex issues)
+
+**📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
 ### 5 Whys
 * Keep asking why till root causes are identified
 
-**💡 Pro Tips:**
-- Essential tool for root cause analysis
-- Combine with **ICEBERG** for systematic deep dives
-- Use with **8D's D4** (Root Cause Analysis) in formal incident management
+**💡 When to use:**
+- Essential for root cause analysis
+- During 8D's D4 (Root Cause Analysis)
+- Combine with ICEBERG for systematic deep dives
 
-**🔗 Cross-references:** Problem Solving (ICEBERG, 8D Approach)
+**🔗 Combines well with:** ICEBERG (structured approach), 8D Approach (formal incident management)
+
+**📋 Real-world example:** *Deployment failures - Why? Pipeline failed. Why? Tests timed out. Why? Database slow. Why? Index missing. Why? Schema change didn't include migration. Root cause: Missing migration validation step*
 
 ### 8D Approach
 *Industry standard in automotive/manufacturing, adapted for IT incident management*
@@ -192,12 +203,14 @@ D7 - Prevent reoccurrence(s)
 D8 - Closure & Celebration  
 ```
 
-**💡 Pro Tips:**
-- D3 pairs with **PADDER** for quick interim solutions
-- Use **5 Whys** and **ICEBERG** during D4 (Root Cause Analysis)
-- Apply **RACI** during D1 (Form a team) to clarify roles
+**💡 When to use:**
+- Critical incidents requiring formal resolution
+- Problems needing documentation and prevention
+- When team coordination is essential (D1: use RACI)
 
-**🔗 Cross-references:** Problem Solving (PADDER, 5 Whys, ICEBERG), Problem Analysis (RACI)
+**🔗 Combines well with:** PADDER (D3 interim fixes), 5 Whys + ICEBERG (D4 root cause), RACI (D1 team formation)
+
+**📋 Real-world example:** *Data breach incident - Form security response team (RACI roles), Describe scope, Contain (disable compromised accounts), Analyze root cause (5 Whys: phishing → no MFA → insufficient training), Implement MFA, Validate with penetration test, Prevent (mandatory security awareness), Celebrate team response*
 
 ### 5Ps
 * Poor planning produces pitiful products  
@@ -212,11 +225,18 @@ D8 - Closure & Celebration
 ### RACI 
 * Used to identify the roles and responsibilities of different stakeholders in a problem-solving process
 ```
-R - Responsible
-A - Accountable
-C - Consulted
-I - Informed
+R - Responsible (does the work)
+A - Accountable (final approval)
+C - Consulted (provides input)
+I - Informed (kept updated)
 ```
+
+**💡 When to use:**
+- Resolving role confusion in teams
+- 8D's D1 (Form a team) step
+- End of WAIT → BREATHE → PAUSE chain for conflict resolution
+
+**📋 Real-world example:** *Infrastructure upgrade project - Responsible: DevOps engineers, Accountable: Infrastructure Manager, Consulted: Security team, Informed: All developers*
 ### PESTEL 
 * Used to identify and analyze the external factors that may impact a problem or decision
 
@@ -229,6 +249,13 @@ E - Environmental
 L - Legal
 ```
 
+**💡 When to use:**
+- Strategic planning external factor analysis
+- SCALE infrastructure design validation
+- Architecture reviews considering compliance/regulations
+
+**📋 Real-world example:** *Cloud migration planning - Political (vendor lock-in concerns), Economic (cost optimization), Technological (API compatibility), Legal (data sovereignty requirements)*
+
 ### SWOT
 * Used to identify and analyze the internal and external factors that may impact a problem or decision
 
@@ -238,19 +265,33 @@ W - Weaknesses
 O - Opportunities
 T - Threats
 ```
-### SET
-* S-ystems E-ngineering T-riangle (also called "Project Management Triangle" or "Iron Triangle")
+
+**💡 When to use:**
+- PREPARE's "Evaluate options" step
+- SCALE design validation
+- Strategic decision making (1-2 hours)
+
+**📋 Real-world example:** *Choosing deployment strategy - Strengths: automated rollback, Weaknesses: longer deployment time, Opportunities: canary testing, Threats: increased complexity*
+### SET (Systems Engineering Triangle)
+* Also called "Project Management Triangle" or "Iron Triangle"
 ```
 1. Draw a triangle
-2. Put one of these 3 words at each corner:
- "good", "fast", "cheap" 
+2. Put one of these 3 words at each corner: "good", "fast", "cheap"
 3. Pick 2 of them
 4. The other word is what the solution will not likely be
-- A fast, cheap solution will not likely be good
-- A fast and good solution will not likely be cheap 
-- A good and cheap solution will not likely be fast
+   - A fast, cheap solution will not likely be good
+   - A fast and good solution will not likely be cheap 
+   - A good and cheap solution will not likely be fast
 ```
-* From the [SeBok - Systems Engineering Body of Knowledge](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))
+
+**💡 When to use:**
+- Setting stakeholder expectations
+- End of SCALE → SWOT → PESTEL chain
+- Architecture trade-off discussions
+
+**📋 Real-world example:** *Urgent security patch needed - Choose: Good + Fast = Not Cheap (overtime, additional resources). Manage expectations with leadership accordingly*
+
+*From the [SeBok - Systems Engineering Body of Knowledge](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))*
 
 
 
@@ -271,6 +312,12 @@ I - Incompetence
 C - Conflict
 E - External factors
 ```
+
+**💡 When to use:**
+- Part of IDEA → DICE → FATE rapid triage chain
+- Identifying blockers before execution
+- Risk assessment in PREPARE phase
+
 ### FATE
 ```
 F - Funding
@@ -278,6 +325,11 @@ A - Allocation of resources
 T - Time
 E - Expertise
 ```
+
+**💡 When to use:**
+- Resource validation in rapid triage
+- Feasibility assessment (10-30 min)
+- After DICE to validate resource availability
 ### PEST
 ```
 P - Political
@@ -286,7 +338,9 @@ S - Social
 T - Technological
 ```
 
-* Consider ways to combat and / or remove these threats
+**💡 When to use:**
+- Identifying external threats to solutions
+- Consider ways to combat/remove these threats
 
 - - - -
 
@@ -317,6 +371,11 @@ I - Identify and do positive activities
 N - Nourish positive relationships  
 E - Express yourself  
 ```
+
+**💡 When to use:**
+- End of PACE → ARIES → CALM → SHINE burnout recovery chain
+- Ongoing practice for sustainable positivity
+- Connects to CALM for building positive self-image
 - - - -
 
 ## 🗣️ Argumentation & Communication
@@ -335,38 +394,44 @@ H - Hold back from reacting
 E - Express yourself calmly  
 ```
 
-**💡 Pro Tips:**
-- First step when tensions rise - breathing regulates emotions
-- If break is needed, use **PAUSE** to step away
-- Combine with **WAIT** ("Why am I talking?") to listen first
+**💡 When to use:**
+- First step when tensions rise (breathing regulates emotions)
+- Part of WAIT → BREATHE → PAUSE → RACI conflict resolution chain
+- If break needed, escalate to PAUSE
 
-**🔗 Cross-references:** Argumentation (PAUSE, WAIT), Stress Management (STOP)
+**🔗 Combines well with:** WAIT (listen first), PAUSE (step away if needed), STOP (stress management)
+
+**📋 Real-world example:** *Stakeholder disagrees with technical approach in meeting - Breathe deeply (regulate emotions), Remain rational, Empathize with their concerns, Ask clarifying questions, Take 5-minute break if tension escalates, Hold back defensive reactions, Express technical rationale calmly*
 ### PAUSE
 ```
 P - Put things in perspective   
 A - Acknowledge your feelings and theirs
-U - Understand that you don't have to act /react right away  
+U - Understand that you don't have to act/react right away  
 S - Step Away from the situation  
 E - Evaluate options and plan before acting   
 ```
 
-**💡 Pro Tips:**
-- Use when **BREATHE** isn't enough - step away before reacting
-- "Step Away" connects to **WAIT** ("Why am I talking?")
-- Combine with **STOP** for immediate stress de-escalation
+**💡 When to use:**
+- When BREATHE isn't enough - need physical separation
+- "Step Away" connects to WAIT philosophy
+- Combine with STOP for immediate stress de-escalation (5-20 min)
 
-**🔗 Cross-references:** Argumentation (BREATHE, WAIT), Stress Management (STOP)
+**🔗 Combines well with:** BREATHE (first step), WAIT (listen before speaking), STOP (stress response)
+
+**📋 Real-world example:** *Heated debate about architecture decision - Put in perspective (not life-or-death), Acknowledge both viewpoints have merit, Don't decide now, Step away for lunch break, Evaluate pros/cons offline, Return with structured comparison*
 
 ### WAIT
 * "Why am I troubled / talking?"  
-* Not all things need an answer and or response; don't seek trouble and or answer negativity / negatively
+* Not all things need an answer or response; don't seek trouble and don't answer negativity negatively
 
-**💡 Pro Tips:**
+**💡 When to use:**
 - Ask yourself before speaking - often listening is better
-- Use **BREATHE** first to regulate, then **WAIT** to choose response
-- If you need space, use **PAUSE's** "Step Away" technique
+- First step in WAIT → BREATHE → PAUSE → RACI chain
+- Use BREATHE first to regulate, then WAIT to choose response
 
-**🔗 Cross-references:** Argumentation (BREATHE, PAUSE) 
+**🔗 Combines well with:** BREATHE (emotional regulation), PAUSE (step away technique)
+
+**📋 Real-world example:** *Email with accusatory tone arrives - Ask "Why am I troubled?" (ego/defensiveness), "Why am I talking?" (to defend or to resolve?), Choose not to respond immediately, Use BREATHE + PAUSE, Respond later with facts, not emotion* 
 
 - - - -
 
@@ -377,39 +442,46 @@ E - Evaluate options and plan before acting
 - - - -
 
 ### PACE  
- * This mnemonic can help you remember four strategies for managing stress: 
 ```
 P - Physical activity
 A - Avoiding unhealthy behaviors
 C - Coping skills
-E - Emotional awareness.
+E - Emotional awareness
 ```
 
+**💡 When to use:**
+- First step in PACE → ARIES → CALM → SHINE burnout recovery chain
+- Immediate stress management actions
+
 ### STOP
-- This mnemonic can help you remember four quick stress-management techniques
 ```
 S - Step back
 T - Take a deep breath
 O - Observe what is happening
-P  - Pull back and put things in perspective.
+P - Pull back and put things in perspective
 ```
 
-**💡 Pro Tips:**
-- First response to any crisis - immediate stress management
-- Breathing technique connects to **BREATHE** and **PAUSE**
-- Use with **IDEA** for quick problem resolution in crisis
+**💡 When to use:**
+- First response to ANY crisis - immediate stress management (2-5 min)
+- Start of STOP → TRACE → DEBUG → 8D crisis response chain
+- Use with IDEA for quick problem resolution in crisis
 
-**🔗 Cross-references:** Argumentation (BREATHE, PAUSE), Problem Solving (IDEA)
+**🔗 Combines well with:** BREATHE + PAUSE (breathing techniques), IDEA (quick problem solving)
+
+**📋 Real-world example:** *Production alert at 2 AM - Step back (don't panic), Take deep breath (reduce adrenaline), Observe (read alert details), Pull back perspective (assess severity before waking team), Then proceed to TRACE for diagnostics*
 
 ### ARIES
-- This mnemonic can help you remember five ways to reduce stress: 
 ```
 A - Avoid unnecessary stress
 R - Relax and take breaks
 I - Incorporate physical activity into your routine
 E - Eat a healthy diet
-S - Sleep well.
+S - Sleep well
 ```
+
+**💡 When to use:**
+- Lifestyle changes in PACE → ARIES → CALM chain
+- Long-term stress reduction (2-4 weeks)
 
 ### HELP
 * This mnemonic can help you remember four ways to manage stress: 
@@ -432,20 +504,19 @@ E - Exercise regularly
 ```
 
 ### CALM
-- This mnemonic can help you stay self-assured
 ```
-C - Confidence: Believe in your abilities and strengths.
-A - Awareness: Stay conscious of your thoughts and feelings.
-L - Logic: Use rational thinking to overcome doubts.
+C - Confidence: Believe in your abilities and strengths
+A - Awareness: Stay conscious of your thoughts and feelings
+L - Logic: Use rational thinking to overcome doubts
 M - Mindfulness: Practice being present and focused
 ```
 
-**💡 Pro Tips:**
+**💡 When to use:**
 - Builds long-term resilience and confidence
-- Confidence connects to **HOPE** and **SHINE** (both build positive self-image)
-- Use after **PACE** or **ARIES** for comprehensive stress management
+- Confidence connects to HOPE and SHINE (both build positive self-image)
+- Use after PACE or ARIES for comprehensive stress management
 
-**🔗 Cross-references:** Positivity (HOPE, SHINE), Stress Management (PACE, ARIES)
+**🔗 Combines well with:** Positivity (HOPE, SHINE), Stress Management (PACE, ARIES)
 
 - - - -
 
@@ -464,12 +535,12 @@ C - Check configurations
 E - Escalate with documented evidence
 ```
 
-**💡 Pro Tips:**
-- Use with **PREPARE** and **8D Approach** for systematic resolution
+**💡 When to use:**
+- Use with PREPARE and 8D Approach for systematic resolution
 - Start with T (Test) for quick diagnostics, escalate to A (Analyze) for deep dives
-- Document findings at each step for **8D's D2** (Describe the problem)
+- Document findings at each step for 8D's D2 (Describe the problem)
 
-**🔗 Cross-references:** Problem Solving (PREPARE, 8D Approach)
+**🔗 Combines well with:** Problem Solving (PREPARE, 8D Approach)
 
 ### SCALE (Infrastructure Design)
 ```
@@ -480,12 +551,12 @@ L - Load balancing
 E - Error handling/resilience
 ```
 
-**💡 Pro Tips:**
-- Use **SWOT** analysis alongside for design validation
-- Apply **PESTEL** to evaluate external factors affecting infrastructure
-- Consider **SET Triangle** trade-offs (fast/cheap/good) for each component
+**💡 When to use:**
+- Use SWOT analysis alongside for design validation
+- Apply PESTEL to evaluate external factors affecting infrastructure
+- Consider SET Triangle trade-offs (fast/cheap/good) for each component
 
-**🔗 Cross-references:** Problem Analysis (SWOT, PESTEL, SET)
+**🔗 Combines well with:** Problem Analysis (SWOT, PESTEL, SET)
 
 ### DEBUG (Code & System Analysis)
 ```
@@ -496,12 +567,12 @@ U - Understand data flow
 G - Generate hypothesis and test
 ```
 
-**💡 Pro Tips:**
-- Combines **5 Whys** questioning with **ICEBERG's** systematic approach
+**💡 When to use:**
+- Combines 5 Whys questioning with ICEBERG's systematic approach
 - Start with D (Define) - often the problem is unclear or misstated
-- Use with **TRACE** for network/system issues
+- Use with TRACE for network/system issues
 
-**🔗 Cross-references:** Problem Solving (5 Whys, ICEBERG), Infrastructure (TRACE)
+**🔗 Combines well with:** Problem Solving (5 Whys, ICEBERG), Infrastructure (TRACE)
 
 - - - -
 
