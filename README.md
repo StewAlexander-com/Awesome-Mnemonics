@@ -4,9 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/StewAlexander-com/Awesome-Mnemonics/graphs/commit-activity)
 
-<div align="center">
-  <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="800">
-</div>
+<img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
 > 🧠 A comprehensive field guide to memorable acronyms and mnemonics for problem-solving, stress management, and technical troubleshooting
 
