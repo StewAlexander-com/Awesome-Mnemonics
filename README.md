@@ -16,13 +16,13 @@ Mnemonics are memory aids that encode complex workflows into easy-to-remember ac
 
 | **Situation** | **Use This** | **Time Needed** |
 |---------------|--------------|-----------------|
-| 🚨 Immediate crisis | IDEA → STOP | 2-5 min |
-| 🔍 Root cause needed | ICEBERG + 5 Whys | 30-60 min |
-| 👥 Team conflict | BREATHE → PAUSE → WAIT | 5-10 min |
-| 📊 Strategic planning | PREPARE + SWOT | 1-2 hours |
-| 🏗️ System design | SCALE + PESTEL | Planning phase |
-| 🐛 Technical debugging | TRACE → DEBUG | Variable |
-| 😰 Stress overload | PACE → ARIES → CALM | 10-15 min |
+| 🚨 Immediate crisis | [IDEA](#idea) → [STOP](#stop) | 2-5 min |
+| 🔍 Root cause needed | [ICEBERG](#iceberg) + [5 Whys](#5-whys) | 30-60 min |
+| 👥 Team conflict | [BREATHE](#breathe) → [PAUSE](#pause) → [WAIT](#wait) | 5-10 min |
+| 📊 Strategic planning | [PREPARE](#prepare) + [SWOT](#swot) | 1-2 hours |
+| 🏗️ System design | [SCALE](#scale-infrastructure-design) + [PESTEL](#pestel) | Planning phase |
+| 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
+| 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
 
 ## 🔄 Mnemonic Selection Flowchart
 
@@ -126,7 +126,7 @@ E - Evaluate and revise plan as necessary
 - **Skipping reflection** - Acting without the final "Reflect/Evaluate" creates recurring issues. Always close the loop.
 - **Wrong tool for crisis** - Don't PREPARE during a production outage. Use STOP → TRACE → DEBUG first, PREPARE during post-mortem.
 
-**🔗 Combines well with:** RACI (assign responsibilities), SWOT (evaluate options), ICEBERG (if reflection reveals deeper issues)
+**🔗 Combines well with:** [RACI](#raci) (assign responsibilities), [SWOT](#swot) (evaluate options), [ICEBERG](#iceberg) (if reflection reveals deeper issues)
 
 **📋 Real-world example:** *Planning infrastructure migration - Use PREPARE to structure approach, RACI during planning phase for role clarity, SWOT to evaluate cloud provider options*
 ### PADDER
@@ -144,7 +144,7 @@ R - Reevaluate and refine plan as needed
 - When patterns need to be identified
 - Pairs with 8D's D3 (Interim Containment) for quick fixes
 
-**🔗 Combines well with:** IDEA (simpler version), 8D Approach (formal resolution)
+**🔗 Combines well with:** [IDEA](#idea) (simpler version), [8D Approach](#8d-approach) (formal resolution)
 
 **📋 Real-world example:** *Recurring server crashes - Pinpoint timing, Analyze logs for patterns, Develop interim solutions (restart service) + permanent fix (increase memory), Monitor effectiveness*
 ### ICEBERG
@@ -167,7 +167,7 @@ G - Gather feedback
 - **Going too deep on simple problems** - Using ICEBERG for a 5-minute password reset. Start with IDEA, escalate only if complexity emerges.
 - **Skipping feedback (G)** - Gathering feedback seems optional but prevents recurrence. Always complete the full cycle.
 
-**🔗 Combines well with:** 5 Whys (deeper root cause), 8D Approach (formal prevention), IDEA (start simple, escalate if needed)
+**🔗 Combines well with:** [5 Whys](#5-whys) (deeper root cause), [8D Approach](#8d-approach) (formal prevention), [IDEA](#idea) (start simple, escalate if needed)
 
 **📋 Real-world example:** *Network performance degradation - Identify slowness, Collect metrics (latency, packet loss), Examine causes (routing changes, bandwidth saturation), Brainstorm solutions, Execute, Review with team, Gather feedback from users*
 ### IDEA
@@ -187,7 +187,7 @@ A - Assess Solution
 - **Escalation failure** - Not moving to ICEBERG or PREPARE when problem reveals complexity. If you're past 10 minutes or hitting multiple blockers, escalate.
 - **Skipping assessment** - Executing without validating the solution worked. The "A" step prevents recurring issues.
 
-**🔗 Combines well with:** STOP (crisis stress management), PREPARE/ICEBERG (escalation path for complex issues)
+**🔗 Combines well with:** [STOP](#stop) (crisis stress management), [PREPARE](#prepare)/[ICEBERG](#iceberg) (escalation path for complex issues)
 
 **📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
 ### 5 Whys
@@ -202,7 +202,7 @@ A - Assess Solution
 - **Stopping at symptoms** - Stopping at "Why #3: Database slow" instead of drilling to root cause (missing migration). Keep asking until you reach a process/systemic failure.
 - **Assuming single root cause** - Complex problems often have multiple root causes. Use 5 Whys for each branch.
 
-**🔗 Combines well with:** ICEBERG (structured approach), 8D Approach (formal incident management)
+**🔗 Combines well with:** [ICEBERG](#iceberg) (structured approach), [8D Approach](#8d-approach) (formal incident management)
 
 **📋 Real-world example:** *Deployment failures - Why? Pipeline failed. Why? Tests timed out. Why? Database slow. Why? Index missing. Why? Schema change didn't include migration. Root cause: Missing migration validation step*
 
@@ -229,7 +229,7 @@ D8 - Closure & Celebration
 - **Solo 8D** - Trying to do all 8 steps alone instead of D1 (Form a team). Use RACI during D1 to clarify roles.
 - **Bureaucracy creep** - Over-formalizing 8D for simple problems. Use IDEA or PREPARE for non-critical issues.
 
-**🔗 Combines well with:** PADDER (D3 interim fixes), 5 Whys + ICEBERG (D4 root cause), RACI (D1 team formation)
+**🔗 Combines well with:** [PADDER](#padder) (D3 interim fixes), [5 Whys](#5-whys) + [ICEBERG](#iceberg) (D4 root cause), [RACI](#raci) (D1 team formation)
 
 **📋 Real-world example:** *Data breach incident - Form security response team (RACI roles), Describe scope, Contain (disable compromised accounts), Analyze root cause (5 Whys: phishing → no MFA → insufficient training), Implement MFA, Validate with penetration test, Prevent (mandatory security awareness), Celebrate team response*
 
@@ -428,7 +428,7 @@ E - Express yourself calmly
 - **Fake composure** - Going through motions without actually regulating emotions. The breathing must be intentional and deep.
 - **Weaponizing calm** - Using "Let's BREATHE" dismissively to avoid addressing concerns. This damages trust - use it genuinely.
 
-**🔗 Combines well with:** WAIT (listen first), PAUSE (step away if needed), STOP (stress management)
+**🔗 Combines well with:** [WAIT](#wait) (listen first), [PAUSE](#pause) (step away if needed), [STOP](#stop) (stress management)
 
 **📋 Real-world example:** *Stakeholder disagrees with technical approach in meeting - Breathe deeply (regulate emotions), Remain rational, Empathize with their concerns, Ask clarifying questions, Take 5-minute break if tension escalates, Hold back defensive reactions, Express technical rationale calmly*
 ### PAUSE
@@ -445,7 +445,7 @@ E - Evaluate options and plan before acting
 - "Step Away" connects to WAIT philosophy
 - Combine with STOP for immediate stress de-escalation (5-20 min)
 
-**🔗 Combines well with:** BREATHE (first step), WAIT (listen before speaking), STOP (stress response)
+**🔗 Combines well with:** [BREATHE](#breathe) (first step), [WAIT](#wait) (listen before speaking), [STOP](#stop) (stress response)
 
 **📋 Real-world example:** *Heated debate about architecture decision - Put in perspective (not life-or-death), Acknowledge both viewpoints have merit, Don't decide now, Step away for lunch break, Evaluate pros/cons offline, Return with structured comparison*
 
@@ -462,7 +462,7 @@ E - Evaluate options and plan before acting
 - **Passive-aggressive silence** - Using WAIT to avoid necessary communication. This isn't "don't respond" - it's "choose the right response."
 - **Escalation avoidance** - Not speaking up when issues need addressing. WAIT helps you respond effectively, not disappear.
 
-**🔗 Combines well with:** BREATHE (emotional regulation), PAUSE (step away technique)
+**🔗 Combines well with:** [BREATHE](#breathe) (emotional regulation), [PAUSE](#pause) (step away technique)
 
 **📋 Real-world example:** *Email with accusatory tone arrives - Ask "Why am I troubled?" (ego/defensiveness), "Why am I talking?" (to defend or to resolve?), Choose not to respond immediately, Use BREATHE + PAUSE, Respond later with facts, not emotion* 
 
@@ -503,7 +503,7 @@ P - Pull back and put things in perspective
 - **Going through motions** - Rushing through STOP without actually calming. The "Take a deep breath" must be intentional - pause for 3-5 seconds.
 - **Stopping at STOP** - Using STOP but not proceeding to next step (TRACE/IDEA). STOP is the foundation, not the solution.
 
-**🔗 Combines well with:** BREATHE + PAUSE (breathing techniques), IDEA (quick problem solving)
+**🔗 Combines well with:** [BREATHE](#breathe) + [PAUSE](#pause) (breathing techniques), [IDEA](#idea) (quick problem solving)
 
 **📋 Real-world example:** *Production alert at 2 AM - Step back (don't panic), Take deep breath (reduce adrenaline), Observe (read alert details), Pull back perspective (assess severity before waking team), Then proceed to TRACE for diagnostics*
 
@@ -553,7 +553,7 @@ M - Mindfulness: Practice being present and focused
 - Confidence connects to HOPE and SHINE (both build positive self-image)
 - Use after PACE or ARIES for comprehensive stress management
 
-**🔗 Combines well with:** Positivity (HOPE, SHINE), Stress Management (PACE, ARIES)
+**🔗 Combines well with:** Positivity ([HOPE](#hope), [SHINE](#shine)), Stress Management ([PACE](#pace), [ARIES](#aries))
 
 - - - -
 
@@ -577,7 +577,7 @@ E - Escalate with documented evidence
 - Start with T (Test) for quick diagnostics, escalate to A (Analyze) for deep dives
 - Document findings at each step for 8D's D2 (Describe the problem)
 
-**🔗 Combines well with:** Problem Solving (PREPARE, 8D Approach)
+**🔗 Combines well with:** Problem Solving ([PREPARE](#prepare), [8D Approach](#8d-approach))
 
 ### SCALE (Infrastructure Design)
 ```
@@ -593,7 +593,7 @@ E - Error handling/resilience
 - Apply PESTEL to evaluate external factors affecting infrastructure
 - Consider SET Triangle trade-offs (fast/cheap/good) for each component
 
-**🔗 Combines well with:** Problem Analysis (SWOT, PESTEL, SET)
+**🔗 Combines well with:** Problem Analysis ([SWOT](#swot), [PESTEL](#pestel), [SET](#set-systems-engineering-triangle))
 
 ### DEBUG (Code & System Analysis)
 ```
@@ -609,7 +609,7 @@ G - Generate hypothesis and test
 - Start with D (Define) - often the problem is unclear or misstated
 - Use with TRACE for network/system issues
 
-**🔗 Combines well with:** Problem Solving (5 Whys, ICEBERG), Infrastructure (TRACE)
+**🔗 Combines well with:** Problem Solving ([5 Whys](#5-whys), [ICEBERG](#iceberg)), Infrastructure ([TRACE](#trace-network-troubleshooting))
 
 - - - -
 
