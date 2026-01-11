@@ -91,12 +91,6 @@
   - [📊 Pipeline Selection Matrix](#-pipeline-selection-matrix)
   - [💡 Pro Tips for Using Pipelines](#-pro-tips-for-using-pipelines)
   - [🎯 Common Mistakes to Avoid](#-common-mistakes-to-avoid)
-  - [📚 Real-World Application Examples](#-real-world-application-examples)
-    - [Scenario 1: Production Outage](#scenario-1-production-outage)
-    - [Scenario 2: Heated Team Discussion](#scenario-2-heated-team-discussion)
-    - [Scenario 3: Infrastructure Design Review](#scenario-3-infrastructure-design-review)
-    - [Scenario 4: Quick Problem Resolution](#scenario-4-quick-problem-resolution)
-    - [Scenario 5: Complex Root Cause Analysis](#scenario-5-complex-root-cause-analysis)
   - [🤝 Contributing](#-contributing)
 
 - - - - 
@@ -803,40 +797,6 @@ E - Expertise (FATE)
 ❌ **Incomplete execution** - Starting 8D but not reaching D7 (Prevent Reoccurrence) means it will happen again
 ❌ **Solo hero mode** - Forgetting RACI means no accountability when you're not available
 ❌ **Analysis paralysis** - PREPARE → ICEBERG → 5 Whys → 8D is overkill for simple problems
-
-- - - -
-
-## 📚 Real-World Application Examples
-
-### Scenario 1: Production Outage
-1. **STOP** (immediate stress management)
-2. **TRACE** (network troubleshooting)
-3. **ICEBERG** (identify root cause)
-4. **8D Approach** (formal resolution + prevention)
-5. **RACI** (assign follow-up responsibilities)
-
-### Scenario 2: Heated Team Discussion
-1. **WAIT** ("Why am I talking?" - listen first)
-2. **BREATHE** (regulate emotions)
-3. **PAUSE** (step away if needed)
-4. **RACI** (clarify who decides what)
-
-### Scenario 3: Infrastructure Design Review
-1. **SCALE** (design framework)
-2. **SWOT** (analyze approach)
-3. **PESTEL** (external factors)
-4. **SET Triangle** (manage expectations: fast/cheap/good)
-
-### Scenario 4: Quick Problem Resolution
-1. **IDEA** (simple 4-step process)
-2. **STOP** (if stress arises)
-3. **PADDER** (if problem needs structure)
-
-### Scenario 5: Complex Root Cause Analysis
-1. **PREPARE** (initial planning)
-2. **ICEBERG** (systematic deep dive)
-3. **5 Whys** (root cause questioning)
-4. **8D Approach** (formal resolution)
 
 - - - -
 
