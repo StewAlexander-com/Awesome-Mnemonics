@@ -122,13 +122,13 @@ E - Evaluate and revise plan as necessary
 - When you need structured documentation
 
 **⚠️ Common pitfalls:**
-- **Analysis paralysis** - Spending 2 hours planning a 10-minute problem. If you're past 30 minutes on "Research", switch to IDEA.
+- **Analysis paralysis** - Spending 2 hours planning a 10-minute problem. If you're past 30 minutes on "Research", switch to [IDEA](#idea).
 - **Skipping reflection** - Acting without the final "Reflect/Evaluate" creates recurring issues. Always close the loop.
-- **Wrong tool for crisis** - Don't PREPARE during a production outage. Use [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) first, PREPARE during post-mortem.
+- **Wrong tool for crisis** - Don't PREPARE during a production outage. Use [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) first, [PREPARE](#prepare) during post-mortem.
 
 **🔗 Combines well with:** [RACI](#raci) (assign responsibilities), [SWOT](#swot) (evaluate options), [ICEBERG](#iceberg) (if reflection reveals deeper issues)
 
-**📋 Real-world example:** *Planning infrastructure migration - Use PREPARE to structure approach, RACI during planning phase for role clarity, SWOT to evaluate cloud provider options*
+**📋 Real-world example:** *Planning infrastructure migration - Use [PREPARE](#prepare) to structure approach, [RACI](#raci) during planning phase for role clarity, [SWOT](#swot) to evaluate cloud provider options*
 ### PADDER
 ```
 P - Pinpoint problem  
@@ -142,7 +142,7 @@ R - Reevaluate and refine plan as needed
 **💡 When to use:**
 - Data-driven problem solving
 - When patterns need to be identified
-- Pairs with 8D's D3 (Interim Containment) for quick fixes
+- Pairs with [8D Approach](#8d-approach)'s D3 (Interim Containment) for quick fixes
 
 **🔗 Combines well with:** [IDEA](#idea) (simpler version), [8D Approach](#8d-approach) (formal resolution)
 
@@ -161,10 +161,10 @@ G - Gather feedback
 **💡 When to use:**
 - Complex problems requiring deep analysis (30-60 min)
 - When surface symptoms hide deeper root causes
-- Escalate from IDEA when complexity increases
+- Escalate from [IDEA](#idea) when complexity increases
 
 **⚠️ Common pitfalls:**
-- **Going too deep on simple problems** - Using ICEBERG for a 5-minute password reset. Start with IDEA, escalate only if complexity emerges.
+- **Going too deep on simple problems** - Using ICEBERG for a 5-minute password reset. Start with [IDEA](#idea), escalate only if complexity emerges.
 - **Skipping feedback (G)** - Gathering feedback seems optional but prevents recurrence. Always complete the full cycle.
 
 **🔗 Combines well with:** [5 Whys](#5-whys) (deeper root cause), [8D Approach](#8d-approach) (formal prevention), [IDEA](#idea) (start simple, escalate if needed)
@@ -181,10 +181,10 @@ A - Assess Solution
 **💡 When to use:**
 - Quick, simple problems (2-5 minutes)
 - Crisis situations requiring immediate action
-- Use STOP first if under stress
+- Use [STOP](#stop) first if under stress
 
 **⚠️ Common pitfalls:**
-- **Escalation failure** - Not moving to ICEBERG or PREPARE when problem reveals complexity. If you're past 10 minutes or hitting multiple blockers, escalate.
+- **Escalation failure** - Not moving to [ICEBERG](#iceberg) or [PREPARE](#prepare) when problem reveals complexity. If you're past 10 minutes or hitting multiple blockers, escalate.
 - **Skipping assessment** - Executing without validating the solution worked. The "A" step prevents recurring issues.
 
 **🔗 Combines well with:** [STOP](#stop) (crisis stress management), [PREPARE](#prepare)/[ICEBERG](#iceberg) (escalation path for complex issues)
@@ -195,8 +195,8 @@ A - Assess Solution
 
 **💡 When to use:**
 - Essential for root cause analysis
-- During 8D's D4 (Root Cause Analysis)
-- Combine with ICEBERG for systematic deep dives
+- During [8D Approach](#8d-approach)'s D4 (Root Cause Analysis)
+- Combine with [ICEBERG](#iceberg) for systematic deep dives
 
 **⚠️ Common pitfalls:**
 - **Stopping at symptoms** - Stopping at "Why #3: Database slow" instead of drilling to root cause (missing migration). Keep asking until you reach a process/systemic failure.
@@ -222,16 +222,16 @@ D8 - Closure & Celebration
 **💡 When to use:**
 - Critical incidents requiring formal resolution
 - Problems needing documentation and prevention
-- When team coordination is essential (D1: use RACI)
+- When team coordination is essential (D1: use [RACI](#raci))
 
 **⚠️ Common pitfalls:**
 - **Stopping at D3** - Implementing the band-aid but never reaching D7 (Prevent Reoccurrence) means it will happen again.
-- **Solo 8D** - Trying to do all 8 steps alone instead of D1 (Form a team). Use RACI during D1 to clarify roles.
-- **Bureaucracy creep** - Over-formalizing 8D for simple problems. Use IDEA or PREPARE for non-critical issues.
+- **Solo 8D** - Trying to do all 8 steps alone instead of D1 (Form a team). Use [RACI](#raci) during D1 to clarify roles.
+- **Bureaucracy creep** - Over-formalizing 8D for simple problems. Use [IDEA](#idea) or [PREPARE](#prepare) for non-critical issues.
 
 **🔗 Combines well with:** [PADDER](#padder) (D3 interim fixes), [5 Whys](#5-whys) + [ICEBERG](#iceberg) (D4 root cause), [RACI](#raci) (D1 team formation)
 
-**📋 Real-world example:** *Data breach incident - Form security response team (RACI roles), Describe scope, Contain (disable compromised accounts), Analyze root cause (5 Whys: phishing → no MFA → insufficient training), Implement MFA, Validate with penetration test, Prevent (mandatory security awareness), Celebrate team response*
+**📋 Real-world example:** *Data breach incident - Form security response team ([RACI](#raci) roles), Describe scope, Contain (disable compromised accounts), Analyze root cause ([5 Whys](#5-whys): phishing → no MFA → insufficient training), Implement MFA, Validate with penetration test, Prevent (mandatory security awareness), Celebrate team response*
 
 ### 5Ps
 * Poor planning produces pitiful products  
@@ -254,8 +254,8 @@ I - Informed (kept updated)
 
 **💡 When to use:**
 - Resolving role confusion in teams
-- 8D's D1 (Form a team) step
-- End of WAIT → BREATHE → PAUSE chain for conflict resolution
+- [8D Approach](#8d-approach)'s D1 (Form a team) step
+- End of [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) chain for conflict resolution
 
 **⚠️ Common pitfalls:**
 - **Multiple Accountables** - More than one "A" creates confusion. There should be exactly one Accountable person per task.
@@ -276,7 +276,7 @@ L - Legal
 
 **💡 When to use:**
 - Strategic planning external factor analysis
-- SCALE infrastructure design validation
+- [SCALE](#scale-infrastructure-design) infrastructure design validation
 - Architecture reviews considering compliance/regulations
 
 **📋 Real-world example:** *Cloud migration planning - Political (vendor lock-in concerns), Economic (cost optimization), Technological (API compatibility), Legal (data sovereignty requirements)*
@@ -292,8 +292,8 @@ T - Threats
 ```
 
 **💡 When to use:**
-- PREPARE's "Evaluate options" step
-- SCALE design validation
+- [PREPARE](#prepare)'s "Evaluate options" step
+- [SCALE](#scale-infrastructure-design) design validation
 - Strategic decision making (1-2 hours)
 
 **📋 Real-world example:** *Choosing deployment strategy - Strengths: automated rollback, Weaknesses: longer deployment time, Opportunities: canary testing, Threats: increased complexity*
@@ -311,7 +311,7 @@ T - Threats
 
 **💡 When to use:**
 - Setting stakeholder expectations
-- End of SCALE → SWOT → PESTEL chain
+- End of [SCALE](#scale-infrastructure-design) → [SWOT](#swot) → [PESTEL](#pestel) chain
 - Architecture trade-off discussions
 
 **📋 Real-world example:** *Urgent security patch needed - Choose: Good + Fast = Not Cheap (overtime, additional resources). Manage expectations with leadership accordingly*
@@ -339,9 +339,9 @@ E - External factors
 ```
 
 **💡 When to use:**
-- Part of IDEA → DICE → FATE rapid triage chain
+- Part of [IDEA](#idea) → [DICE](#dice) → [FATE](#fate) rapid triage chain
 - Identifying blockers before execution
-- Risk assessment in PREPARE phase
+- Risk assessment in [PREPARE](#prepare) phase
 
 ### FATE
 ```
@@ -354,7 +354,7 @@ E - Expertise
 **💡 When to use:**
 - Resource validation in rapid triage
 - Feasibility assessment (10-30 min)
-- After DICE to validate resource availability
+- After [DICE](#dice) to validate resource availability
 ### PEST
 ```
 P - Political
@@ -398,9 +398,9 @@ E - Express yourself
 ```
 
 **💡 When to use:**
-- End of PACE → ARIES → CALM → SHINE burnout recovery chain
+- End of [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine) burnout recovery chain
 - Ongoing practice for sustainable positivity
-- Connects to CALM for building positive self-image
+- Connects to [CALM](#calm) for building positive self-image
 - - - -
 
 ## 🗣️ Argumentation & Communication
@@ -421,7 +421,7 @@ E - Express yourself calmly
 
 **💡 When to use:**
 - First step when tensions rise (breathing regulates emotions)
-- Part of WAIT → BREATHE → PAUSE → RACI conflict resolution chain
+- Part of [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) → [RACI](#raci) conflict resolution chain
 - If break needed, escalate to PAUSE
 
 **⚠️ Common pitfalls:**
@@ -573,9 +573,9 @@ E - Escalate with documented evidence
 ```
 
 **💡 When to use:**
-- Use with PREPARE and 8D Approach for systematic resolution
+- Use with [PREPARE](#prepare) and [8D Approach](#8d-approach) for systematic resolution
 - Start with T (Test) for quick diagnostics, escalate to A (Analyze) for deep dives
-- Document findings at each step for 8D's D2 (Describe the problem)
+- Document findings at each step for [8D Approach](#8d-approach)'s D2 (Describe the problem)
 
 **🔗 Combines well with:** Problem Solving ([PREPARE](#prepare), [8D Approach](#8d-approach))
 
@@ -589,9 +589,9 @@ E - Error handling/resilience
 ```
 
 **💡 When to use:**
-- Use SWOT analysis alongside for design validation
-- Apply PESTEL to evaluate external factors affecting infrastructure
-- Consider SET Triangle trade-offs (fast/cheap/good) for each component
+- Use [SWOT](#swot) analysis alongside for design validation
+- Apply [PESTEL](#pestel) to evaluate external factors affecting infrastructure
+- Consider [SET](#set-systems-engineering-triangle) Triangle trade-offs (fast/cheap/good) for each component
 
 **🔗 Combines well with:** Problem Analysis ([SWOT](#swot), [PESTEL](#pestel), [SET](#set-systems-engineering-triangle))
 
@@ -605,9 +605,9 @@ G - Generate hypothesis and test
 ```
 
 **💡 When to use:**
-- Combines 5 Whys questioning with ICEBERG's systematic approach
+- Combines [5 Whys](#5-whys) questioning with [ICEBERG](#iceberg)'s systematic approach
 - Start with D (Define) - often the problem is unclear or misstated
-- Use with TRACE for network/system issues
+- Use with [TRACE](#trace-network-troubleshooting) for network/system issues
 
 **🔗 Combines well with:** Problem Solving ([5 Whys](#5-whys), [ICEBERG](#iceberg)), Infrastructure ([TRACE](#trace-network-troubleshooting))
 
@@ -826,19 +826,19 @@ E - Expertise (FATE)
 ## 💡 Pro Tips for Using Pipelines
 
 1. **Don't skip steps** - Each mnemonic builds on the previous one
-2. **Document at each stage** - Your STOP insights inform TRACE, TRACE data feeds DEBUG, etc.
-3. **Know when to branch** - If IDEA reveals complexity, switch to ICEBERG → 5 Whys
-4. **Combine with stress tools** - Always start with STOP if you're emotionally activated
+2. **Document at each stage** - Your [STOP](#stop) insights inform [TRACE](#trace-network-troubleshooting), [TRACE](#trace-network-troubleshooting) data feeds [DEBUG](#debug-code--system-analysis), etc.
+3. **Know when to branch** - If [IDEA](#idea) reveals complexity, switch to [ICEBERG](#iceberg) → [5 Whys](#5-whys)
+4. **Combine with stress tools** - Always start with [STOP](#stop) if you're emotionally activated
 5. **Teach your team** - Shared vocabulary accelerates collaboration
 
 ---
 
 ## 🎯 Common Mistakes to Avoid
 
-❌ **Jumping to solutions** - Skipping STOP or WAIT when stressed leads to poor decisions
-❌ **Using wrong pipeline** - IDEA won't solve systemic issues needing ICEBERG → 5 Whys
-❌ **Incomplete execution** - Starting 8D but not reaching D7 (Prevent Reoccurrence) means it will happen again
-❌ **Solo hero mode** - Forgetting RACI means no accountability when you're not available
+❌ **Jumping to solutions** - Skipping [STOP](#stop) or [WAIT](#wait) when stressed leads to poor decisions
+❌ **Using wrong pipeline** - [IDEA](#idea) won't solve systemic issues needing [ICEBERG](#iceberg) → [5 Whys](#5-whys)
+❌ **Incomplete execution** - Starting [8D Approach](#8d-approach) but not reaching D7 (Prevent Reoccurrence) means it will happen again
+❌ **Solo hero mode** - Forgetting [RACI](#raci) means no accountability when you're not available
 ❌ **Analysis paralysis** - [PREPARE](#prepare) → [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [8D](#8d-approach) is overkill for simple problems
 
 - - - -
