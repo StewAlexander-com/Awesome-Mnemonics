@@ -12,6 +12,18 @@
 
 Mnemonics are memory aids that encode complex workflows into easy-to-remember acronyms. This guide focuses on practical, field-tested mnemonics used by engineers, DevOps professionals, and technical managers to navigate high-pressure situations systematically.
 
+**Legend:** 🧩 Problem Solving | 📊 Analysis | 🧘 Stress Management | 🔧 Infrastructure | 🗣️ Communication | 💪 Resilience
+
+---
+
+## 🚨 Start Here for On-Call
+
+**Production incident?** → [Quick Reference](#-quick-reference) → [Crisis Response Chain](#1-crisis-response-chain)  
+**Need quick decision?** → [Rapid Triage Chain](#6-rapid-triage-chain)  
+**Full guide:** Browse by category below or use [Table of Contents](#table-of-contents)
+
+---
+
 ## ⚡ Quick Reference
 
 | **Situation** | **Use This** | **Time Needed** |
@@ -47,6 +59,7 @@ Mnemonics are memory aids that encode complex workflows into easy-to-remember ac
 ## Table of Contents
   
 - [Awesome Mnemonics ](#awesome-mnemonics-)
+  - [🚨 Start Here for On-Call](#-start-here-for-on-call)
   - [⚡ Quick Reference](#-quick-reference)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
