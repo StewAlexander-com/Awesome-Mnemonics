@@ -1,11 +1,12 @@
-# Awesome-Mnemonics
+# Awesome Mnemonics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/StewAlexander-com/Awesome-Mnemonics/graphs/commit-activity)
 
-> 🧠 **Memory hacks for problem-solving, stress management, and technical troubleshooting**
+> 🧠 A curated collection of memorable acronyms and mnemonics for problem-solving, stress management, and technical troubleshooting
+
+Mnemonics are memory aids that encode complex workflows into easy-to-remember acronyms. This guide focuses on practical, field-tested mnemonics used by engineers, DevOps professionals, and technical managers to navigate high-pressure situations systematically. Each mnemonic includes usage guidance, real-world examples, and cross-references to related frameworks.
 
 ## ⚡ Quick Reference
 
@@ -41,7 +42,7 @@
 
 ## Table of Contents
   
-- [Awesome-Mnemonics](#awesome-mnemonics)
+- [Awesome Mnemonics ](#awesome-mnemonics-)
   - [⚡ Quick Reference](#-quick-reference)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
