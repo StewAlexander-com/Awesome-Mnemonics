@@ -124,7 +124,7 @@ E - Evaluate and revise plan as necessary
 **⚠️ Common pitfalls:**
 - **Analysis paralysis** - Spending 2 hours planning a 10-minute problem. If you're past 30 minutes on "Research", switch to IDEA.
 - **Skipping reflection** - Acting without the final "Reflect/Evaluate" creates recurring issues. Always close the loop.
-- **Wrong tool for crisis** - Don't PREPARE during a production outage. Use STOP → TRACE → DEBUG first, PREPARE during post-mortem.
+- **Wrong tool for crisis** - Don't PREPARE during a production outage. Use [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) first, PREPARE during post-mortem.
 
 **🔗 Combines well with:** [RACI](#raci) (assign responsibilities), [SWOT](#swot) (evaluate options), [ICEBERG](#iceberg) (if reflection reveals deeper issues)
 
@@ -496,7 +496,7 @@ P - Pull back and put things in perspective
 
 **💡 When to use:**
 - First response to ANY crisis - immediate stress management (2-5 min)
-- Start of STOP → TRACE → DEBUG → 8D crisis response chain
+- Start of [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) → [8D](#8d-approach) crisis response chain
 - Use with IDEA for quick problem resolution in crisis
 
 **⚠️ Common pitfalls:**
@@ -814,12 +814,12 @@ E - Expertise (FATE)
 
 | **Your Situation** | **Pipeline** | **Key Benefit** |
 |-------------------|-------------|-----------------|
-| 🚨 System down NOW | STOP → TRACE → DEBUG → 8D | Systematic crisis response |
-| 😤 Team conflict escalating | WAIT → BREATHE → PAUSE → RACI | De-escalation + role clarity |
-| 🔁 Same issue keeps happening | ICEBERG → 5 Whys → PADDER → RACI | Deep root cause + prevention |
-| 🏗️ Designing new infrastructure | SCALE → SWOT → PESTEL → SET | Complete planning framework |
-| 😰 Feeling burned out | PACE → ARIES → CALM → SHINE | Comprehensive stress recovery |
-| ⚡ Need quick decision | IDEA → DICE → FATE | Fast feasibility assessment |
+| 🚨 System down NOW | [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) → [8D](#8d-approach) | Systematic crisis response |
+| 😤 Team conflict escalating | [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) → [RACI](#raci) | De-escalation + role clarity |
+| 🔁 Same issue keeps happening | [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [PADDER](#padder) → [RACI](#raci) | Deep root cause + prevention |
+| 🏗️ Designing new infrastructure | [SCALE](#scale-infrastructure-design) → [SWOT](#swot) → [PESTEL](#pestel) → [SET](#set-systems-engineering-triangle) | Complete planning framework |
+| 😰 Feeling burned out | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine) | Comprehensive stress recovery |
+| ⚡ Need quick decision | [IDEA](#idea) → [DICE](#dice) → [FATE](#fate) | Fast feasibility assessment |
 
 ---
 
@@ -839,9 +839,11 @@ E - Expertise (FATE)
 ❌ **Using wrong pipeline** - IDEA won't solve systemic issues needing ICEBERG → 5 Whys
 ❌ **Incomplete execution** - Starting 8D but not reaching D7 (Prevent Reoccurrence) means it will happen again
 ❌ **Solo hero mode** - Forgetting RACI means no accountability when you're not available
-❌ **Analysis paralysis** - PREPARE → ICEBERG → 5 Whys → 8D is overkill for simple problems
+❌ **Analysis paralysis** - [PREPARE](#prepare) → [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [8D](#8d-approach) is overkill for simple problems
 
 - - - -
+
+**[↑ Back to Quick Reference](#-quick-reference)** | **[↑ Back to Top](#awesome-mnemonics-)**
 
 ## 🤝 Contributing
 
