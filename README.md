@@ -12,6 +12,8 @@
 
 Mnemonics are memory aids that encode complex workflows into easy-to-remember acronyms. This guide focuses on practical, field-tested mnemonics used by engineers, DevOps professionals, and technical managers to navigate high-pressure situations systematically.
 
+**Why this exists:** This field guide maps directly onto real engineering situations—outages, RCAs, infra design, burnout, and conflict. Each mnemonic includes when to use, pitfalls, combinations, and concrete examples, making it actionable during on-call or planning work. The "Proven Mnemonic Pipelines" and "Pipeline Selection Matrix" translate the list into ready-made playbooks, matching how engineers think in terms of runbooks and flows.
+
 **Legend:** 🧩 Problem Solving | 📊 Analysis | 🧘 Stress Management | 🔧 Infrastructure | 🗣️ Communication | 💪 Resilience
 
 ---
