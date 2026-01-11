@@ -121,6 +121,11 @@ E - Evaluate and revise plan as necessary
 - Medium complexity problems with multiple stakeholders
 - When you need structured documentation
 
+**⚠️ Common pitfalls:**
+- **Analysis paralysis** - Spending 2 hours planning a 10-minute problem. If you're past 30 minutes on "Research", switch to IDEA.
+- **Skipping reflection** - Acting without the final "Reflect/Evaluate" creates recurring issues. Always close the loop.
+- **Wrong tool for crisis** - Don't PREPARE during a production outage. Use STOP → TRACE → DEBUG first, PREPARE during post-mortem.
+
 **🔗 Combines well with:** RACI (assign responsibilities), SWOT (evaluate options), ICEBERG (if reflection reveals deeper issues)
 
 **📋 Real-world example:** *Planning infrastructure migration - Use PREPARE to structure approach, RACI during planning phase for role clarity, SWOT to evaluate cloud provider options*
@@ -158,6 +163,10 @@ G - Gather feedback
 - When surface symptoms hide deeper root causes
 - Escalate from IDEA when complexity increases
 
+**⚠️ Common pitfalls:**
+- **Going too deep on simple problems** - Using ICEBERG for a 5-minute password reset. Start with IDEA, escalate only if complexity emerges.
+- **Skipping feedback (G)** - Gathering feedback seems optional but prevents recurrence. Always complete the full cycle.
+
 **🔗 Combines well with:** 5 Whys (deeper root cause), 8D Approach (formal prevention), IDEA (start simple, escalate if needed)
 
 **📋 Real-world example:** *Network performance degradation - Identify slowness, Collect metrics (latency, packet loss), Examine causes (routing changes, bandwidth saturation), Brainstorm solutions, Execute, Review with team, Gather feedback from users*
@@ -185,6 +194,10 @@ A - Assess Solution
 - During 8D's D4 (Root Cause Analysis)
 - Combine with ICEBERG for systematic deep dives
 
+**⚠️ Common pitfalls:**
+- **Stopping at symptoms** - Stopping at "Why #3: Database slow" instead of drilling to root cause (missing migration). Keep asking until you reach a process/systemic failure.
+- **Assuming single root cause** - Complex problems often have multiple root causes. Use 5 Whys for each branch.
+
 **🔗 Combines well with:** ICEBERG (structured approach), 8D Approach (formal incident management)
 
 **📋 Real-world example:** *Deployment failures - Why? Pipeline failed. Why? Tests timed out. Why? Database slow. Why? Index missing. Why? Schema change didn't include migration. Root cause: Missing migration validation step*
@@ -206,6 +219,11 @@ D8 - Closure & Celebration
 - Critical incidents requiring formal resolution
 - Problems needing documentation and prevention
 - When team coordination is essential (D1: use RACI)
+
+**⚠️ Common pitfalls:**
+- **Stopping at D3** - Implementing the band-aid but never reaching D7 (Prevent Reoccurrence) means it will happen again.
+- **Solo 8D** - Trying to do all 8 steps alone instead of D1 (Form a team). Use RACI during D1 to clarify roles.
+- **Bureaucracy creep** - Over-formalizing 8D for simple problems. Use IDEA or PREPARE for non-critical issues.
 
 **🔗 Combines well with:** PADDER (D3 interim fixes), 5 Whys + ICEBERG (D4 root cause), RACI (D1 team formation)
 
@@ -234,6 +252,10 @@ I - Informed (kept updated)
 - Resolving role confusion in teams
 - 8D's D1 (Form a team) step
 - End of WAIT → BREATHE → PAUSE chain for conflict resolution
+
+**⚠️ Common pitfalls:**
+- **Multiple Accountables** - More than one "A" creates confusion. There should be exactly one Accountable person per task.
+- **Too many Consulted** - Adding everyone as "C" slows decisions. Be selective - only include those with critical input.
 
 **📋 Real-world example:** *Infrastructure upgrade project - Responsible: DevOps engineers, Accountable: Infrastructure Manager, Consulted: Security team, Informed: All developers*
 ### PESTEL 
@@ -398,6 +420,10 @@ E - Express yourself calmly
 - Part of WAIT → BREATHE → PAUSE → RACI conflict resolution chain
 - If break needed, escalate to PAUSE
 
+**⚠️ Common pitfalls:**
+- **Fake composure** - Going through motions without actually regulating emotions. The breathing must be intentional and deep.
+- **Weaponizing calm** - Using "Let's BREATHE" dismissively to avoid addressing concerns. This damages trust - use it genuinely.
+
 **🔗 Combines well with:** WAIT (listen first), PAUSE (step away if needed), STOP (stress management)
 
 **📋 Real-world example:** *Stakeholder disagrees with technical approach in meeting - Breathe deeply (regulate emotions), Remain rational, Empathize with their concerns, Ask clarifying questions, Take 5-minute break if tension escalates, Hold back defensive reactions, Express technical rationale calmly*
@@ -427,6 +453,10 @@ E - Evaluate options and plan before acting
 - Ask yourself before speaking - often listening is better
 - First step in WAIT → BREATHE → PAUSE → RACI chain
 - Use BREATHE first to regulate, then WAIT to choose response
+
+**⚠️ Common pitfalls:**
+- **Passive-aggressive silence** - Using WAIT to avoid necessary communication. This isn't "don't respond" - it's "choose the right response."
+- **Escalation avoidance** - Not speaking up when issues need addressing. WAIT helps you respond effectively, not disappear.
 
 **🔗 Combines well with:** BREATHE (emotional regulation), PAUSE (step away technique)
 
