@@ -6,26 +6,32 @@
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
-## 🚨 Start Here for On-Call
+**Field-tested mnemonics for engineers—memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs, design decisions, or high-stress situations.**
+
+## 🚨 Quick Reference & On-Call Guide
 
 **Production incident?**  
-→ [Quick Reference](#-quick-reference) → [Crisis Response Chain](#1-crisis-response-chain)
+→ [Crisis Response Chain](#1-crisis-response-chain) (STOP → TRACE → DEBUG → 8D)
 
 **Need quick decision?**  
-→ [Rapid Triage Chain](#6-rapid-triage-chain)
+→ [Rapid Triage Chain](#6-rapid-triage-chain) (IDEA → DICE → FATE)
 
-**Quick navigation:**
-- [Quick Reference](#-quick-reference)
-- [Problem Solving](#-problem-solving-techniques)
-- [Stress Management](#-stress--resilience)
-- [Pipelines](#-proven-mnemonic-pipelines)
-- [Table of Contents](#table-of-contents)
+*📱 Mobile: Table scrolls horizontally if needed*
 
+| **Situation** | **Use This** | **Time Needed** |
+|---------------|--------------|-----------------|
+| 🚨 Immediate crisis | [IDEA](#idea) → [STOP](#stop) | 2-5 min |
+| 🔍 Root cause needed | [ICEBERG](#iceberg) + [5 Whys](#5-whys) | 30-60 min |
+| 👥 Team conflict | [BREATHE](#breathe) → [PAUSE](#pause) → [WAIT](#wait) | 5-10 min |
+| 📊 Strategic planning | [PREPARE](#prepare) + [SWOT](#swot) | 1-2 hours |
+| 🏗️ System design | [SCALE](#scale-infrastructure-design) + [PESTEL](#pestel) | Planning phase |
+| 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
+| 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
+
+**Quick navigation:** [Problem Solving](#-problem-solving-techniques) | [Stress Management](#-stress--resilience) | [Pipelines](#-proven-mnemonic-pipelines) | [Table of Contents](#table-of-contents)  
 **📄 Print-friendly:** [Quick Reference Card](PRINT-QUICK-REFERENCE.md) for desk or on-call kit
 
 ---
-
-**Proven techniques for engineers and technical leaders—encoded as easy-to-remember acronyms.**
 
 When an incident is active, an architecture decision is due in 30 minutes, or stress is mounting, you need immediate answers—not a search query. This guide puts field-tested mnemonics directly in your hands.
 
@@ -84,23 +90,9 @@ Engineers need actionable reference material in the moment—not another externa
 
 ---
 
-## ⚡ Quick Reference
-
-*📱 Mobile: Table scrolls horizontally if needed*
-
-| **Situation** | **Use This** | **Time Needed** |
-|---------------|--------------|-----------------|
-| 🚨 Immediate crisis | [IDEA](#idea) → [STOP](#stop) | 2-5 min |
-| 🔍 Root cause needed | [ICEBERG](#iceberg) + [5 Whys](#5-whys) | 30-60 min |
-| 👥 Team conflict | [BREATHE](#breathe) → [PAUSE](#pause) → [WAIT](#wait) | 5-10 min |
-| 📊 Strategic planning | [PREPARE](#prepare) + [SWOT](#swot) | 1-2 hours |
-| 🏗️ System design | [SCALE](#scale-infrastructure-design) + [PESTEL](#pestel) | Planning phase |
-| 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
-| 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
-
 ## 🔄 Mnemonic Selection Flowchart
 
-*📱 Mobile tip: If the flowchart below is hard to read, use [Quick Reference](#-quick-reference) or [Quick category picker](#organization) instead.*
+*📱 Mobile tip: If the flowchart below is hard to read, use [Quick Reference & On-Call Guide](#-quick-reference--on-call-guide) or [Quick category picker](#organization) instead.*
 
 ```
                     ┌─────────────┐
@@ -123,12 +115,11 @@ Engineers need actionable reference material in the moment—not another externa
 ## Table of Contents
   
 - [Awesome Mnemonics ](#awesome-mnemonics-)
-  - [🚨 Start Here for On-Call](#-start-here-for-on-call)
+  - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
   - [What's Inside](#whats-inside)
   - [Who This Is For](#who-this-is-for)
   - [Organization](#organization)
   - [Why This Format?](#why-this-format)
-  - [⚡ Quick Reference](#-quick-reference)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#-problem-solving-techniques)
@@ -960,7 +951,7 @@ E - Expertise (FATE)
 
 - - - -
 
-**[↑ Back to Quick Reference](#-quick-reference)** | **[↑ Back to Top](#awesome-mnemonics-)**
+**[↑ Back to Quick Reference & On-Call Guide](#-quick-reference--on-call-guide)** | **[↑ Back to Top](#awesome-mnemonics-)**
 
 ## 🤝 Contributing
 
