@@ -25,27 +25,7 @@
 | 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
 | 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
 
-**Navigation:** [Problem Solving](#-problem-solving-techniques) | [Stress Management](#-stress--resilience) | [Pipelines](#-proven-mnemonic-pipelines) | [Table of Contents](#table-of-contents)  
-**📄 Print:** [Quick Reference Card](PRINT-QUICK-REFERENCE.md)
-
----
-
-## Organization
-
-🧩 **Problem Solving** — Root causes and solutions  
-📊 **Problem Analysis** — Stakeholder roles and external pressures  
-⚠️ **Problem Resolution Threats** — Blockers and resource constraints  
-🧘 **Stress & Resilience** — Staying calm under pressure  
-🗣️ **Communication & Conflict** — Rational conversations during tension  
-🔧 **Infrastructure & Systems Engineering** — Technical mnemonics for DevOps
-
-**Category picker:**
-- Pager going off? → [🧩 Problem Solving](#-problem-solving-techniques)
-- Planning/architecture? → [📊 Problem Analysis](#-problem-analysis)
-- Blocked/missing resources? → [⚠️ Threats](#️-problem-resolution-threats)
-- Feeling overwhelmed? → [🧘 Stress & Resilience](#-stress--resilience)
-- Team meeting heated? → [🗣️ Communication & Conflict](#️-communication--conflict)
-- Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
+**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents)
 
 ---
 
@@ -128,7 +108,7 @@ Teams and engineers using these mnemonics in production:
 
 ## 🔄 Mnemonic Selection Flowchart
 
-*📱 Mobile tip: If the flowchart below is hard to read, use [Quick Reference & On-Call Guide](#-quick-reference--on-call-guide) or [Quick category picker](#organization) instead.*
+*📱 Mobile tip: If the flowchart below is hard to read, use [Quick Reference & On-Call Guide](#-quick-reference--on-call-guide) or [Categorized Index](#-categorized-index) instead.*
 
 ```
                     ┌─────────────┐
@@ -152,8 +132,12 @@ Teams and engineers using these mnemonics in production:
   
 - [Awesome Mnemonics ](#awesome-mnemonics-)
   - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
-  - [Organization](#organization)
   - [📑 Categorized Index](#-categorized-index)
+    - [🔧 Ops](#-ops)
+    - [🔍 RCA (Root Cause Analysis)](#-rca-root-cause-analysis)
+    - [🏗️ Systems Design](#️-systems-design)
+    - [👥 Human Factors](#-human-factors)
+    - [🧘 Personal Life](#-personal-life)
   - [Who Uses This?](#who-uses-this)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
