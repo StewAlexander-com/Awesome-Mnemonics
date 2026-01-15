@@ -8,6 +8,10 @@
 
 **Memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs, design decisions, or high-stress situations.**
 
+**📥 Download Release Versions:** [Complete Guide (PDF)](releases/Awesome-Mnemonics-Complete-Guide.pdf) | [Quick Reference (PDF)](releases/Awesome-Mnemonics-Quick-Reference.pdf) | [Complete Guide (DOCX)](releases/Awesome-Mnemonics-Complete-Guide.docx) | [Quick Reference (DOCX)](releases/Awesome-Mnemonics-Quick-Reference.docx) | [Complete Guide (RTF)](releases/Awesome-Mnemonics-Complete-Guide.rtf) | [Quick Reference (RTF)](releases/Awesome-Mnemonics-Quick-Reference.rtf) | [Complete Guide (Markdown)](releases/Awesome-Mnemonics-Complete-Guide.md) | [Quick Reference (Markdown)](releases/Awesome-Mnemonics-Quick-Reference.md)
+
+*Release versions include working table of contents and are optimized for printing and offline use.*
+
 ## 🚨 Quick Reference & On-Call Guide
 
 **Production incident?** → [Crisis Response Chain](#1-crisis-response-chain) (STOP → TRACE → DEBUG → 8D)  
@@ -25,7 +29,7 @@
 | 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
 | 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
 
-**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents)
+**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents) | [📥 Downloads](#awesome-mnemonics-)
 
 ---
 
@@ -192,6 +196,7 @@ Teams and engineers using these mnemonics in production:
     - [❌ **Solo Hero Mode**](#-solo-hero-mode)
     - [❌ **Analysis Paralysis**](#-analysis-paralysis)
   - [🤝 Contributing](#-contributing)
+  - [📥 Release Versions](#-release-versions)
 
 - - - - 
 
@@ -983,3 +988,23 @@ Got a mnemonic that's saved you countless times? **Share it!**
 - ✅ Keep it memorable (that's the point!)
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+---
+
+## 📥 Release Versions
+
+**Offline-ready formats with working table of contents:**
+
+- **Complete Guide:**
+  - [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) - Print-ready PDF with working TOC (204KB)
+  - [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) - Microsoft Word format with TOC
+  - [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) - Rich Text Format (universal compatibility)
+  - [Markdown](releases/Awesome-Mnemonics-Complete-Guide.md) - Full guide with all mnemonics, pipelines, and examples
+
+- **Quick Reference:**
+  - [PDF](releases/Awesome-Mnemonics-Quick-Reference.pdf) - Print-ready PDF with working TOC (128KB)
+  - [DOCX](releases/Awesome-Mnemonics-Quick-Reference.docx) - Print-ready Word format
+  - [RTF](releases/Awesome-Mnemonics-Quick-Reference.rtf) - Universal RTF format
+  - [Markdown](releases/Awesome-Mnemonics-Quick-Reference.md) - One-page quick reference card
+
+*Perfect for printing, sharing with teams, or offline reference during incidents.*
