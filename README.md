@@ -6,12 +6,24 @@
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
-**📱 Quick Jump:**
-- [On-Call Entry](#-start-here-for-on-call)
+## 🚨 Start Here for On-Call
+
+**Production incident?**  
+→ [Quick Reference](#-quick-reference) → [Crisis Response Chain](#1-crisis-response-chain)
+
+**Need quick decision?**  
+→ [Rapid Triage Chain](#6-rapid-triage-chain)
+
+**Quick navigation:**
 - [Quick Reference](#-quick-reference)
 - [Problem Solving](#-problem-solving-techniques)
 - [Stress Management](#-stress--resilience)
 - [Pipelines](#-proven-mnemonic-pipelines)
+- [Table of Contents](#table-of-contents)
+
+**📄 Print-friendly:** [Quick Reference Card](PRINT-QUICK-REFERENCE.md) for desk or on-call kit
+
+---
 
 **Proven techniques for engineers and technical leaders—encoded as easy-to-remember acronyms.**
 
@@ -70,19 +82,6 @@ Engineers need actionable reference material in the moment—not another externa
 
 **Start with:** Pick your situation (active incident? design decision? team conflict?) and find your mnemonic. Or scroll the table of contents to explore what's available.
 
-## 🚨 Start Here for On-Call
-
-**Production incident?**  
-→ [Quick Reference](#-quick-reference) → [Crisis Response Chain](#1-crisis-response-chain)
-
-**Need quick decision?**  
-→ [Rapid Triage Chain](#6-rapid-triage-chain)
-
-**Full guide:**  
-Browse by category below or use [Table of Contents](#table-of-contents)
-
-**📄 Print-friendly version:** [Quick Reference Card](PRINT-QUICK-REFERENCE.md) for desk or on-call kit
-
 ---
 
 ## ⚡ Quick Reference
@@ -124,11 +123,11 @@ Browse by category below or use [Table of Contents](#table-of-contents)
 ## Table of Contents
   
 - [Awesome Mnemonics ](#awesome-mnemonics-)
+  - [🚨 Start Here for On-Call](#-start-here-for-on-call)
   - [What's Inside](#whats-inside)
   - [Who This Is For](#who-this-is-for)
   - [Organization](#organization)
   - [Why This Format?](#why-this-format)
-  - [🚨 Start Here for On-Call](#-start-here-for-on-call)
   - [⚡ Quick Reference](#-quick-reference)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
