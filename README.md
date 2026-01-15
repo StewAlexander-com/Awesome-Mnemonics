@@ -6,87 +6,46 @@
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
-**Field-tested mnemonics for engineers—memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs, design decisions, or high-stress situations.**
+**Memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs, design decisions, or high-stress situations.**
 
 ## 🚨 Quick Reference & On-Call Guide
 
-**Production incident?**  
-→ [Crisis Response Chain](#1-crisis-response-chain) (STOP → TRACE → DEBUG → 8D)
-
-**Need quick decision?**  
-→ [Rapid Triage Chain](#6-rapid-triage-chain) (IDEA → DICE → FATE)
+**Production incident?** → [Crisis Response Chain](#1-crisis-response-chain) (STOP → TRACE → DEBUG → 8D)  
+**Need quick decision?** → [Rapid Triage Chain](#6-rapid-triage-chain) (IDEA → DICE → FATE)
 
 *📱 Mobile: Table scrolls horizontally if needed*
 
-| **Situation** | **Use This** | **Time Needed** |
-|---------------|--------------|-----------------|
+| **Situation** | **Use This** | **Time** |
+|---------------|--------------|----------|
 | 🚨 Immediate crisis | [IDEA](#idea) → [STOP](#stop) | 2-5 min |
 | 🔍 Root cause needed | [ICEBERG](#iceberg) + [5 Whys](#5-whys) | 30-60 min |
 | 👥 Team conflict | [BREATHE](#breathe) → [PAUSE](#pause) → [WAIT](#wait) | 5-10 min |
 | 📊 Strategic planning | [PREPARE](#prepare) + [SWOT](#swot) | 1-2 hours |
-| 🏗️ System design | [SCALE](#scale-infrastructure-design) + [PESTEL](#pestel) | Planning phase |
+| 🏗️ System design | [SCALE](#scale-infrastructure-design) + [PESTEL](#pestel) | Planning |
 | 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
 | 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
 
-**Quick navigation:** [Problem Solving](#-problem-solving-techniques) | [Stress Management](#-stress--resilience) | [Pipelines](#-proven-mnemonic-pipelines) | [Table of Contents](#table-of-contents)  
-**📄 Print-friendly:** [Quick Reference Card](PRINT-QUICK-REFERENCE.md) for desk or on-call kit
+**Navigation:** [Problem Solving](#-problem-solving-techniques) | [Stress Management](#-stress--resilience) | [Pipelines](#-proven-mnemonic-pipelines) | [Table of Contents](#table-of-contents)  
+**📄 Print:** [Quick Reference Card](PRINT-QUICK-REFERENCE.md)
 
 ---
-
-When an incident is active, an architecture decision is due in 30 minutes, or stress is mounting, you need immediate answers—not a search query. This guide puts field-tested mnemonics directly in your hands.
-
-Mnemonics compress complex workflows—root cause analysis, system design, team conflict, incident response—into memorable acronyms. They work because they're based on established methodologies:
-- **8D Approach** (automotive quality)
-- **PESTEL** (strategic planning)
-- **RACI** (project management)
-- **5 Whys** (lean manufacturing)
-
-Each one encodes years of collective engineering wisdom. For complex scenarios, proven mnemonic chains combine multiple techniques into ready-to-use workflows.
-
-## What's Inside
-
-This is a working reference guide, not a curated list. Every mnemonic includes:
-- **When to use it** — which situation or phase it addresses
-- **How it works** — the breakdown and underlying logic  
-- **Real context** — examples from outages, RCAs, infrastructure decisions, and team dynamics
-- **Combinations** — how mnemonics work together in proven workflows
-
-## Who This Is For
-
-- **On-call engineers** handling production incidents
-- **Technical leads** running RCAs and making design tradeoffs
-- **DevOps professionals** balancing speed, cost, and reliability
-- **Managers** navigating conflict and team resilience
-- **Anyone** who works better with structured thinking under pressure
 
 ## Organization
 
-The guide is organized by function, not academic category:
+🧩 **Problem Solving** — Root causes and solutions  
+📊 **Problem Analysis** — Stakeholder roles and external pressures  
+⚠️ **Problem Resolution Threats** — Blockers and resource constraints  
+🧘 **Stress & Resilience** — Staying calm under pressure  
+🗣️ **Communication & Conflict** — Rational conversations during tension  
+🔧 **Infrastructure & Systems Engineering** — Technical mnemonics for DevOps
 
-🧩 **Problem Solving** — Frameworks for identifying root causes and developing solutions  
-📊 **Problem Analysis** — Tools for understanding stakeholder roles and external pressures  
-⚠️ **Problem Resolution Threats** — What derails problem-solving efforts  
-🧘 **Stress & Resilience** — Staying calm and connected during high-pressure work  
-🗣️ **Communication & Conflict** — Staying rational when tension is high  
-🔧 **Infrastructure & Systems Engineering** — Technical mnemonics for infrastructure and DevOps work
-
-**Quick category picker:**
+**Category picker:**
 - Pager going off? → [🧩 Problem Solving](#-problem-solving-techniques)
-- Planning/architecture decision? → [📊 Problem Analysis](#-problem-analysis)
-- Blocked or missing resources? → [⚠️ Threats](#️-problem-resolution-threats)
+- Planning/architecture? → [📊 Problem Analysis](#-problem-analysis)
+- Blocked/missing resources? → [⚠️ Threats](#️-problem-resolution-threats)
 - Feeling overwhelmed? → [🧘 Stress & Resilience](#-stress--resilience)
 - Team meeting heated? → [🗣️ Communication & Conflict](#️-communication--conflict)
 - Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
-
-Each section stands alone. Jump to what you need.
-
-## Why This Format?
-
-Engineers need actionable reference material in the moment—not another external link, not academic framing. Everything is self-contained, brief, and ready to use during an incident, planning session, or difficult conversation.
-
----
-
-**Start with:** Pick your situation (active incident? design decision? team conflict?) and find your mnemonic. Or scroll the table of contents to explore what's available.
 
 ---
 
@@ -116,10 +75,7 @@ Engineers need actionable reference material in the moment—not another externa
   
 - [Awesome Mnemonics ](#awesome-mnemonics-)
   - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
-  - [What's Inside](#whats-inside)
-  - [Who This Is For](#who-this-is-for)
   - [Organization](#organization)
-  - [Why This Format?](#why-this-format)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#-problem-solving-techniques)
