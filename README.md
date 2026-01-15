@@ -123,21 +123,20 @@ Engineers need actionable reference material in the moment—not another externa
     - [DICE](#dice)
     - [FATE](#fate)
     - [PEST](#pest)
-  - [💪 Positivity \& Resilience](#-positivity--resilience)
-    - [PUSH](#push)
-    - [HOPE](#hope)
-    - [SHINE](#shine)
-  - [🗣️ Argumentation \& Communication](#️-argumentation--communication)
+  - [🗣️ Communication \& Conflict](#️-communication--conflict)
     - [BREATHE](#breathe)
     - [PAUSE](#pause)
     - [WAIT](#wait)
-  - [🧘 Combating Stress](#-combating-stress)
+  - [🧘 Stress \& Resilience](#-stress--resilience)
     - [PACE](#pace)
     - [STOP](#stop)
     - [ARIES](#aries)
     - [HELP](#help)
     - [HANDLE](#handle)
     - [CALM](#calm)
+    - [PUSH](#push)
+    - [HOPE](#hope)
+    - [SHINE](#shine)
   - [🔧 Infrastructure \& Systems Engineering](#-infrastructure--systems-engineering)
     - [TRACE (Network Troubleshooting)](#trace-network-troubleshooting)
     - [SCALE (Infrastructure Design)](#scale-infrastructure-design)
@@ -430,41 +429,7 @@ T - Technological
 
 - - - -
 
-## 💪 Positivity & Resilience
-
-*Mental frameworks for maintaining momentum*
-
-- - - -
-### PUSH
-```
-P - Practice Gratitude   
-U - Use positive affirmations  
-S - Spend time with positive people  
-H - Have a positive outlook  
-```
-### HOPE
-```
-H - Harness positive thoughts  
-O - Open up to others   
-P - Prioritize self-care  
-E - Exercise regularly  
-```
-### SHINE
-```
-S - Stay present, in the moment  
-H - Have a healthy positive perspective  
-I - Identify and do positive activities   
-N - Nourish positive relationships  
-E - Express yourself  
-```
-
-**💡 When to use:**
-- End of [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine) burnout recovery chain
-- Ongoing practice for sustainable positivity
-- Connects to [CALM](#calm) for building positive self-image
-- - - -
-
-## 🗣️ Argumentation & Communication
+## 🗣️ Communication & Conflict
 
 *Stay calm and productive during difficult conversations*
 
@@ -529,9 +494,9 @@ E - Evaluate options and plan before acting
 
 - - - -
 
-## 🧘 Combating Stress
+## 🧘 Stress & Resilience
 
-*Immediate and long-term stress management tools*
+*Staying calm and connected during high-pressure work*
 
 - - - -
 
@@ -615,6 +580,36 @@ M - Mindfulness: Practice being present and focused
 - Use after PACE or ARIES for comprehensive stress management
 
 **🔗 Combines well with:** Positivity ([HOPE](#hope), [SHINE](#shine)), Stress Management ([PACE](#pace), [ARIES](#aries))
+
+### PUSH
+```
+P - Practice Gratitude   
+U - Use positive affirmations  
+S - Spend time with positive people  
+H - Have a positive outlook  
+```
+
+### HOPE
+```
+H - Harness positive thoughts  
+O - Open up to others   
+P - Prioritize self-care  
+E - Exercise regularly  
+```
+
+### SHINE
+```
+S - Stay present, in the moment  
+H - Have a healthy positive perspective  
+I - Identify and do positive activities   
+N - Nourish positive relationships  
+E - Express yourself  
+```
+
+**💡 When to use:**
+- End of [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine) burnout recovery chain
+- Ongoing practice for sustainable positivity
+- Connects to [CALM](#calm) for building positive self-image
 
 - - - -
 
