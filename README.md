@@ -6,6 +6,13 @@
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
+**📱 Quick Jump:**
+- [On-Call Entry](#-start-here-for-on-call)
+- [Quick Reference](#-quick-reference)
+- [Problem Solving](#-problem-solving-techniques)
+- [Stress Management](#-stress--resilience)
+- [Pipelines](#-proven-mnemonic-pipelines)
+
 **Proven techniques for engineers and technical leaders—encoded as easy-to-remember acronyms.**
 
 When an incident is active, an architecture decision is due in 30 minutes, or stress is mounting, you need immediate answers—not a search query. This guide puts field-tested mnemonics directly in your hands.
@@ -45,7 +52,13 @@ The guide is organized by function, not academic category:
 🗣️ **Communication & Conflict** — Staying rational when tension is high  
 🔧 **Infrastructure & Systems Engineering** — Technical mnemonics for infrastructure and DevOps work
 
-**Quick category picker:** Pager going off? → [🧩 Problem Solving](#-problem-solving-techniques) | Planning/architecture decision? → [📊 Problem Analysis](#-problem-analysis) | Blocked or missing resources? → [⚠️ Threats](#️-problem-resolution-threats) | Feeling overwhelmed? → [🧘 Stress & Resilience](#-stress--resilience) | Team meeting heated? → [🗣️ Communication & Conflict](#️-communication--conflict) | Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
+**Quick category picker:**
+- Pager going off? → [🧩 Problem Solving](#-problem-solving-techniques)
+- Planning/architecture decision? → [📊 Problem Analysis](#-problem-analysis)
+- Blocked or missing resources? → [⚠️ Threats](#️-problem-resolution-threats)
+- Feeling overwhelmed? → [🧘 Stress & Resilience](#-stress--resilience)
+- Team meeting heated? → [🗣️ Communication & Conflict](#️-communication--conflict)
+- Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
 
 Each section stands alone. Jump to what you need.
 
@@ -59,9 +72,14 @@ Engineers need actionable reference material in the moment—not another externa
 
 ## 🚨 Start Here for On-Call
 
-**Production incident?** → [Quick Reference](#-quick-reference) → [Crisis Response Chain](#1-crisis-response-chain)  
-**Need quick decision?** → [Rapid Triage Chain](#6-rapid-triage-chain)  
-**Full guide:** Browse by category below or use [Table of Contents](#table-of-contents)
+**Production incident?**  
+→ [Quick Reference](#-quick-reference) → [Crisis Response Chain](#1-crisis-response-chain)
+
+**Need quick decision?**  
+→ [Rapid Triage Chain](#6-rapid-triage-chain)
+
+**Full guide:**  
+Browse by category below or use [Table of Contents](#table-of-contents)
 
 ---
 
@@ -78,6 +96,8 @@ Engineers need actionable reference material in the moment—not another externa
 | 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
 
 ## 🔄 Mnemonic Selection Flowchart
+
+*📱 Mobile tip: If the flowchart below is hard to read, use [Quick Reference](#-quick-reference) or [Quick category picker](#organization) instead.*
 
 ```
                     ┌─────────────┐
