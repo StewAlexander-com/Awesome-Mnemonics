@@ -45,7 +45,7 @@ The guide is organized by function, not academic category:
 🗣️ **Communication & Conflict** — Staying rational when tension is high  
 🔧 **Infrastructure & Systems Engineering** — Technical mnemonics for infrastructure and DevOps work
 
-**Quick category picker:** Something broken? → [🧩 Problem Solving](#-problem-solving-techniques) | Need to understand roles/pressures? → [📊 Problem Analysis](#-problem-analysis) | Blockers/resources unclear? → [⚠️ Threats](#️-problem-resolution-threats) | Feeling overwhelmed? → [🧘 Stress & Resilience](#-stress--resilience) | Tension rising? → [🗣️ Communication & Conflict](#️-communication--conflict) | Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
+**Quick category picker:** Pager going off? → [🧩 Problem Solving](#-problem-solving-techniques) | Planning/architecture decision? → [📊 Problem Analysis](#-problem-analysis) | Blocked or missing resources? → [⚠️ Threats](#️-problem-resolution-threats) | Feeling overwhelmed? → [🧘 Stress & Resilience](#-stress--resilience) | Team meeting heated? → [🗣️ Communication & Conflict](#️-communication--conflict) | Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
 
 Each section stands alone. Jump to what you need.
 
