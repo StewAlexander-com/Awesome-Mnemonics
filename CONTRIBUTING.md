@@ -120,6 +120,25 @@ When adding mnemonics, keep in mind:
 - **Link formatting** - Use proper anchor links (e.g., `[STOP](#stop)`) for cross-references
 - **Code blocks** - Use triple backticks for mnemonic breakdowns to ensure proper formatting on all devices
 
+## Who Uses This?
+
+If your team or organization uses these mnemonics, we'd love to showcase you! Add yourself to the "Who Uses This?" section in `README.md`.
+
+**How to add:**
+1. Fork the repository
+2. Add your entry to the "Who Uses This?" section in `README.md`:
+   ```markdown
+   - **[Your Organization/Team Name](https://your-website.com)** - Brief description (optional)
+   ```
+3. Submit a pull request
+
+**Examples:**
+- `- **[Acme Corp](https://acme.com)** - Our SRE team uses STOP → TRACE → DEBUG daily`
+- `- **[Tech Startup](https://techstartup.io)** - On-call engineers reference this during incidents`
+- `- **Engineering Team at BigCo** - We've integrated these into our incident response playbooks`
+
+**Note:** Only add if you're actually using these mnemonics in production. This helps build credibility and shows real-world adoption.
+
 ## Questions?
 
 Open an issue to discuss your mnemonic idea before submitting if you're unsure about:

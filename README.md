@@ -47,6 +47,15 @@
 - Team meeting heated? → [🗣️ Communication & Conflict](#️-communication--conflict)
 - Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
 
+## Who Uses This?
+
+Teams and engineers using these mnemonics in production:
+
+<!-- Add your organization/team here via PR -->
+- *Your team here? [Add yourself!](CONTRIBUTING.md#who-uses-this)*
+
+**Using this?** Add your organization/team via pull request. See [CONTRIBUTING.md](CONTRIBUTING.md#who-uses-this) for details.
+
 ---
 
 ## 🔄 Mnemonic Selection Flowchart
@@ -76,6 +85,7 @@
 - [Awesome Mnemonics ](#awesome-mnemonics-)
   - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
   - [Organization](#organization)
+  - [Who Uses This?](#who-uses-this)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#-problem-solving-techniques)
