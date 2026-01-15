@@ -81,9 +81,13 @@ Engineers need actionable reference material in the moment—not another externa
 **Full guide:**  
 Browse by category below or use [Table of Contents](#table-of-contents)
 
+**📄 Print-friendly version:** [Quick Reference Card](PRINT-QUICK-REFERENCE.md) for desk or on-call kit
+
 ---
 
 ## ⚡ Quick Reference
+
+*📱 Mobile: Table scrolls horizontally if needed*
 
 | **Situation** | **Use This** | **Time Needed** |
 |---------------|--------------|-----------------|

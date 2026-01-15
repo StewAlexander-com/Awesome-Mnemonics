@@ -36,6 +36,33 @@ E - Meaning of third letter
 **📋 Real-world example:** *Brief scenario showing the mnemonic in action*
 ```
 
+### Complete Example
+
+Here's a complete example following the template:
+
+```markdown
+### IDEA
+``` 
+I - Identify problem
+D - Develop Solution
+E - Execute Solution
+A - Assess Solution
+```
+
+**💡 When to use:**
+- Quick, simple problems (2-5 minutes)
+- Crisis situations requiring immediate action
+- Use [STOP](#stop) first if under stress
+
+**⚠️ Common pitfalls:**
+- **Escalation failure** - Not moving to [ICEBERG](#iceberg) or [PREPARE](#prepare) when problem reveals complexity. If you're past 10 minutes or hitting multiple blockers, escalate.
+- **Skipping assessment** - Executing without validating the solution worked. The "A" step prevents recurring issues.
+
+**🔗 Combines well with:** [STOP](#stop) (crisis stress management), [PREPARE](#prepare)/[ICEBERG](#iceberg) (escalation path for complex issues)
+
+**📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
+```
+
 ## Submission Process
 
 1. **Fork the repository**
@@ -83,6 +110,15 @@ If you're proposing a new mnemonic pipeline (combination of multiple mnemonics),
 - **Actionability** - Must provide concrete actions, not just concepts
 - **Completeness** - Include all required sections (When to use, Pitfalls, Combines well with, Example)
 - **Consistency** - Follow existing formatting and style
+
+## Mobile & Print Considerations
+
+When adding mnemonics, keep in mind:
+
+- **Mobile readability** - Keep descriptions concise; on-call engineers may be reading on phones
+- **Print-friendly** - High-priority mnemonics may be added to `PRINT-QUICK-REFERENCE.md`
+- **Link formatting** - Use proper anchor links (e.g., `[STOP](#stop)`) for cross-references
+- **Code blocks** - Use triple backticks for mnemonic breakdowns to ensure proper formatting on all devices
 
 ## Questions?
 
