@@ -47,6 +47,74 @@
 - Team meeting heated? → [🗣️ Communication & Conflict](#️-communication--conflict)
 - Network/infra issue? → [🔧 Infrastructure](#-infrastructure--systems-engineering)
 
+---
+
+## 📑 Categorized Index
+
+*Quick lookup by functional area with "when to use" guidance*
+
+### 🔧 Ops
+*Incident response, troubleshooting, and operational decision-making*
+
+| Mnemonic | When to Use |
+|----------|-------------|
+| [STOP](#stop) | First response to any crisis—immediate stress management (2-5 min) |
+| [IDEA](#idea) | Quick, simple problems requiring fast action (2-5 min) |
+| [TRACE](#trace-network-troubleshooting) | Network/system diagnostics—start with connectivity tests |
+| [DEBUG](#debug-code--system-analysis) | Code or system analysis when problem definition is unclear |
+| [DICE](#dice) | Identify blockers (Delay, Incompetence, Conflict, External factors) before execution |
+| [FATE](#fate) | Validate resource availability (Funding, Allocation, Time, Expertise) for feasibility |
+| [PEST](#pest) | Identify external threats (Political, Economic, Social, Technological) to solutions |
+
+### 🔍 RCA (Root Cause Analysis)
+*Deep investigation, recurring issues, and prevention*
+
+| Mnemonic | When to Use |
+|----------|-------------|
+| [ICEBERG](#iceberg) | Complex problems with hidden root causes (30-60 min) |
+| [5 Whys](#5-whys) | Drill down to root cause—keep asking until systemic failure is found |
+| [8D Approach](#8d-approach) | Critical incidents requiring formal resolution and prevention |
+| [PADDER](#padder) | Data-driven problem solving when patterns need identification |
+| [PREPARE](#prepare) | Strategic planning for medium complexity problems (1-2 hours) |
+
+### 🏗️ Systems Design
+*Architecture, planning, and technical decision-making*
+
+| Mnemonic | When to Use |
+|----------|-------------|
+| [SCALE](#scale-infrastructure-design) | Infrastructure design—Security, Capacity, Automation, Load balancing, Error handling |
+| [SWOT](#swot) | Evaluate options—Strengths, Weaknesses, Opportunities, Threats (1-2 hours) |
+| [PESTEL](#pestel) | Strategic planning considering external factors (Political, Economic, Sociocultural, Technological, Environmental, Legal) |
+| [SET](#set-systems-engineering-triangle) | Set stakeholder expectations—pick 2: Good, Fast, Cheap |
+
+### 👥 Human Factors
+*Team dynamics, conflict resolution, and collaboration*
+
+| Mnemonic | When to Use |
+|----------|-------------|
+| [RACI](#raci) | Resolve role confusion—assign Responsible, Accountable, Consulted, Informed |
+| [WAIT](#wait) | Before speaking—ask "Why am I talking?" to choose the right response |
+| [BREATHE](#breathe) | First step when tensions rise—regulate emotions before responding |
+| [PAUSE](#pause) | When BREATHE isn't enough—step away and evaluate before acting (5-20 min) |
+| [DICE](#dice) | Check for Conflict as a blocker in team execution |
+| [FATE](#fate) | Validate team Expertise and resource Allocation |
+
+### 🧘 Personal Life
+*Stress management, burnout recovery, and personal resilience*
+
+| Mnemonic | When to Use |
+|----------|-------------|
+| [PACE](#pace) | Immediate stress management—Physical activity, Avoid unhealthy behaviors, Coping skills, Emotional awareness |
+| [ARIES](#aries) | Lifestyle changes for long-term stress reduction (2-4 weeks) |
+| [CALM](#calm) | Build resilience—Confidence, Awareness, Logic, Mindfulness |
+| [HELP](#help) | Stress management strategies—Handle one at a time, Exercise, Learn to relax, Pace yourself |
+| [HANDLE](#handle) | Six stress-management strategies including positive attitude and support system |
+| [PUSH](#push) | Build positivity—Practice Gratitude, Use affirmations, Spend time with positive people, Have positive outlook |
+| [HOPE](#hope) | Harness positive thoughts, Open up, Prioritize self-care, Exercise regularly |
+| [SHINE](#shine) | Ongoing practice for sustainable positivity—Stay present, Healthy perspective, Identify positive activities, Nourish relationships, Express yourself |
+
+---
+
 ## Who Uses This?
 
 Teams and engineers using these mnemonics in production:
@@ -85,6 +153,7 @@ Teams and engineers using these mnemonics in production:
 - [Awesome Mnemonics ](#awesome-mnemonics-)
   - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
   - [Organization](#organization)
+  - [📑 Categorized Index](#-categorized-index)
   - [Who Uses This?](#who-uses-this)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
