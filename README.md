@@ -8,9 +8,15 @@
 
 **Proven techniques for engineers and technical leaders—encoded as easy-to-remember acronyms.**
 
-When an incident is active, an architecture decision is due in 30 minutes, or stress is mounting, you need immediate answers, not a search query. This guide puts field-tested mnemonics directly in your hands.
+When an incident is active, an architecture decision is due in 30 minutes, or stress is mounting, you need immediate answers—not a search query. This guide puts field-tested mnemonics directly in your hands.
 
-Mnemonics compress complex workflows—root cause analysis, system design, team conflict, incident response—into memorable acronyms. They work because they're based on established methodologies: the 8D Approach (automotive quality), PESTEL (strategic planning), RACI (project management), 5 Whys (lean manufacturing). Each one encodes years of collective engineering wisdom.
+Mnemonics compress complex workflows—root cause analysis, system design, team conflict, incident response—into memorable acronyms. They work because they're based on established methodologies:
+- **8D Approach** (automotive quality)
+- **PESTEL** (strategic planning)
+- **RACI** (project management)
+- **5 Whys** (lean manufacturing)
+
+Each one encodes years of collective engineering wisdom. For complex scenarios, proven mnemonic chains combine multiple techniques into ready-to-use workflows.
 
 ## What's Inside
 
