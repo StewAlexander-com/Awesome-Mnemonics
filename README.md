@@ -6,7 +6,7 @@
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
-**Memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs, design decisions, or high-stress situations.**
+**Memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs (root cause analysis), design decisions, or high-stress situations.**
 
 **Disclaimer:** This collection includes both established, documented frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and mnemonics compiled for learning and incident use. See [Sources & References](#sources--references) for attribution and classification.
 
@@ -137,7 +137,7 @@ Teams and engineers using these mnemonics in production:
 ```
 
 ## Table of Contents
-  
+
 - [Awesome Mnemonics ](#awesome-mnemonics-)
   - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
   - [📑 Categorized Index](#-categorized-index)
@@ -240,7 +240,7 @@ E - Evaluate and revise plan as necessary
 ```
 P - Pinpoint problem  
 A - Analyze data and look for patterns  
-D - Develop solution & consider other ways to solve the issue - try to have more than one   
+D - Develop solution & consider other ways to solve the issue—try to have more than one option
 D - Design action plan  
 E - Execute action plan & Monitor Results  
 R - Reevaluate and refine plan as needed  
@@ -259,7 +259,7 @@ R - Reevaluate and refine plan as needed
 I - Identify issue(s)  
 C - Collect data and analyze situation  
 E - Examine possible (root) causes  
-B - Brainstorms solutions  
+B - Brainstorm solutions  
 E - Execute solution(s)  
 R - Review, evaluate, and adjust solutions  
 G - Gather feedback  
@@ -281,7 +281,7 @@ G - Gather feedback
 ``` 
 I - Identify problem  
 D - Develop Solution  
-E - Execute Solution   
+E - Execute Solution
 A - Assess Solution  
 ```
 
@@ -298,7 +298,7 @@ A - Assess Solution
 
 **📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
 ### 5 Whys
-* Keep asking why till root causes are identified
+* Keep asking why until root causes are identified
 
 **💡 When to use:**
 - Essential for root cause analysis
@@ -470,10 +470,7 @@ T - Threats
 
 **📋 Real-world example:** *Urgent security patch needed - Choose: Good + Fast = Not Cheap (overtime, additional resources). Manage expectations with leadership accordingly*
 
-*From the [SeBok - Systems Engineering Body of Knowledge](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))*
-
-
-
+*From the [SEBoK — Systems Engineering Body of Knowledge](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))*
 
 - - - -
 
@@ -655,8 +652,8 @@ P - Pace yourself and set limits.
 H - Have a positive attitude
 A - Avoid unnecessary stress
 N - Nurture a strong support system
-D - Deal with problems directly 
-L - Learn to relax, 
+D - Deal with problems directly
+L - Learn to relax
 E - Exercise regularly
 ```
 
