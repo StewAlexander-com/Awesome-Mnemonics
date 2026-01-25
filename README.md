@@ -59,7 +59,9 @@
 |----------|-------------|
 | [ICEBERG](#iceberg) | Complex problems with hidden root causes (30-60 min) |
 | [5 Whys](#5-whys) | Drill down to root cause—keep asking until systemic failure is found |
+| [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) | Visual cause–effect analysis; map multiple causes to a problem |
 | [8D Approach](#8d-approach) | Critical incidents requiring formal resolution and prevention |
+| [A3 Problem Solving](#a3-problem-solving) | Structured one-page problem-solving (Toyota); good for sharing and alignment |
 | [PADDER](#padder) | Data-driven problem solving when patterns need identification |
 | [PREPARE](#prepare) | Strategic planning for medium complexity problems (1-2 hours) |
 
@@ -153,7 +155,9 @@ Teams and engineers using these mnemonics in production:
     - [ICEBERG](#iceberg)
     - [IDEA](#idea)
     - [5 Whys](#5-whys)
+    - [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram)
     - [8D Approach](#8d-approach)
+    - [A3 Problem Solving](#a3-problem-solving)
     - [5Ps](#5ps)
   - [📊 Problem Analysis](#-problem-analysis)
     - [RACI](#raci)
@@ -247,7 +251,7 @@ R - Reevaluate and refine plan as needed
 - When patterns need to be identified
 - Pairs with [8D Approach](#8d-approach)'s D3 (Interim Containment) for quick fixes
 
-**🔗 Combines well with:** [IDEA](#idea) (simpler version), [8D Approach](#8d-approach) (formal resolution)
+**🔗 Combines well with:** [IDEA](#idea) (simpler version), [8D Approach](#8d-approach) (formal resolution), [A3 Problem Solving](#a3-problem-solving) (document PADDER output on one page for sharing)
 
 **📋 Real-world example:** *Recurring server crashes - Pinpoint timing, Analyze logs for patterns, Develop interim solutions (restart service) + permanent fix (increase memory), Monitor effectiveness*
 ### ICEBERG
@@ -270,7 +274,7 @@ G - Gather feedback
 - **Going too deep on simple problems** - Using ICEBERG for a 5-minute password reset. Start with [IDEA](#idea), escalate only if complexity emerges.
 - **Skipping feedback (G)** - Gathering feedback seems optional but prevents recurrence. Always complete the full cycle.
 
-**🔗 Combines well with:** [5 Whys](#5-whys) (deeper root cause), [8D Approach](#8d-approach) (formal prevention), [IDEA](#idea) (start simple, escalate if needed)
+**🔗 Combines well with:** [5 Whys](#5-whys) (deeper root cause), [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) (structure "Examine causes" into a fishbone), [8D Approach](#8d-approach) (formal prevention), [IDEA](#idea) (start simple, escalate if needed)
 
 **📋 Real-world example:** *Network performance degradation - Identify slowness, Collect metrics (latency, packet loss), Examine causes (routing changes, bandwidth saturation), Brainstorm solutions, Execute, Review with team, Gather feedback from users*
 ### IDEA
@@ -305,9 +309,32 @@ A - Assess Solution
 - **Stopping at symptoms** - Stopping at "Why #3: Database slow" instead of drilling to root cause (missing migration). Keep asking until you reach a process/systemic failure.
 - **Assuming single root cause** - Complex problems often have multiple root causes. Use 5 Whys for each branch.
 
-**🔗 Combines well with:** [ICEBERG](#iceberg) (structured approach), [8D Approach](#8d-approach) (formal incident management)
+**🔗 Combines well with:** [ICEBERG](#iceberg) (structured approach), [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) (organize causes into branches, then ask "why" on each), [8D Approach](#8d-approach) (formal incident management)
 
 **📋 Real-world example:** *Deployment failures - Why? Pipeline failed. Why? Tests timed out. Why? Database slow. Why? Index missing. Why? Schema change didn't include migration. Root cause: Missing migration validation step*
+
+### Ishikawa (Fishbone) Diagram
+*Cause–effect diagram; map multiple contributing causes to one problem. Pairs with 5 Whys.*
+```
+1. State the problem (head of the fish)
+2. Choose categories (e.g. 6 M's: Machine, Method, Material, Manpower, Measurement, Milieu/Environment)
+3. Brainstorm causes in each category (bones)
+4. Drill into "why" for significant causes (use 5 Whys on branches)
+5. Identify root causes to address
+```
+
+**💡 When to use:**
+- Multiple potential causes; 5 Whys alone might miss branches
+- During [8D Approach](#8d-approach)'s D4 (Root Cause Analysis) or [ICEBERG](#iceberg)'s "Examine causes"
+- Team brainstorming when causes span people, process, technology, environment
+
+**⚠️ Common pitfalls:**
+- **Too many bones** - Limit branches per category; focus on likely causes first.
+- **Skipping the drill-down** - Use [5 Whys](#5-whys) on the most likely bones to reach root cause.
+
+**🔗 Combines well with:** [5 Whys](#5-whys) (drill into branches), [8D Approach](#8d-approach) (D4), [ICEBERG](#iceberg) (Examine causes), [A3 Problem Solving](#a3-problem-solving) (document the fishbone on an A3)
+
+**📋 Real-world example:** *Uptime drop - Problem (head): "Services unreachable." Bones: Method (recent deploy), Machine (high CPU), Manpower (config change). Drill with 5 Whys on "recent deploy" → missing health-check in pipeline. Root cause: CI didn't run post-deploy checks.*
 
 ### 8D Approach
 *Industry standard in automotive/manufacturing, adapted for IT incident management*
@@ -332,9 +359,33 @@ D8 - Congratulate your team and close the loop (closure & celebration)
 - **Solo 8D** - Trying to do all 8 steps alone instead of D1 (Form a team). Use [RACI](#raci) during D1 to clarify roles.
 - **Bureaucracy creep** - Over-formalizing 8D for simple problems. Use [IDEA](#idea) or [PREPARE](#prepare) for non-critical issues.
 
-**🔗 Combines well with:** [PADDER](#padder) (D3 interim fixes), [5 Whys](#5-whys) + [ICEBERG](#iceberg) (D4 root cause), [RACI](#raci) (D1 team formation)
+**🔗 Combines well with:** [PADDER](#padder) (D3 interim fixes), [5 Whys](#5-whys) + [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) + [ICEBERG](#iceberg) (D4 root cause), [A3 Problem Solving](#a3-problem-solving) (one-page 8D summary), [RACI](#raci) (D1 team formation)
 
 **📋 Real-world example:** *Data breach incident - Form security response team ([RACI](#raci) roles), Describe scope, Contain (disable compromised accounts), Analyze root cause ([5 Whys](#5-whys): phishing → no MFA → insufficient training), Implement MFA, Validate with penetration test, Prevent (mandatory security awareness), Celebrate team response*
+
+### A3 Problem Solving
+*Toyota's single-page (A3 size) structured problem-solving. Plan–Do–Check–Act on one sheet for clarity and alignment.*
+```
+1. Background & problem statement
+2. Current state / gap
+3. Goal / target state
+4. Root cause analysis (use 5 Whys or Ishikawa)
+5. Countermeasures
+6. Implementation plan & follow-up (Check)
+```
+
+**💡 When to use:**
+- Need to share a problem and plan with stakeholders on one page
+- Lighter-weight than full [8D Approach](#8d-approach); good for recurring or medium-severity issues
+- [ICEBERG](#iceberg) or [PADDER](#padder) output you need to socialize
+
+**⚠️ Common pitfalls:**
+- **Cramming** - If it doesn't fit on one page, the problem may be too large; split or use 8D.
+- **Skipping root cause** - The "Root cause analysis" box must use [5 Whys](#5-whys) or [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram), not just symptoms.
+
+**🔗 Combines well with:** [5 Whys](#5-whys), [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) (for the root cause box), [8D Approach](#8d-approach) (A3 can summarize 8D), [ICEBERG](#iceberg), [PADDER](#padder)
+
+**📋 Real-world example:** *Sprint overruns - A3: Background (delivery slipping), Current state (scope creep, no Definition of Done), Goal (predictable sprints), Root cause (5 Whys → no intake prioritization), Countermeasures (backlog refinement + DoD), Plan (next 2 sprints). Share with product and eng leadership on one page.*
 
 ### 5Ps
 * Poor planning produces pitiful products  
@@ -1019,6 +1070,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 ### Problem-Solving Methodologies
 - **8D (Eight Disciplines)** ✓ — Ford Motor Company (1987). *Team Oriented Problem Solving Manual*. Evolved from TQM; in wide use in automotive and aerospace. [Wikipedia](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving)
 - **5 Whys** ⚠ — Toyota Production System root cause technique; widely adapted across industries.
+- **Ishikawa (Fishbone) Diagram** ✓ — Ishikawa, K. (1960s). University of Tokyo. Cause–effect diagram; central to Japanese quality control and Toyota. [Wikipedia](https://en.wikipedia.org/wiki/Ishikawa_diagram)
+- **A3 Problem Solving** ✓ — Toyota Production System. Single A3-page structured problem-solving (plan–do–check–act); one-page report for alignment. [Wikipedia](https://en.wikipedia.org/wiki/A3_problem_solving)
 - **PADDER, ICEBERG, IDEA, PREPARE** ℹ — Curated/educational problem-solving mnemonics for this collection.
 
 ### Strategic & Analysis Frameworks
@@ -1034,9 +1087,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 ### Communication, Stress & Resilience, Infrastructure
 - **BREATHE, PAUSE, WAIT, PACE, STOP, ARIES, HELP, HANDLE, CALM, PUSH, HOPE, SHINE** ℹ — Curated for stress management and conflict de-escalation.
 - **TRACE, SCALE, DEBUG** ℹ — Curated for infrastructure and troubleshooting.
-
-### Related Root Cause / Quality Tools (not in this repo)
-- **Ishikawa (Fishbone) Diagram** — Cause–effect analysis; pairs with 5 Whys.
-- **A3 Problem Solving** — Toyota's single-page, structured problem-solving format.
 
 **Note:** ✓ = documented origin; ⚠ = widely used, adapted from a known source; ℹ = compiled/curated for learning in this guide. Some entries are established frameworks; others are educational compilations.
