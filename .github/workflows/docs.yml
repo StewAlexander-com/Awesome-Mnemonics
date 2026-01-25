@@ -41,7 +41,7 @@ jobs:
             --exclude 'mailto:'
             ./README.md ./CONTRIBUTING.md ./CHANGELOG.md ./PRINT-QUICK-REFERENCE.md
             ./releases/README.md ./releases/Awesome-Mnemonics-Complete-Guide.md ./releases/Awesome-Mnemonics-Quick-Reference.md
-            ./docs/METRICS.md ./docs/FIELD-REPORTS.md ./templates/incident-response-runbook.md
+            ./docs/METRICS.md ./docs/FIELD-REPORTS.md ./docs/network-engineering.md ./docs/cloud-native.md ./docs/database-performance.md ./templates/incident-response-runbook.md
 
   spell:
     name: Spellcheck

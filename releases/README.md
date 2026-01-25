@@ -20,11 +20,11 @@ A condensed one-page reference card perfect for printing or keeping on your desk
 - **RTF** (`Awesome-Mnemonics-Quick-Reference.rtf`) - Universal RTF format
 - **Markdown** (`Awesome-Mnemonics-Quick-Reference.md`) - Quick reference in markdown format
 
-### ZIP bundles (v2.5)
+### ZIP bundles (v2.6)
 One-click archives containing all formats for each guide:
 
-- **Complete Guide** ([Awesome-Mnemonics-v2.5-Complete-Guide.zip](Awesome-Mnemonics-v2.5-Complete-Guide.zip)) — PDF, DOCX, RTF, Markdown
-- **Quick Reference** ([Awesome-Mnemonics-v2.5-Quick-Reference.zip](Awesome-Mnemonics-v2.5-Quick-Reference.zip)) — PDF, DOCX, RTF, Markdown
+- **Complete Guide** ([Awesome-Mnemonics-v2.6-Complete-Guide.zip](Awesome-Mnemonics-v2.6-Complete-Guide.zip)) — PDF, DOCX, RTF, Markdown
+- **Quick Reference** ([Awesome-Mnemonics-v2.6-Quick-Reference.zip](Awesome-Mnemonics-v2.6-Quick-Reference.zip)) — PDF, DOCX, RTF, Markdown
 
 ## Features
 
@@ -61,4 +61,4 @@ These release versions are generated from the main repository files. For the lat
 
 ---
 
-*Generated with pandoc — v2.5 (2026-01-25)*
+*Generated with pandoc — v2.6 (2026-01-25)*

@@ -45,12 +45,9 @@ E - Meaning of third letter
 2. **Add your mnemonic** to the appropriate section in `README.md`
 3. **Update the Table of Contents** with your new entry
 4. **Add cross-references** - Link your mnemonic in related "Combines well with" sections
-5. **Provide source/origin** - If it's an established framework, include its origin so we can cite it in [Sources & References](README.md#sources--references).
-6. **Test your links** - Ensure all anchor links work correctly
-7. **Submit a pull request** with:
-   - Clear description of the mnemonic
-   - Why it fits the repository
-   - Real-world context or use case
+5. **Provide source/origin** — Include origin for established frameworks so we can cite in [Sources & References](README.md#sources--references).
+6. **Test your links** — Ensure anchor links work.
+7. **Submit a PR** with: description, why it fits, real-world context.
 
 ## Section Guidelines
 
@@ -83,19 +80,24 @@ For a new pipeline, include:
 
 ## Quality Standards
 
-- **Clarity** - Each step should be unambiguous
-- **Actionability** - Must provide concrete actions, not just concepts
-- **Completeness** - Include all required sections (When to use, Pitfalls, Combines well with, Example)
-- **Consistency** - Follow existing formatting and style
-- **Attribution** - For established frameworks, provide sources so maintainers can classify them (✓ verified / ⚠ common usage / ℹ curated) in the [Sources & References](README.md#sources--references) section.
+- **Clarity** — Unambiguous steps
+- **Actionability** — Concrete actions, not just concepts
+- **Completeness** — When to use, Pitfalls, Combines well with, Example
+- **Consistency** — Match existing formatting
+- **Attribution** — Sources for established frameworks (✓/⚠/ℹ in [Sources & References](README.md#sources--references))
 
 ## Mobile & Print
 
 Keep descriptions concise (on-call = phones). Use `[STOP](#stop)`-style anchors. Mnemonic letters in triple-backtick blocks. High-priority items may go in `PRINT-QUICK-REFERENCE.md`.
 
+## High-Value Contributions
+
+- **Domain addenda** — [network-engineering](docs/network-engineering.md), [cloud-native](docs/cloud-native.md), [database-performance](docs/database-performance.md): BGP, K8s, service mesh, query/connection-pool content. Stubs in place; add via PR.
+- **Field Reports** — [FIELD-REPORTS.md](docs/FIELD-REPORTS.md): incident write-ups with MTTR, what worked, improvements.
+
 ## Who Uses This?
 
-Enterprise adoption often hinges on social proof. Adding your org helps others justify rolling this out.
+Social proof helps adoption. Adding your org helps others.
 
 Add your team to the "Who Uses This?" section in `README.md` via PR:
 

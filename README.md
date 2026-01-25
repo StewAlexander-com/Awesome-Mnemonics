@@ -6,13 +6,13 @@
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
-**Memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs (root cause analysis), design decisions, or high-stress situations.**
+**A curated list of problem-solving and stress-management mnemonics.** Acronyms that compress workflows into actionable steps—for incidents, RCAs (root cause analysis), design decisions, and high-stress situations.
 
-**Disclaimer:** Established frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and curated mnemonics for learning and incident use. [Sources & References](#sources--references) for attribution.
+**Disclaimer:** Includes established frameworks (8D, SWOT, PESTEL, RACI, SET) and curated mnemonics. [Sources & References](#sources--references) for attribution.
 
-**📥 Download (v2.5):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v2.5-Complete-Guide.zip) · [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v2.5-Quick-Reference.zip) · [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) · [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) · [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) · [MD](releases/Awesome-Mnemonics-Complete-Guide.md). *ZIP = all formats. [Quick Ref formats](releases/README.md).*
+**📥 Download (v2.6):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v2.6-Complete-Guide.zip) · [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v2.6-Quick-Reference.zip) · [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) · [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) · [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) · [MD](releases/Awesome-Mnemonics-Complete-Guide.md). *ZIP = all formats. [Quick Ref formats](releases/README.md).*
 
-**Integrations:** [CLI](#cli) · [Runbook](templates/incident-response-runbook.md) · [Metrics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md).
+**Tools & docs:** [CLI](#cli) · [Runbook](templates/incident-response-runbook.md) · [Metrics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md). **Domain guides:** [Network](docs/network-engineering.md) · [Cloud-native](docs/cloud-native.md) · [Database](docs/database-performance.md).
 
 ## 🚨 Quick Reference & On-Call Guide
 
@@ -37,7 +37,7 @@
 
 ## 📑 Categorized Index
 
-*Lookup by area; when-to-use guidance.*
+*Browse by category; each entry links to full definition and when-to-use guidance.*
 
 ### 🔧 Ops
 *Incidents, troubleshooting, ops decisions.*
@@ -101,27 +101,33 @@
 
 ## Who Uses This?
 
-*No entries yet — **be the first.*** Social proof helps enterprise adoption; your org helps others.
-
-One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBUG`. [How](CONTRIBUTING.md#who-uses-this).
+*No entries yet — **be the first.*** One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBUG`. [How](CONTRIBUTING.md#who-uses-this).
 
 ---
 
 ## CLI
 
-`mnemonic` — pipeline and search from `mnemonics-index.yaml`.
+`mnemonic` — look up pipelines and search mnemonics by topic.
 
 **Install:** From repo: `pip install -r scripts/requirements.txt` then `./scripts/mnemonic`. Package: `pip install git+https://github.com/StewAlexander-com/Awesome-Mnemonics.git`. *Homebrew: not yet.*
 
 **Examples:** `mnemonic --help` · `mnemonic pipeline` / `pipeline crisis` · `mnemonic search network` · `mnemonic search stress -o json`
 
+**Alias (optional):** `alias incident='mnemonic pipeline crisis'` in `~/.zshrc`
+
 **`--output`:** `table` (default), `json`, `markdown`.
 
 ---
 
-## 🔄 Mnemonic Selection Flowchart
+## Quick Start (SRE / Infra)
 
-*📱 If hard to read: [Quick Reference](#quick-reference--on-call-guide) or [Index](#categorized-index).*
+1. **Runbook** — Copy [incident-response-runbook.md](templates/incident-response-runbook.md) (STOP→TRACE→DEBUG→8D) into Confluence, wiki, or runbook store.
+2. **CLI** — `pip install git+https://github.com/StewAlexander-com/Awesome-Mnemonics.git` then `mnemonic pipeline crisis` (or `mnemonic search <topic>`).
+3. **Alias** — `alias incident='mnemonic pipeline crisis'` in `~/.zshrc`
+
+---
+
+## 🔄 Mnemonic Selection Flowchart
 
 ```
                     ┌─────────────┐
@@ -141,7 +147,7 @@ One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBU
          └─────────┘  └──────────┘
 ```
 
-**Flowchart (text summary):** **Quick?** → IDEA+STOP · **Complex?** → PREPARE/ICEBERG+5 Whys · **Stress?** → STOP→PACE. Use [Quick Reference](#quick-reference--on-call-guide) or [Categorized Index](#categorized-index).
+**Summary:** Quick? → IDEA+STOP · Complex? → PREPARE/ICEBERG+5 Whys · Stress? → STOP→PACE. [Quick Reference](#quick-reference--on-call-guide) | [Index](#categorized-index)
 
 ## Table of Contents
 
@@ -155,6 +161,7 @@ One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBU
     - [🧘 Personal Life](#personal-life)
   - [Who Uses This?](#who-uses-this)
   - [CLI](#cli)
+  - [Quick Start (SRE / Infra)](#quick-start-sre--infra)
   - [🔄 Mnemonic Selection Flowchart](#mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#problem-solving-techniques)
@@ -210,7 +217,7 @@ One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBU
 
 ## 🧩 Problem Solving Techniques
 
-*Start here for systematic approaches to complex problems.*
+*Full definitions for each mnemonic; [Categorized Index](#categorized-index) above to browse by use case.*
 
 ### PREPARE  
 ```
@@ -610,14 +617,14 @@ G - Generate hypothesis and test
 
 ## 🔗 Proven Mnemonic Pipelines
 
-*Chains combine mnemonics into workflows for high-pressure scenarios; battle-tested.*
+*Ordered chains of mnemonics for end-to-end workflows (e.g. crisis, conflict, root cause).*
 
 ### **1. CRISIS RESPONSE CHAIN**
 **STOP → TRACE → DEBUG → 8D**
 
 **When:** Production outages, system failures, critical incidents · **Time:** 1–4 hr
 
-**Flow:** [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) → [8D](#8d-approach). *Step details in each mnemonic above.*
+**Flow:** [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) → [8D](#8d-approach)
 
 **Why:** STOP stabilizes; TRACE gathers evidence; DEBUG structures analysis; 8D prevents recurrence.
 
@@ -626,7 +633,7 @@ G - Generate hypothesis and test
 
 **When:** Team disagreements, tense meetings, stakeholder conflicts · **Time:** 5–20 min
 
-**Flow:** [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) → [RACI](#raci). *Step details in each mnemonic above.*
+**Flow:** [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) → [RACI](#raci)
 
 **Why:** WAIT prevents escalation; BREATHE regulates; PAUSE creates space; RACI clarifies roles (often the root cause).
 
@@ -635,7 +642,7 @@ G - Generate hypothesis and test
 
 **When:** Recurring issues, complex systems, post-incident · **Time:** 1–2 hr
 
-**Flow:** [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [PADDER](#padder) → [RACI](#raci). *Step details in each mnemonic above.*
+**Flow:** [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [PADDER](#padder) → [RACI](#raci)
 
 **Why:** ICEBERG structures; 5 Whys drill to root cause; PADDER plans; RACI ensures accountability.
 
@@ -644,7 +651,7 @@ G - Generate hypothesis and test
 
 **When:** Infrastructure planning, architecture reviews, capacity · **Time:** 2–4 hr
 
-**Flow:** [SCALE](#scale-infrastructure-design) → [SWOT](#swot) → [PESTEL](#pestel) → [SET](#set-systems-engineering-triangle). *Step details in each mnemonic above.*
+**Flow:** [SCALE](#scale-infrastructure-design) → [SWOT](#swot) → [PESTEL](#pestel) → [SET](#set-systems-engineering-triangle)
 
 **Why:** SCALE sets requirements; SWOT evaluates; PESTEL finds external risks; SET manages expectations.
 
@@ -653,7 +660,7 @@ G - Generate hypothesis and test
 
 **When:** Long-term stress, approaching burnout, lifestyle reset · **Time:** 2–4 weeks (habit formation)
 
-**Flow:** [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine). *Step details in each mnemonic above.*
+**Flow:** [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine)
 
 **Why:** PACE (immediate); ARIES (lifestyle); CALM (resilience); SHINE (sustainable).
 
@@ -662,7 +669,7 @@ G - Generate hypothesis and test
 
 **When:** Quick wins, time-critical decisions, feasibility check · **Time:** 10–30 min
 
-**Flow:** [IDEA](#idea) → [DICE](#dice) → [FATE](#fate). *Step details in each mnemonic above.*
+**Flow:** [IDEA](#idea) → [DICE](#dice) → [FATE](#fate)
 
 **Why:** IDEA (fast frame); DICE (blockers); FATE (resources).
 
@@ -703,8 +710,6 @@ G - Generate hypothesis and test
 
 ## 🤝 Contributing
 
-Got a mnemonic that's saved you countless times? **Share it!**
-
 **Submission criteria:**
 - ✅ Must be provable/actionable (not just motivational)
 - ✅ Should cross-reference existing mnemonics where applicable
@@ -717,9 +722,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## 📥 Release Versions
 
-**v2.5** (2026-01-25) — Stress bloat removed (HELP, HANDLE, PUSH, HOPE); downloadable docs synced to README. [CHANGELOG](CHANGELOG.md)
+**v2.6** (2026-01-25) — Domain addenda, Quick Start, Evidence tier, Tools & docs, Awesome-list clarity; downloadable docs synced. [CHANGELOG](CHANGELOG.md)
 
-**ZIP (all formats):** [Complete](releases/Awesome-Mnemonics-v2.5-Complete-Guide.zip) · [Quick Reference](releases/Awesome-Mnemonics-v2.5-Quick-Reference.zip)
+**ZIP (all formats):** [Complete](releases/Awesome-Mnemonics-v2.6-Complete-Guide.zip) · [Quick Reference](releases/Awesome-Mnemonics-v2.6-Quick-Reference.zip)
 
 **By format:** Complete — [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) [MD](releases/Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](releases/Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](releases/Awesome-Mnemonics-Quick-Reference.docx) [RTF](releases/Awesome-Mnemonics-Quick-Reference.rtf) [MD](releases/Awesome-Mnemonics-Quick-Reference.md). *[releases/README](releases/README.md) for details.*
 
@@ -749,3 +754,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 - **TRACE, SCALE, DEBUG** ℹ — Curated for infrastructure and troubleshooting.
 
 **Note:** ✓ documented; ⚠ adapted; ℹ curated. Mix of established frameworks and educational compilations.
+
+**Evidence:** ★★★ strongly validated (5 Whys, 8D, Ishikawa); ★★ industry standard (SWOT, RACI, A3, SET); ★ curated. ✓/⚠/ℹ = attribution; ★ = evidence strength.

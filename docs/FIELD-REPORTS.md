@@ -6,9 +6,10 @@ Real incidents where these mnemonics helped (or didn’t). Use this format to sh
 
 ## Why contribute
 
-- **Validate** which pipelines work in practice and where they fall short  
-- **Improve** the main guide and runbook templates with concrete feedback  
-- **Speed up** adoption by showing realistic MTTR, MTTI, and “what I’d do differently”
+- **Validate** which pipelines work and where they fall short  
+- **Improve** the guide and runbook with concrete feedback  
+- **Speed up** adoption by showing realistic MTTR, MTTI, and “what I’d do differently”  
+- **Evidence base:** Three field reports with MTTR would strengthen the guide for teams evaluating adoption.
 
 ---
 
@@ -63,10 +64,10 @@ Copy this block into a new section (or PR) and fill it in.
 
 ## How to submit
 
-1. Open a PR that adds a new `### Incident: ...` section to this file (or proposes an edit to the template).
-2. Keep customer/product names and PII out; “Database,” “API,” “Cache” are fine.
-3. Optionally note: team size, on-call setup, first vs. repeated use of the pipeline.
+1. PR adding a `### Incident: ...` section (or template edit).
+2. No customer/PII; “Database,” “API,” “Cache” are fine.
+3. Optional: team size, on-call setup, first vs. repeated use.
 
 ---
 
-*See also: [Metrics & Mnemonics](METRICS.md), [Crisis Response Chain](https://github.com/StewAlexander-com/Awesome-Mnemonics#1-crisis-response-chain), and [CONTRIBUTING](../CONTRIBUTING.md).*
+*[METRICS](METRICS.md) · [Crisis Response Chain](https://github.com/StewAlexander-com/Awesome-Mnemonics#1-crisis-response-chain) · [CONTRIBUTING](../CONTRIBUTING.md)*

@@ -4,6 +4,22 @@ All notable changes to Awesome Mnemonics are documented here. The format is base
 
 ## [Unreleased]
 
+---
+
+## [2.6.0] - 2026-01-25
+
+### Added
+- **Domain addenda (stubs)** — [network-engineering](docs/network-engineering.md), [cloud-native](docs/cloud-native.md), [database-performance](docs/database-performance.md): BGP, K8s, service mesh, query/connection-pool placeholders; add via PR.
+- **README: Quick Start (SRE/Infra)** — Runbook, `pip install` + `mnemonic pipeline crisis`, alias in `~/.zshrc`. CLI alias example. Tools & docs, Domain guides.
+- **README: Sources & References** — Evidence tier (★★★/★★/★); ✓/⚠/ℹ = attribution, ★ = evidence.
+- **FIELD-REPORTS** — "Evidence base" in Why contribute. **CONTRIBUTING** — High-Value: domain addenda, Field Reports.
+
+### Changed
+- **README: Awesome-list comprehensibility** — "A curated list of…"; Tools & docs, Domain guides; Categorized Index and Pipeline intros clarified; CLI and Problem Solving Techniques signposting.
+- **Downloadable docs** — Complete Guide and Quick Reference synced to README/PRINT; v2.6 ZIPs; PDF, DOCX, RTF rebuilt.
+
+---
+
 ## [2.5.0] - 2026-01-25
 
 ### Removed
