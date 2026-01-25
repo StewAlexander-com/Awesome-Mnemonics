@@ -2,7 +2,7 @@
 
 **Print this page for your desk or on-call kit**
 
-*Release Version - Last Updated: $(date +%Y-%m-%d)*
+*Release Version - Last Updated: 2026-01-25*
 
 ---
 
@@ -52,7 +52,7 @@
 - D5 - Permanent Corrective Actions
 - D6 - Implement & Validate
 - D7 - Prevent reoccurrence
-- D8 - Closure & Celebration
+- D8 - Congratulate your team and close the loop (closure & celebration)
 
 ---
 
@@ -128,10 +128,16 @@
 - Keep asking "Why?" until root cause identified
 - Usually 3-5 iterations
 
+### Ishikawa (Fishbone)
+- State problem (head); choose categories (e.g. 6 M's); brainstorm causes (bones); use 5 Whys on branches
+
+### A3 Problem Solving
+- One-page: Background, Current state, Goal, Root cause (5 Whys/Ishikawa), Countermeasures, Plan
+
 ### PADDER
 - P - Pinpoint problem
 - A - Analyze data and look for patterns
-- D - Develop solution & consider other ways
+- D - Develop solution & consider other ways—try to have more than one option
 - D - Design action plan
 - E - Execute action plan & Monitor Results
 - R - Reevaluate and refine plan as needed

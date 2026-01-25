@@ -1047,13 +1047,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 **Offline-ready formats with working table of contents:**
 
 - **Complete Guide:**
-  - [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) - Print-ready PDF with working TOC (204KB)
+  - [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) - Print-ready PDF with working TOC (129KB)
   - [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) - Microsoft Word format with TOC
   - [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) - Rich Text Format (universal compatibility)
   - [Markdown](releases/Awesome-Mnemonics-Complete-Guide.md) - Full guide with all mnemonics, pipelines, and examples
 
 - **Quick Reference:**
-  - [PDF](releases/Awesome-Mnemonics-Quick-Reference.pdf) - Print-ready PDF with working TOC (128KB)
+  - [PDF](releases/Awesome-Mnemonics-Quick-Reference.pdf) - Print-ready PDF with working TOC (39KB)
   - [DOCX](releases/Awesome-Mnemonics-Quick-Reference.docx) - Print-ready Word format
   - [RTF](releases/Awesome-Mnemonics-Quick-Reference.rtf) - Universal RTF format
   - [Markdown](releases/Awesome-Mnemonics-Quick-Reference.md) - One-page quick reference card

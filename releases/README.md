@@ -7,7 +7,7 @@ This directory contains release-ready versions of the Awesome Mnemonics guide in
 ### Complete Guide
 The full guide with all mnemonics, pipelines, examples, and detailed explanations.
 
-- **PDF** (`Awesome-Mnemonics-Complete-Guide.pdf`) - Print-ready PDF with working table of contents (204KB)
+- **PDF** (`Awesome-Mnemonics-Complete-Guide.pdf`) - Print-ready PDF with working table of contents (129KB)
 - **DOCX** (`Awesome-Mnemonics-Complete-Guide.docx`) - Microsoft Word format with working table of contents
 - **RTF** (`Awesome-Mnemonics-Complete-Guide.rtf`) - Rich Text Format for universal compatibility
 - **Markdown** (`Awesome-Mnemonics-Complete-Guide.md`) - Best for GitHub, GitLab, or any markdown viewer
@@ -15,7 +15,7 @@ The full guide with all mnemonics, pipelines, examples, and detailed explanation
 ### Quick Reference
 A condensed one-page reference card perfect for printing or keeping on your desk.
 
-- **PDF** (`Awesome-Mnemonics-Quick-Reference.pdf`) - Print-ready PDF with working table of contents (128KB)
+- **PDF** (`Awesome-Mnemonics-Quick-Reference.pdf`) - Print-ready PDF with working table of contents (39KB)
 - **DOCX** (`Awesome-Mnemonics-Quick-Reference.docx`) - Print-ready Word format
 - **RTF** (`Awesome-Mnemonics-Quick-Reference.rtf`) - Universal RTF format
 - **Markdown** (`Awesome-Mnemonics-Quick-Reference.md`) - Quick reference in markdown format
@@ -32,8 +32,10 @@ A condensed one-page reference card perfect for printing or keeping on your desk
 PDF versions are already included! They were generated using `pdflatex` via pandoc. To regenerate:
 
 ```bash
-# Note: Emojis are removed for PDF compatibility with pdflatex
-pandoc Awesome-Mnemonics-Complete-Guide.md -o Awesome-Mnemonics-Complete-Guide.pdf --standalone --toc --pdf-engine=pdflatex
+# Use xelatex for Unicode/emoji support (pdflatex does not support emoji)
+pandoc Awesome-Mnemonics-Complete-Guide.md -o Awesome-Mnemonics-Complete-Guide.pdf --standalone --toc --toc-depth=3 --pdf-engine=xelatex
+pandoc Awesome-Mnemonics-Complete-Guide.md -o Awesome-Mnemonics-Complete-Guide.docx --standalone --toc --toc-depth=3
+pandoc Awesome-Mnemonics-Complete-Guide.md -o Awesome-Mnemonics-Complete-Guide.rtf --standalone --toc --toc-depth=3
 ```
 
 Alternatively, you can:
@@ -53,4 +55,4 @@ These release versions are generated from the main repository files. For the lat
 
 ---
 
-*Generated with pandoc - Last updated: $(date +%Y-%m-%d)*
+*Generated with pandoc - Last updated: 2026-01-25*
