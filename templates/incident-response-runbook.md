@@ -75,4 +75,4 @@
 
 ---
 
-*More pipelines: [Proven Mnemonic Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#-proven-mnemonic-pipelines).*
+*More pipelines: [Proven Mnemonic Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#proven-mnemonic-pipelines).*

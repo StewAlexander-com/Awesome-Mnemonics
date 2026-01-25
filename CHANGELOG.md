@@ -4,6 +4,14 @@ All notable changes to Awesome Mnemonics are documented here. The format is base
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-01-25
+
+### Fixed
+- **TOC and fragment links** — README, Complete Guide, METRICS, runbook: anchor slugs updated to match GitHub heading IDs (emoji/leading hyphen fixes: `#-categorized-index` → `#categorized-index`, `#-proven-mnemonic-pipelines` → `#proven-mnemonic-pipelines`, etc.)
+- **Downloadable docs** — Complete Guide and Quick Reference (PDF, DOCX, RTF, MD) regenerated; v2.0 ZIP bundles added
+
+---
+
 ## [1.8.0] - 2026-01-25
 
 ### Added

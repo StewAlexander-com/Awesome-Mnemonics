@@ -48,4 +48,4 @@ Map pipelines and mnemonics to TTA, MTTI, MTTR, MTBF. Use for adoption, targets,
 
 ---
 
-*[Proven Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#-proven-mnemonic-pipelines) · [Crisis Response](https://github.com/StewAlexander-com/Awesome-Mnemonics#1-crisis-response-chain)*
+*[Proven Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#proven-mnemonic-pipelines) · [Crisis Response](https://github.com/StewAlexander-com/Awesome-Mnemonics#1-crisis-response-chain)*

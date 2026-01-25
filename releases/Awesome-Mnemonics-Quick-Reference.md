@@ -2,7 +2,7 @@
 
 **Print this page for your desk or on-call kit**
 
-*Release v1.8 — 2026-01-25*
+*Release v2.0 — 2026-01-25*
 
 ---
 

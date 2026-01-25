@@ -6,7 +6,7 @@
 
 **Disclaimer:** Established frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and curated mnemonics for learning and incident use. [Sources & References](#sources--references) for attribution.
 
-*Release v1.8 — 2026-01-25*
+*Release v2.0 — 2026-01-25*
 
 *In PDF and DOCX, the table of contents and in-text links are clickable; use the TOC to jump to sections.*
 
@@ -29,7 +29,7 @@
 
 *(If icons don't display: 🚨=crisis, 🔍=root cause, 👥=conflict, 📊=planning, 🏗️=design, 🐛=debug, 😰=stress.)*
 
-**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents) | [📥 Top](#awesome-mnemonics---complete-guide)
+**Quick links:** [📑 Index](#categorized-index) | [🔗 Pipelines](#proven-mnemonic-pipelines) | [📄 Print](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents) | [📥 Top](#awesome-mnemonics---complete-guide)
 
 ---
 
@@ -109,7 +109,7 @@
 
 ## 🔄 Mnemonic Selection Flowchart
 
-*📱 If hard to read: [Quick Reference](#-quick-reference--on-call-guide) or [Index](#-categorized-index).*
+*📱 If hard to read: [Quick Reference](#quick-reference--on-call-guide) or [Index](#categorized-index).*
 
 ```
                     ┌─────────────┐
@@ -129,22 +129,22 @@
          └─────────┘  └──────────┘
 ```
 
-**Flowchart (text summary):** **Quick?** → IDEA+STOP · **Complex?** → PREPARE/ICEBERG+5 Whys · **Stress?** → STOP→PACE. Use [Quick Reference](#-quick-reference--on-call-guide) or [Categorized Index](#-categorized-index).
+**Flowchart (text summary):** **Quick?** → IDEA+STOP · **Complex?** → PREPARE/ICEBERG+5 Whys · **Stress?** → STOP→PACE. Use [Quick Reference](#quick-reference--on-call-guide) or [Categorized Index](#categorized-index).
 
 ## Table of Contents
 
 - [Awesome Mnemonics - Complete Guide](#awesome-mnemonics---complete-guide)
-  - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
-  - [📑 Categorized Index](#-categorized-index)
-    - [🔧 Ops](#-ops)
-    - [🔍 RCA (Root Cause Analysis)](#-rca-root-cause-analysis)
-    - [🏗️ Systems Design](#️-systems-design)
-    - [👥 Human Factors](#-human-factors)
-    - [🧘 Personal Life](#-personal-life)
+  - [🚨 Quick Reference \& On-Call Guide](#quick-reference--on-call-guide)
+  - [📑 Categorized Index](#categorized-index)
+    - [🔧 Ops](#ops)
+    - [🔍 RCA (Root Cause Analysis)](#rca-root-cause-analysis)
+    - [🏗️ Systems Design](#systems-design)
+    - [👥 Human Factors](#human-factors)
+    - [🧘 Personal Life](#personal-life)
   - [Who Uses This?](#who-uses-this)
-  - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
+  - [🔄 Mnemonic Selection Flowchart](#mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
-  - [🧩 Problem Solving Techniques](#-problem-solving-techniques)
+  - [🧩 Problem Solving Techniques](#problem-solving-techniques)
     - [PREPARE](#prepare)
     - [PADDER](#padder)
     - [ICEBERG](#iceberg)
@@ -154,20 +154,20 @@
     - [8D Approach](#8d-approach)
     - [A3 Problem Solving](#a3-problem-solving)
     - [5Ps](#5ps)
-  - [📊 Problem Analysis](#-problem-analysis)
+  - [📊 Problem Analysis](#problem-analysis)
     - [RACI](#raci)
     - [PESTEL](#pestel)
     - [SWOT](#swot)
     - [SET (Systems Engineering Triangle)](#set-systems-engineering-triangle)
-  - [⚠️ Problem Resolution Threats](#️-problem-resolution-threats)
+  - [⚠️ Problem Resolution Threats](#problem-resolution-threats)
     - [DICE](#dice)
     - [FATE](#fate)
     - [PEST](#pest)
-  - [🗣️ Communication \& Conflict](#️-communication--conflict)
+  - [🗣️ Communication \& Conflict](#communication--conflict)
     - [BREATHE](#breathe)
     - [PAUSE](#pause)
     - [WAIT](#wait)
-  - [🧘 Stress \& Resilience](#-stress--resilience)
+  - [🧘 Stress \& Resilience](#stress--resilience)
     - [PACE](#pace)
     - [STOP](#stop)
     - [ARIES](#aries)
@@ -177,22 +177,22 @@
     - [PUSH](#push)
     - [HOPE](#hope)
     - [SHINE](#shine)
-  - [🔧 Infrastructure \& Systems Engineering](#-infrastructure--systems-engineering)
+  - [🔧 Infrastructure \& Systems Engineering](#infrastructure--systems-engineering)
     - [TRACE (Network Troubleshooting)](#trace-network-troubleshooting)
     - [SCALE (Infrastructure Design)](#scale-infrastructure-design)
     - [DEBUG (Code \& System Analysis)](#debug-code--system-analysis)
-  - [🔗 Proven Mnemonic Pipelines](#-proven-mnemonic-pipelines)
+  - [🔗 Proven Mnemonic Pipelines](#proven-mnemonic-pipelines)
     - [**1. CRISIS RESPONSE CHAIN**](#1-crisis-response-chain)
     - [**2. CONFLICT RESOLUTION CHAIN**](#2-conflict-resolution-chain)
     - [**3. ROOT CAUSE INVESTIGATION CHAIN**](#3-root-cause-investigation-chain)
     - [**4. STRATEGIC DESIGN CHAIN**](#4-strategic-design-chain)
     - [**5. STRESS BURNOUT RECOVERY CHAIN**](#5-stress-burnout-recovery-chain)
     - [**6. RAPID TRIAGE CHAIN**](#6-rapid-triage-chain)
-  - [📊 Pipeline Selection Matrix](#-pipeline-selection-matrix)
-  - [💡 Pro Tips](#-pro-tips)
-  - [🎯 Common Mistakes](#-common-mistakes)
-  - [🤝 Contributing](#-contributing)
-  - [📥 Release Versions](#-release-versions)
+  - [📊 Pipeline Selection Matrix](#pipeline-selection-matrix)
+  - [💡 Pro Tips](#pro-tips)
+  - [🎯 Common Mistakes](#common-mistakes)
+  - [🤝 Contributing](#contributing)
+  - [📥 Release Versions](#release-versions)
   - [Sources \& References](#sources--references)
     - [Problem-Solving Methodologies](#problem-solving-methodologies)
     - [Strategic \& Analysis Frameworks](#strategic--analysis-frameworks)
@@ -724,7 +724,7 @@ G - Generate hypothesis and test
 | **Solo hero** | No [RACI](#raci) → no accountability if you’re out | [RACI](#raci) in 8D D1 (Form a team) | — |
 | **Analysis paralysis** | PREPARE→ICEBERG→5 Whys→8D for simple issues | Start with [IDEA](#idea); escalate if complexity emerges | — |
 
-**[↑ Quick Reference](#-quick-reference--on-call-guide) · [↑ Top](#awesome-mnemonics-)**
+**[↑ Quick Reference](#quick-reference--on-call-guide) · [↑ Top](#awesome-mnemonics---complete-guide)**
 
 ## 🤝 Contributing
 
