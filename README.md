@@ -10,9 +10,9 @@
 
 **Disclaimer:** Established frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and curated mnemonics for learning and incident use. [Sources & References](#sources--references) for attribution.
 
-**📥 Download (v2.0):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v2.0-Complete-Guide.zip) · [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v2.0-Quick-Reference.zip) · [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) · [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) · [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) · [MD](releases/Awesome-Mnemonics-Complete-Guide.md). *ZIP = all formats. [Quick Ref formats](releases/README.md).*
+**📥 Download (v2.1):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v2.1-Complete-Guide.zip) · [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v2.1-Quick-Reference.zip) · [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) · [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) · [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) · [MD](releases/Awesome-Mnemonics-Complete-Guide.md). *ZIP = all formats. [Quick Ref formats](releases/README.md).*
 
-**Integrations:** [CLI](scripts/mnemonic) · [Runbook](templates/incident-response-runbook.md) · [Metrics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md). *CLI: `pip install -r scripts/requirements.txt` then `./scripts/mnemonic pipeline crisis` or `search network`.*
+**Integrations:** [CLI](#cli) · [Runbook](templates/incident-response-runbook.md) · [Metrics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md).
 
 ## 🚨 Quick Reference & On-Call Guide
 
@@ -105,7 +105,21 @@
 
 ## Who Uses This?
 
-*[Add your team](CONTRIBUTING.md#who-uses-this) via PR if you use these in production.*
+*No entries yet — **be the first.*** Social proof helps enterprise adoption; your org helps others.
+
+One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBUG`. [How](CONTRIBUTING.md#who-uses-this).
+
+---
+
+## CLI
+
+`mnemonic` — pipeline and search from `mnemonics-index.yaml`.
+
+**Install:** From repo: `pip install -r scripts/requirements.txt` then `./scripts/mnemonic`. Package: `pip install git+https://github.com/StewAlexander-com/Awesome-Mnemonics.git`. *Homebrew: not yet.*
+
+**Examples:** `mnemonic --help` · `mnemonic pipeline` / `pipeline crisis` · `mnemonic search network` · `mnemonic search stress -o json`
+
+**`--output`:** `table` (default), `json`, `markdown`.
 
 ---
 
@@ -144,6 +158,7 @@
     - [👥 Human Factors](#human-factors)
     - [🧘 Personal Life](#personal-life)
   - [Who Uses This?](#who-uses-this)
+  - [CLI](#cli)
   - [🔄 Mnemonic Selection Flowchart](#mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#problem-solving-techniques)
@@ -744,9 +759,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## 📥 Release Versions
 
-**v2.0** (2026-01-25) — TOC/anchor link fixes (GitHub-compatible slugs); downloadable docs rebuilt. [CHANGELOG](CHANGELOG.md)
+**v2.1** (2026-01-25) — SNR pass (Who Uses, CLI); Complete Guide synced (Who Uses, CLI, TOC). [CHANGELOG](CHANGELOG.md)
 
-**ZIP (all formats):** [Complete](releases/Awesome-Mnemonics-v2.0-Complete-Guide.zip) · [Quick Reference](releases/Awesome-Mnemonics-v2.0-Quick-Reference.zip)
+**ZIP (all formats):** [Complete](releases/Awesome-Mnemonics-v2.1-Complete-Guide.zip) · [Quick Reference](releases/Awesome-Mnemonics-v2.1-Quick-Reference.zip)
 
 **By format:** Complete — [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) [MD](releases/Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](releases/Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](releases/Awesome-Mnemonics-Quick-Reference.docx) [RTF](releases/Awesome-Mnemonics-Quick-Reference.rtf) [MD](releases/Awesome-Mnemonics-Quick-Reference.md). *[releases/README](releases/README.md) for details.*
 

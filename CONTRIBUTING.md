@@ -95,10 +95,12 @@ Keep descriptions concise (on-call = phones). Use `[STOP](#stop)`-style anchors.
 
 ## Who Uses This?
 
+Enterprise adoption often hinges on social proof. Adding your org helps others justify rolling this out.
+
 Add your team to the "Who Uses This?" section in `README.md` via PR:
 
 ```markdown
-- **[Org/Team](https://url)** - Brief description
+- **[Org/Team](https://url)** — Brief description
 ```
 
 *Only if you use these in production. Example: `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBUG daily`.*
@@ -109,5 +111,7 @@ Open an issue to discuss your mnemonic idea before submitting if you're unsure a
 - Which section it belongs in
 - Whether it meets the criteria
 - How to structure it
+
+**Maintainers:** If you change `mnemonics-index.yaml`, update `mnemonic_cli/data/mnemonics_index.yaml` so the installed `mnemonic` command stays in sync.
 
 Thank you for helping make this field guide more comprehensive!

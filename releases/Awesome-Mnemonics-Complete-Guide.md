@@ -6,7 +6,7 @@
 
 **Disclaimer:** Established frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and curated mnemonics for learning and incident use. [Sources & References](#sources--references) for attribution.
 
-*Release v2.0 — 2026-01-25*
+*Release v2.1 — 2026-01-25*
 
 *In PDF and DOCX, the table of contents and in-text links are clickable; use the TOC to jump to sections.*
 
@@ -103,7 +103,21 @@
 
 ## Who Uses This?
 
-*[Add your team](../CONTRIBUTING.md#who-uses-this) via PR if you use these in production.*
+*No entries yet — **be the first.*** Social proof helps enterprise adoption; your org helps others.
+
+One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBUG`. [How](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/CONTRIBUTING.md#who-uses-this).
+
+---
+
+## CLI
+
+`mnemonic` — pipeline and search from `mnemonics-index.yaml`.
+
+**Install:** From repo: `pip install -r scripts/requirements.txt` then `./scripts/mnemonic`. Package: `pip install git+https://github.com/StewAlexander-com/Awesome-Mnemonics.git`. *Homebrew: not yet.*
+
+**Examples:** `mnemonic --help` · `mnemonic pipeline` / `pipeline crisis` · `mnemonic search network` · `mnemonic search stress -o json`
+
+**`--output`:** `table` (default), `json`, `markdown`.
 
 ---
 
@@ -142,6 +156,7 @@
     - [👥 Human Factors](#human-factors)
     - [🧘 Personal Life](#personal-life)
   - [Who Uses This?](#who-uses-this)
+  - [CLI](#cli)
   - [🔄 Mnemonic Selection Flowchart](#mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#problem-solving-techniques)

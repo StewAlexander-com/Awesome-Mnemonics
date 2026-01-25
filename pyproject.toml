@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awesome-mnemonics"
+version = "2.0.0"
+description = "CLI for Awesome Mnemonics – pipeline and search from mnemonics-index.yaml"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["PyYAML>=5.4"]
+
+[project.scripts]
+mnemonic = "mnemonic_cli.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/StewAlexander-com/Awesome-Mnemonics"
+Repository = "https://github.com/StewAlexander-com/Awesome-Mnemonics"
+
+[tool.setuptools.packages.find]
+include = ["mnemonic_cli*"]
+
+[tool.setuptools.package-data]
+mnemonic_cli = ["data/*.yaml"]

@@ -1,97 +1,12 @@
 #!/usr/bin/env python3
-"""
-Awesome Mnemonics CLI – pipeline and search from mnemonics-index.yaml.
-Usage:
-  mnemonic pipeline [name-or-id]   Show pipeline(s). No arg = list all.
-  mnemonic search <term>          Mnemonics and pipelines matching term.
-Requires: PyYAML (pip install -r scripts/requirements.txt)
-"""
-
-import argparse
+"""Run Awesome Mnemonics CLI. From repo: adds project root to path so mnemonic_cli is found."""
 import os
 import sys
 
-def find_index():
-    cand = os.path.join(os.getcwd(), "mnemonics-index.yaml")
-    if os.path.isfile(cand):
-        return cand
-    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    cand = os.path.join(base, "mnemonics-index.yaml")
-    if os.path.isfile(cand):
-        return cand
-    return None
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if root not in sys.path:
+    sys.path.insert(0, root)
 
-def load_index(path):
-    try:
-        import yaml
-    except ImportError:
-        print("Requires PyYAML: pip install PyYAML", file=sys.stderr)
-        sys.exit(1)
-    with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+from mnemonic_cli.cli import main
 
-def cmd_pipeline(data, name_or_id):
-    pipelines = data.get("pipelines") or []
-    if not name_or_id:
-        for p in pipelines:
-            steps = " → ".join(p.get("steps") or [])
-            print(f"  {p.get('id', '')}: {p.get('name', '')}  [{steps}]")
-        return
-    q = (name_or_id or "").lower()
-    for p in pipelines:
-        pid = (p.get("id") or "").lower()
-        pname = (p.get("name") or "").lower()
-        if q in pid or q in pname:
-            steps = p.get("steps") or []
-            print("Pipeline:", p.get("name", p.get("id", "")))
-            print("  Steps:", " → ".join(steps))
-            if p.get("when"):
-                print("  When:", p["when"])
-            if p.get("time"):
-                print("  Time:", p["time"])
-            return
-    print("No pipeline matching:", name_or_id, file=sys.stderr)
-    sys.exit(1)
-
-def cmd_search(data, term):
-    if not term:
-        print("Usage: mnemonic search <term>", file=sys.stderr)
-        sys.exit(1)
-    q = term.lower()
-    mnemonics = data.get("mnemonics") or []
-    pipelines = data.get("pipelines") or []
-    print("Mnemonics:")
-    for m in mnemonics:
-        mid = (m.get("id") or "").lower()
-        tags = " ".join(m.get("tags") or []).lower()
-        if q in mid or q in tags:
-            print(f"  {m.get('id', '')}  tags: {m.get('tags', [])}")
-    print("Pipelines:")
-    for p in pipelines:
-        pid = (p.get("id") or "").lower()
-        pname = (p.get("name") or "").lower()
-        tags = " ".join(p.get("tags") or []).lower()
-        if q in pid or q in pname or q in tags:
-            steps = " → ".join(p.get("steps") or [])
-            print(f"  {p.get('id', '')}: {p.get('name', '')}  [{steps}]")
-
-def main():
-    parser = argparse.ArgumentParser(description="Awesome Mnemonics CLI")
-    sub = parser.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("pipeline").add_argument("name_or_id", nargs="?")
-    sub.add_parser("search").add_argument("term", nargs="?")
-    args = parser.parse_args()
-
-    path = find_index()
-    if not path:
-        print("mnemonics-index.yaml not found (run from repo root or scripts/).", file=sys.stderr)
-        sys.exit(1)
-    data = load_index(path)
-
-    if args.cmd == "pipeline":
-        cmd_pipeline(data, getattr(args, "name_or_id", None))
-    elif args.cmd == "search":
-        cmd_search(data, getattr(args, "term", "") or "")
-
-if __name__ == "__main__":
-    main()
+main()

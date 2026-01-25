@@ -4,6 +4,14 @@ All notable changes to Awesome Mnemonics are documented here. The format is base
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-01-25
+
+### Changed
+- **SNR (Who Uses, CLI)** — README: shorter Who Uses CTA; CLI install/examples on one line; Homebrew note trimmed
+- **Downloadable docs** — Complete Guide: Who Uses (be first, social proof, one-line PR), CLI section, TOC; Quick Ref release line; v2.1 ZIPs
+
+---
+
 ## [2.0.0] - 2026-01-25
 
 ### Fixed

@@ -27,8 +27,12 @@ Desktop.ini
 .env
 .env.*
 *.log
+.venv/
+venv/
 
 # Build / cache (if you add doc-generation, e.g. pandoc)
 .cache/
 build/
 out/
+*.egg-info/
+__pycache__/

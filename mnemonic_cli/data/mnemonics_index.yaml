@@ -1,0 +1,102 @@
+# Awesome Mnemonics – index for search and CLI
+# Synced from repo root mnemonics-index.yaml
+
+mnemonics:
+  - id: STOP
+    tags: [crisis, stress, immediate]
+  - id: IDEA
+    tags: [triage, quick, crisis]
+  - id: TRACE
+    tags: [network, troubleshooting, infrastructure]
+  - id: DEBUG
+    tags: [troubleshooting, infrastructure, rca]
+  - id: DICE
+    tags: [triage, blockers, execution]
+  - id: FATE
+    tags: [triage, resources, feasibility]
+  - id: PEST
+    tags: [threats, external, analysis]
+  - id: ICEBERG
+    tags: [rca, root-cause, complex]
+  - id: "5 Whys"
+    tags: [rca, root-cause]
+  - id: Ishikawa
+    tags: [rca, visual, cause-effect]
+  - id: "8D"
+    tags: [rca, formal, prevention]
+  - id: A3
+    tags: [rca, one-page, structured]
+  - id: PADDER
+    tags: [rca, data-driven]
+  - id: PREPARE
+    tags: [planning, strategic, structured]
+  - id: SCALE
+    tags: [infrastructure, design, systems]
+  - id: SWOT
+    tags: [strategic, analysis, planning]
+  - id: PESTEL
+    tags: [strategic, external, planning]
+  - id: SET
+    tags: [design, expectations, trade-offs]
+  - id: RACI
+    tags: [roles, conflict, accountability]
+  - id: WAIT
+    tags: [communication, conflict]
+  - id: BREATHE
+    tags: [stress, conflict, communication]
+  - id: PAUSE
+    tags: [stress, conflict]
+  - id: PACE
+    tags: [stress, immediate]
+  - id: ARIES
+    tags: [stress, lifestyle]
+  - id: HELP
+    tags: [stress]
+  - id: HANDLE
+    tags: [stress]
+  - id: CALM
+    tags: [stress, resilience]
+  - id: PUSH
+    tags: [stress, positivity]
+  - id: HOPE
+    tags: [stress, positivity]
+  - id: SHINE
+    tags: [stress, ongoing]
+
+pipelines:
+  - id: crisis-response
+    name: Crisis Response Chain
+    steps: [STOP, TRACE, DEBUG, "8D"]
+    when: "Production outages, system failures, critical incidents"
+    time: "1-4 hours"
+    tags: [crisis, production, outage, troubleshooting]
+  - id: conflict-resolution
+    name: Conflict Resolution Chain
+    steps: [WAIT, BREATHE, PAUSE, RACI]
+    when: "Team disagreements, tense meetings, stakeholder conflicts"
+    time: "5-20 minutes"
+    tags: [conflict, communication]
+  - id: root-cause
+    name: Root Cause Investigation Chain
+    steps: [ICEBERG, "5 Whys", PADDER, RACI]
+    when: "Recurring issues, complex system problems, post-incident analysis"
+    time: "1-2 hours"
+    tags: [rca, recurring]
+  - id: strategic-design
+    name: Strategic Design Chain
+    steps: [SCALE, SWOT, PESTEL, SET]
+    when: "Infrastructure planning, architecture reviews, capacity planning"
+    time: "2-4 hours"
+    tags: [strategic, design, planning]
+  - id: stress-burnout
+    name: Stress Burnout Recovery Chain
+    steps: [PACE, ARIES, CALM, SHINE]
+    when: "Long-term stress, approaching burnout, lifestyle reset"
+    time: "Ongoing (2-4 weeks)"
+    tags: [stress, burnout]
+  - id: rapid-triage
+    name: Rapid Triage Chain
+    steps: [IDEA, DICE, FATE]
+    when: "Quick wins, time-critical decisions, feasibility check"
+    time: "Variable"
+    tags: [triage, quick, feasibility]
