@@ -10,9 +10,9 @@
 
 **Disclaimer:** This collection includes both established, documented frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and mnemonics compiled for learning and incident use. See [Sources & References](#sources--references) for attribution and classification.
 
-**📥 Download Release Versions:** [Complete Guide (PDF)](releases/Awesome-Mnemonics-Complete-Guide.pdf) | [Quick Reference (PDF)](releases/Awesome-Mnemonics-Quick-Reference.pdf) | [Complete Guide (DOCX)](releases/Awesome-Mnemonics-Complete-Guide.docx) | [Quick Reference (DOCX)](releases/Awesome-Mnemonics-Quick-Reference.docx) | [Complete Guide (RTF)](releases/Awesome-Mnemonics-Complete-Guide.rtf) | [Quick Reference (RTF)](releases/Awesome-Mnemonics-Quick-Reference.rtf) | [Complete Guide (Markdown)](releases/Awesome-Mnemonics-Complete-Guide.md) | [Quick Reference (Markdown)](releases/Awesome-Mnemonics-Quick-Reference.md)
+**📥 Download (v1.5):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v1.5-Complete-Guide.zip) | [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v1.5-Quick-Reference.zip) | [Complete Guide (PDF)](releases/Awesome-Mnemonics-Complete-Guide.pdf) | [Quick Reference (PDF)](releases/Awesome-Mnemonics-Quick-Reference.pdf) | [Complete Guide (DOCX)](releases/Awesome-Mnemonics-Complete-Guide.docx) | [Quick Reference (DOCX)](releases/Awesome-Mnemonics-Quick-Reference.docx) | [Complete Guide (RTF)](releases/Awesome-Mnemonics-Complete-Guide.rtf) | [Quick Reference (RTF)](releases/Awesome-Mnemonics-Quick-Reference.rtf) | [Complete Guide (MD)](releases/Awesome-Mnemonics-Complete-Guide.md) | [Quick Reference (MD)](releases/Awesome-Mnemonics-Quick-Reference.md)
 
-*Release versions include working table of contents and are optimized for printing and offline use.*
+*ZIP = all formats (PDF, DOCX, RTF, MD). Release versions include working TOC and are optimized for printing and offline use.*
 
 ## 🚨 Quick Reference & On-Call Guide
 
@@ -1044,7 +1044,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## 📥 Release Versions
 
-**Offline-ready formats with working table of contents:**
+**v1.5** (2026-01-25) — Offline-ready formats with working table of contents.
+
+**ZIP bundles (all formats in one file):**
+- [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v1.5-Complete-Guide.zip) — PDF, DOCX, RTF, Markdown
+- [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v1.5-Quick-Reference.zip) — PDF, DOCX, RTF, Markdown
+
+**Individual files:**
 
 - **Complete Guide:**
   - [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) - Print-ready PDF with working TOC (129KB)

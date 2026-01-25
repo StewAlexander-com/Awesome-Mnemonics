@@ -4,7 +4,11 @@
 
 **Disclaimer:** This collection includes both established, documented frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and mnemonics compiled for learning and incident use. See [Sources & References](#sources--references) for attribution and classification.
 
-*Release Version - Last Updated: 2026-01-25*
+*Release v1.5 — 2026-01-25*
+
+*In PDF and DOCX, the table of contents and in-text links are clickable; use the TOC to jump to sections.*
+
+<img src="../images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
 ## 🚨 Quick Reference & On-Call Guide
 
@@ -23,7 +27,9 @@
 | 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
 | 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
 
-**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](../PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents) | [📥 Back to top](#awesome-mnemonics---complete-guide)
+*(If icons don’t display in your viewer: 🚨=crisis, 🔍=root cause, 👥=conflict, 📊=planning, 🏗️=design, 🐛=debug, 😰=stress. Row text is sufficient.)*
+
+**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents) | [📥 Back to top](#awesome-mnemonics---complete-guide)
 
 ---
 
@@ -100,9 +106,9 @@
 Teams and engineers using these mnemonics in production:
 
 <!-- Add your organization/team here via PR -->
-- *Your team here? [Add yourself!](CONTRIBUTING.md#who-uses-this)*
+- *Your team here? [Add yourself!](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/CONTRIBUTING.md#who-uses-this)*
 
-**Using this?** Add your organization/team via pull request. See [CONTRIBUTING.md](CONTRIBUTING.md#who-uses-this) for details.
+**Using this?** Add your organization/team via pull request. See [CONTRIBUTING.md](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/CONTRIBUTING.md#who-uses-this) for details.
 
 ---
 
@@ -130,7 +136,7 @@ Teams and engineers using these mnemonics in production:
 
 ## Table of Contents
 
-- [Awesome Mnemonics ](#awesome-mnemonics-)
+- [Awesome Mnemonics - Complete Guide](#awesome-mnemonics---complete-guide)
   - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
   - [📑 Categorized Index](#-categorized-index)
     - [🔧 Ops](#-ops)
@@ -194,7 +200,6 @@ Teams and engineers using these mnemonics in production:
     - [❌ **Solo Hero Mode**](#-solo-hero-mode)
     - [❌ **Analysis Paralysis**](#-analysis-paralysis)
   - [🤝 Contributing](#-contributing)
-  - [📥 Release Versions](#-release-versions)
   - [Sources & References](#sources--references)
 
 - - - - 
@@ -1030,7 +1035,7 @@ Got a mnemonic that's saved you countless times? **Share it!**
 - ✅ Include real-world usage context
 - ✅ Keep it memorable (that's the point!)
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for details.
+See [CONTRIBUTING.md](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/CONTRIBUTING.md) for details.
 
 ---
 

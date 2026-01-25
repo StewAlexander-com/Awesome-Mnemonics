@@ -2,7 +2,7 @@
 
 **Print this page for your desk or on-call kit**
 
-*Release Version - Last Updated: 2026-01-25*
+*Release v1.5 — 2026-01-25*
 
 ---
 
@@ -201,6 +201,8 @@
 ---
 
 ## Quick Situation Guide
+
+*(If icons don’t display in your viewer: 🚨=crisis, 🔍=root cause, 👥=conflict, 📊=planning, 🏗️=design, 🐛=debug, 😰=stress. Row text is sufficient.)*
 
 | Situation | Use This | Time |
 |-----------|----------|------|
