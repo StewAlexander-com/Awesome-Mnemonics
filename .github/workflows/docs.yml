@@ -1,0 +1,59 @@
+# Docs: Markdown lint, link check, spellcheck
+# https://docs.github.com/en/actions
+
+name: Docs
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  lint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Lint Markdown
+        run: markdownlint "**/*.md" -c .markdownlint.yaml --ignore "releases/*.md" --ignore "EDIT-LIST*"
+
+  links:
+    name: Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >
+            --verbose --no-progress --timeout 10
+            --exclude 'mailto:'
+            ./README.md ./CONTRIBUTING.md ./CHANGELOG.md ./PRINT-QUICK-REFERENCE.md
+            ./releases/README.md ./releases/Awesome-Mnemonics-Complete-Guide.md ./releases/Awesome-Mnemonics-Quick-Reference.md
+            ./docs/METRICS.md ./docs/FIELD-REPORTS.md ./templates/incident-response-runbook.md
+
+  spell:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install codespell
+        run: pip install codespell
+
+      - name: Spellcheck
+        run: |
+          codespell . -I .codespell-ignore-words \
+            --skip "*.pdf,*.docx,*.rtf,*.zip,*.png,*.jpg,*.gif" \
+            --ignore-words-list "whys,min,max"

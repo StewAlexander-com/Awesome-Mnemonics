@@ -1,0 +1,13 @@
+# Markdown lint config for Awesome Mnemonics
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+default: true
+
+# Line length (README has long lines; relax for docs)
+MD013: false
+
+# Inline HTML (used for images, badges)
+MD033: false
+
+# First line in file heading (README starts with optional badge-style content)
+MD041: false

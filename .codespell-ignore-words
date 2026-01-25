@@ -1,0 +1,34 @@
+# Awesome Mnemonics – words to never flag (mnemonics, frameworks, project terms)
+# One word per line; used by: codespell -I .codespell-ignore-words
+
+PADDER
+ICEBERG
+PESTEL
+PEST
+RACI
+DICE
+FATE
+BREATHE
+ARIES
+TRACE
+SCALE
+PREPARE
+SWOT
+HANDLE
+PUSH
+HOPE
+SHINE
+CALM
+HELP
+PACE
+Ishikawa
+SEBoK
+DOCX
+RTF
+MTTR
+MTTI
+MTBF
+TTA
+lychee
+markdownlint
+codespell

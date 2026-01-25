@@ -14,6 +14,8 @@
 
 *ZIP = all formats (PDF, DOCX, RTF, MD). Release versions include working TOC and are optimized for printing and offline use.*
 
+**Integrations:** [CLI](scripts/mnemonic) (`pipeline`, `search`) · [Runbook template](templates/incident-response-runbook.md) · [Metrics & Mnemonics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md). CLI requires PyYAML: `pip install -r scripts/requirements.txt`; run from repo root: `./scripts/mnemonic pipeline crisis`, `./scripts/mnemonic search network`.
+
 ## 🚨 Quick Reference & On-Call Guide
 
 **Production incident?** → [Crisis Response Chain](#1-crisis-response-chain) (STOP → TRACE → DEBUG → 8D)  
@@ -135,6 +137,8 @@ Teams and engineers using these mnemonics in production:
          │  STOP   │  │ 5 Whys   │  └────────┘
          └─────────┘  └──────────┘
 ```
+
+**Flowchart (text summary):** From "Problem?", three branches: (1) **Quick?** → IDEA + STOP. (2) **Complex?** → PREPARE/ICEBERG + 5 Whys. (3) **Stress?** → STOP → PACE. Use the [Quick Reference](#-quick-reference--on-call-guide) or [Categorized Index](#-categorized-index) to pick a pipeline.
 
 ## Table of Contents
 
@@ -1044,7 +1048,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## 📥 Release Versions
 
-**v1.5** (2026-01-25) — Offline-ready formats with working table of contents.
+**v1.5** (2026-01-25) — Offline-ready formats with working table of contents. See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 **ZIP bundles (all formats in one file):**
 - [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v1.5-Complete-Guide.zip) — PDF, DOCX, RTF, Markdown
