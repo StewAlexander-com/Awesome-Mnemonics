@@ -8,6 +8,8 @@
 
 **Memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs, design decisions, or high-stress situations.**
 
+**Disclaimer:** This collection includes both established, documented frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and mnemonics compiled for learning and incident use. See [Sources & References](#sources--references) for attribution and classification.
+
 **📥 Download Release Versions:** [Complete Guide (PDF)](releases/Awesome-Mnemonics-Complete-Guide.pdf) | [Quick Reference (PDF)](releases/Awesome-Mnemonics-Quick-Reference.pdf) | [Complete Guide (DOCX)](releases/Awesome-Mnemonics-Complete-Guide.docx) | [Quick Reference (DOCX)](releases/Awesome-Mnemonics-Quick-Reference.docx) | [Complete Guide (RTF)](releases/Awesome-Mnemonics-Complete-Guide.rtf) | [Quick Reference (RTF)](releases/Awesome-Mnemonics-Quick-Reference.rtf) | [Complete Guide (Markdown)](releases/Awesome-Mnemonics-Complete-Guide.md) | [Quick Reference (Markdown)](releases/Awesome-Mnemonics-Quick-Reference.md)
 
 *Release versions include working table of contents and are optimized for printing and offline use.*
@@ -197,6 +199,7 @@ Teams and engineers using these mnemonics in production:
     - [❌ **Analysis Paralysis**](#-analysis-paralysis)
   - [🤝 Contributing](#-contributing)
   - [📥 Release Versions](#-release-versions)
+  - [Sources & References](#sources--references)
 
 - - - - 
 
@@ -316,7 +319,7 @@ D4 - Root Cause Analysis & Escape Point(s)
 D5 - Permanent Corrective Actions  
 D6 - Implement & Validate Corrective Actions  
 D7 - Prevent reoccurrence(s)  
-D8 - Closure & Celebration  
+D8 - Congratulate your team and close the loop (closure & celebration)
 ```
 
 **💡 When to use:**
@@ -1008,3 +1011,32 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
   - [Markdown](releases/Awesome-Mnemonics-Quick-Reference.md) - One-page quick reference card
 
 *Perfect for printing, sharing with teams, or offline reference during incidents.*
+
+---
+
+## Sources & References
+
+### Problem-Solving Methodologies
+- **8D (Eight Disciplines)** ✓ — Ford Motor Company (1987). *Team Oriented Problem Solving Manual*. Evolved from TQM; in wide use in automotive and aerospace. [Wikipedia](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving)
+- **5 Whys** ⚠ — Toyota Production System root cause technique; widely adapted across industries.
+- **PADDER, ICEBERG, IDEA, PREPARE** ℹ — Curated/educational problem-solving mnemonics for this collection.
+
+### Strategic & Analysis Frameworks
+- **PESTEL** ✓ — Aguilar, F. (1967). *Scanning the Business Environment*. Harvard; later extended to PESTLE/PESTEL (Legal, Environmental). [Background](https://www.linkedin.com/pulse/background-development-pestel-analysis-biplab-paul-8hj0c)
+- **PEST** ℹ — Four-factor variant (Political, Economic, Social, Technological); conceptually from the PESTEL lineage.
+- **SWOT** ✓ — Humphrey, A. (1960s–70s). Stanford Research Institute (SRI International); developed with Fortune 500 planning research. [e.g. Ninety](https://www.ninety.io/hubfs/Founders%20Framework%20-%20The%20SWOT%20Analysis%20and%20Strategic%20Planning%20Framework.pdf)
+- **RACI** ✓ — Responsibility Assignment Matrix; emerged ~1950s–70s, no single inventor. [Wikipedia RAM](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
+- **SET (Systems Engineering Triangle)** ✓ — SEBoK, *Guide to the Systems Engineering Body of Knowledge*. [SEBoK](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))
+
+### Problem Resolution Threats & Triage
+- **DICE, FATE** ℹ — Educational mnemonics for blockers and resource checks in this collection.
+
+### Communication, Stress & Resilience, Infrastructure
+- **BREATHE, PAUSE, WAIT, PACE, STOP, ARIES, HELP, HANDLE, CALM, PUSH, HOPE, SHINE** ℹ — Curated for stress management and conflict de-escalation.
+- **TRACE, SCALE, DEBUG** ℹ — Curated for infrastructure and troubleshooting.
+
+### Related Root Cause / Quality Tools (not in this repo)
+- **Ishikawa (Fishbone) Diagram** — Cause–effect analysis; pairs with 5 Whys.
+- **A3 Problem Solving** — Toyota's single-page, structured problem-solving format.
+
+**Note:** ✓ = documented origin; ⚠ = widely used, adapted from a known source; ℹ = compiled/curated for learning in this guide. Some entries are established frameworks; others are educational compilations.

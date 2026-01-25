@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Awesome Mnemonics"
+message: "If you use this collection in writing or training, please cite it."
+authors:
+  - family-names: "Alexander"
+    given-names: "Stew"
+date-released: "2022-01-01"
+url: "https://github.com/StewAlexander-com/Awesome-Mnemonics"
+repository-code: "https://github.com/StewAlexander-com/Awesome-Mnemonics"

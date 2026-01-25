@@ -10,6 +10,7 @@ All mnemonics must meet these requirements:
 - ✅ **Cross-references** - Should link to related mnemonics where applicable
 - ✅ **Real-world context** - Include actual usage examples
 - ✅ **Memorable** - The acronym/pattern should be easy to recall under pressure
+- ✅ **Source/origin (if known)** - For established frameworks, note the origin (e.g. "Ford 8D", "Toyota 5 Whys"). For original or curated mnemonics, write "Curated for this collection." Maintainers may classify entries in the [Sources & References](README.md#sources--references) section.
 
 ## Mnemonic Submission Template
 
@@ -32,6 +33,8 @@ E - Meaning of third letter
 - **Pitfall name** - Explanation of the mistake and how to avoid it
 
 **🔗 Combines well with:** [Related Mnemonic](#link) (why it works together)
+
+**Source (if applicable):** Published framework, standard, or "Curated for this collection."
 
 **📋 Real-world example:** *Brief scenario showing the mnemonic in action*
 ```
@@ -69,8 +72,9 @@ A - Assess Solution
 2. **Add your mnemonic** to the appropriate section in `README.md`
 3. **Update the Table of Contents** with your new entry
 4. **Add cross-references** - Link your mnemonic in related "Combines well with" sections
-5. **Test your links** - Ensure all anchor links work correctly
-6. **Submit a pull request** with:
+5. **Provide source/origin** - If it's an established framework, include its origin so we can cite it in [Sources & References](README.md#sources--references).
+6. **Test your links** - Ensure all anchor links work correctly
+7. **Submit a pull request** with:
    - Clear description of the mnemonic
    - Why it fits the repository
    - Real-world context or use case
@@ -110,6 +114,7 @@ If you're proposing a new mnemonic pipeline (combination of multiple mnemonics),
 - **Actionability** - Must provide concrete actions, not just concepts
 - **Completeness** - Include all required sections (When to use, Pitfalls, Combines well with, Example)
 - **Consistency** - Follow existing formatting and style
+- **Attribution** - For established frameworks, provide sources so maintainers can classify them (✓ verified / ⚠ common usage / ℹ curated) in the [Sources & References](README.md#sources--references) section.
 
 ## Mobile & Print Considerations
 
