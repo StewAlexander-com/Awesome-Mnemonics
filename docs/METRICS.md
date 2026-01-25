@@ -1,6 +1,6 @@
 # Metrics & Mnemonics
 
-Map mnemonics and pipelines to incident and reliability metrics. Use this to justify adoption, set targets, and measure improvement.
+Map pipelines and mnemonics to TTA, MTTI, MTTR, MTBF. Use for adoption, targets, and improvement.
 
 ---
 
@@ -41,11 +41,11 @@ Map mnemonics and pipelines to incident and reliability metrics. Use this to jus
 
 ## Using this in practice
 
-1. **Baseline** – Measure TTA, MTTI, MTTR (and recurrence if possible) before standardizing on a pipeline.
+1. **Baseline** — TTA, MTTI, MTTR, recurrence before standardizing.
 2. **Target** – e.g. “STOP embedded in onboarding → TTA under 5 min for P1” or “8D D7 completed for P1 → recurrence under 5%.”
 3. **Retros** – In post-mortems, note which mnemonics/pipelines were used and whether they helped (e.g. “TRACE cut MTTI; DEBUG’s U step was slow without a service map”).
-4. **Field Reports** – Document real incidents in [Field Reports](FIELD-REPORTS.md) with metrics (anonymized) to refine this mapping.
+4. **Field Reports** — [Anonymized incidents](FIELD-REPORTS.md) refine the mapping.
 
 ---
 
-*See also: [Proven Mnemonic Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#-proven-mnemonic-pipelines) and [Crisis Response Chain](https://github.com/StewAlexander-com/Awesome-Mnemonics#1-crisis-response-chain) in the main guide.*
+*[Proven Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#-proven-mnemonic-pipelines) · [Crisis Response](https://github.com/StewAlexander-com/Awesome-Mnemonics#1-crisis-response-chain)*

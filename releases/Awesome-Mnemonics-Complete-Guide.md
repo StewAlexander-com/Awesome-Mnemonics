@@ -1,14 +1,14 @@
 # Awesome Mnemonics - Complete Guide
 
+<img src="../images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
+
 **Memory hacks that compress complex workflows into actionable acronyms. Use during incidents, RCAs (root cause analysis), design decisions, or high-stress situations.**
 
-**Disclaimer:** This collection includes both established, documented frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and mnemonics compiled for learning and incident use. See [Sources & References](#sources--references) for attribution and classification.
+**Disclaimer:** Established frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and curated mnemonics for learning and incident use. [Sources & References](#sources--references) for attribution.
 
-*Release v1.5 — 2026-01-25*
+*Release v1.8 — 2026-01-25*
 
 *In PDF and DOCX, the table of contents and in-text links are clickable; use the TOC to jump to sections.*
-
-<img src="../images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
 ## 🚨 Quick Reference & On-Call Guide
 
@@ -27,18 +27,18 @@
 | 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
 | 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
 
-*(If icons don’t display in your viewer: 🚨=crisis, 🔍=root cause, 👥=conflict, 📊=planning, 🏗️=design, 🐛=debug, 😰=stress. Row text is sufficient.)*
+*(If icons don't display: 🚨=crisis, 🔍=root cause, 👥=conflict, 📊=planning, 🏗️=design, 🐛=debug, 😰=stress.)*
 
-**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents) | [📥 Back to top](#awesome-mnemonics---complete-guide)
+**Quick links:** [📑 Index](#-categorized-index) | [🔗 Pipelines](#-proven-mnemonic-pipelines) | [📄 Print](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/PRINT-QUICK-REFERENCE.md) | [📋 TOC](#table-of-contents) | [📥 Top](#awesome-mnemonics---complete-guide)
 
 ---
 
 ## 📑 Categorized Index
 
-*Quick lookup by functional area with "when to use" guidance*
+*Lookup by area; when-to-use guidance.*
 
 ### 🔧 Ops
-*Incident response, troubleshooting, and operational decision-making*
+*Incidents, troubleshooting, ops decisions.*
 
 | Mnemonic | When to Use |
 |----------|-------------|
@@ -51,7 +51,7 @@
 | [PEST](#pest) | Identify external threats (Political, Economic, Social, Technological) to solutions |
 
 ### 🔍 RCA (Root Cause Analysis)
-*Deep investigation, recurring issues, and prevention*
+*Deep investigation, recurring issues, prevention.*
 
 | Mnemonic | When to Use |
 |----------|-------------|
@@ -64,7 +64,7 @@
 | [PREPARE](#prepare) | Strategic planning for medium complexity problems (1-2 hours) |
 
 ### 🏗️ Systems Design
-*Architecture, planning, and technical decision-making*
+*Architecture, planning, technical decisions.*
 
 | Mnemonic | When to Use |
 |----------|-------------|
@@ -86,7 +86,7 @@
 | [FATE](#fate) | Validate team Expertise and resource Allocation |
 
 ### 🧘 Personal Life
-*Stress management, burnout recovery, and personal resilience*
+*Stress, burnout, resilience.*
 
 | Mnemonic | When to Use |
 |----------|-------------|
@@ -103,18 +103,13 @@
 
 ## Who Uses This?
 
-Teams and engineers using these mnemonics in production:
-
-<!-- Add your organization/team here via PR -->
-- *Your team here? [Add yourself!](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/CONTRIBUTING.md#who-uses-this)*
-
-**Using this?** Add your organization/team via pull request. See [CONTRIBUTING.md](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/CONTRIBUTING.md#who-uses-this) for details.
+*[Add your team](../CONTRIBUTING.md#who-uses-this) via PR if you use these in production.*
 
 ---
 
 ## 🔄 Mnemonic Selection Flowchart
 
-*📱 Mobile tip: If the flowchart below is hard to read, use [Quick Reference & On-Call Guide](#-quick-reference--on-call-guide) or [Categorized Index](#-categorized-index) instead.*
+*📱 If hard to read: [Quick Reference](#-quick-reference--on-call-guide) or [Index](#-categorized-index).*
 
 ```
                     ┌─────────────┐
@@ -133,6 +128,8 @@ Teams and engineers using these mnemonics in production:
          │  STOP   │  │ 5 Whys   │  └────────┘
          └─────────┘  └──────────┘
 ```
+
+**Flowchart (text summary):** **Quick?** → IDEA+STOP · **Complex?** → PREPARE/ICEBERG+5 Whys · **Stress?** → STOP→PACE. Use [Quick Reference](#-quick-reference--on-call-guide) or [Categorized Index](#-categorized-index).
 
 ## Table of Contents
 
@@ -153,7 +150,7 @@ Teams and engineers using these mnemonics in production:
     - [ICEBERG](#iceberg)
     - [IDEA](#idea)
     - [5 Whys](#5-whys)
-    - [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram)
+    - [Ishikawa (Fishbone) Diagram](#ishikawa-fishbone-diagram)
     - [8D Approach](#8d-approach)
     - [A3 Problem Solving](#a3-problem-solving)
     - [5Ps](#5ps)
@@ -192,23 +189,20 @@ Teams and engineers using these mnemonics in production:
     - [**5. STRESS BURNOUT RECOVERY CHAIN**](#5-stress-burnout-recovery-chain)
     - [**6. RAPID TRIAGE CHAIN**](#6-rapid-triage-chain)
   - [📊 Pipeline Selection Matrix](#-pipeline-selection-matrix)
-  - [💡 Pro Tips for Using Pipelines](#-pro-tips-for-using-pipelines)
-  - [🎯 Common Mistakes to Avoid](#-common-mistakes-to-avoid)
-    - [❌ **Jumping to Solutions**](#-jumping-to-solutions)
-    - [❌ **Using Wrong Pipeline**](#-using-wrong-pipeline)
-    - [❌ **Incomplete Execution**](#-incomplete-execution)
-    - [❌ **Solo Hero Mode**](#-solo-hero-mode)
-    - [❌ **Analysis Paralysis**](#-analysis-paralysis)
+  - [💡 Pro Tips](#-pro-tips)
+  - [🎯 Common Mistakes](#-common-mistakes)
   - [🤝 Contributing](#-contributing)
-  - [Sources & References](#sources--references)
-
-- - - - 
+  - [📥 Release Versions](#-release-versions)
+  - [Sources \& References](#sources--references)
+    - [Problem-Solving Methodologies](#problem-solving-methodologies)
+    - [Strategic \& Analysis Frameworks](#strategic--analysis-frameworks)
+    - [Problem Resolution Threats \& Triage](#problem-resolution-threats--triage)
+    - [Communication, Stress \& Resilience, Infrastructure](#communication-stress--resilience-infrastructure)
 
 ## 🧩 Problem Solving Techniques
 
-*Start here for systematic approaches to complex problems*
+*Start here for systematic approaches to complex problems.*
 
-- - - -
 ### PREPARE  
 ```
 P - Prioritize the problem  
@@ -220,19 +214,13 @@ R - Reflect on results
 E - Evaluate and revise plan as necessary  
 ```
 
-**💡 When to use:**
-- Strategic planning sessions (1-2 hours)
-- Medium complexity problems with multiple stakeholders
-- When you need structured documentation
+**💡 When to use:** Strategic planning (1–2 hr); medium complexity, multi-stakeholder; needs structure. *Not for outages—use [STOP](#stop)→[TRACE](#trace-network-troubleshooting)→[DEBUG](#debug-code--system-analysis) first; PREPARE in post-mortem.*
 
-**⚠️ Common pitfalls:**
-- **Analysis paralysis** - Spending 2 hours planning a 10-minute problem. If you're past 30 minutes on "Research", switch to [IDEA](#idea).
-- **Skipping reflection** - Acting without the final "Reflect/Evaluate" creates recurring issues. Always close the loop.
-- **Wrong tool for crisis** - Don't PREPARE during a production outage. Use [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) first, [PREPARE](#prepare) during post-mortem.
+**⚠️ Pitfalls:** Analysis paralysis — if past 30 min on Research, switch to [IDEA](#idea). Skipping Reflect/Evaluate → recurring issues.
 
-**🔗 Combines well with:** [RACI](#raci) (assign responsibilities), [SWOT](#swot) (evaluate options), [ICEBERG](#iceberg) (if reflection reveals deeper issues)
+**🔗 Combines well with:** [RACI](#raci), [SWOT](#swot), [ICEBERG](#iceberg)
 
-**📋 Real-world example:** *Planning infrastructure migration - Use [PREPARE](#prepare) to structure approach, [RACI](#raci) during planning phase for role clarity, [SWOT](#swot) to evaluate cloud provider options*
+**📋 Example:** *Infra migration: PREPARE for structure, RACI for roles, SWOT for cloud provider choice.*
 ### PADDER
 ```
 P - Pinpoint problem  
@@ -243,12 +231,9 @@ E - Execute action plan & Monitor Results
 R - Reevaluate and refine plan as needed  
 ```
 
-**💡 When to use:**
-- Data-driven problem solving
-- When patterns need to be identified
-- Pairs with [8D Approach](#8d-approach)'s D3 (Interim Containment) for quick fixes
+**💡 When to use:** Data-driven; pattern identification. Pairs with [8D](#8d-approach) D3 (Interim Containment) for quick fixes.
 
-**🔗 Combines well with:** [IDEA](#idea) (simpler version), [8D Approach](#8d-approach) (formal resolution), [A3 Problem Solving](#a3-problem-solving) (document PADDER output on one page for sharing)
+**🔗 Combines well with:** [IDEA](#idea) (simpler), [8D](#8d-approach) (formal), [A3](#a3-problem-solving) (one-page PADDER for sharing)
 
 **📋 Real-world example:** *Recurring server crashes - Pinpoint timing, Analyze logs for patterns, Develop interim solutions (restart service) + permanent fix (increase memory), Monitor effectiveness*
 ### ICEBERG
@@ -262,16 +247,11 @@ R - Review, evaluate, and adjust solutions
 G - Gather feedback  
 ```
 
-**💡 When to use:**
-- Complex problems requiring deep analysis (30-60 min)
-- When surface symptoms hide deeper root causes
-- Escalate from [IDEA](#idea) when complexity increases
+**💡 When to use:** Complex, deep analysis (30–60 min); surface symptoms hide root causes; escalate from [IDEA](#idea) when complexity grows.
 
-**⚠️ Common pitfalls:**
-- **Going too deep on simple problems** - Using ICEBERG for a 5-minute password reset. Start with [IDEA](#idea), escalate only if complexity emerges.
-- **Skipping feedback (G)** - Gathering feedback seems optional but prevents recurrence. Always complete the full cycle.
+**⚠️ Pitfalls:** Too deep on simple (e.g. 5‑min password reset): start with IDEA, escalate if needed. Skipping G (feedback): prevents recurrence; complete the cycle.
 
-**🔗 Combines well with:** [5 Whys](#5-whys) (deeper root cause), [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) (structure "Examine causes" into a fishbone), [8D Approach](#8d-approach) (formal prevention), [IDEA](#idea) (start simple, escalate if needed)
+**🔗 Combines well with:** [5 Whys](#5-whys), [Ishikawa](#ishikawa-fishbone-diagram) (fishbone for Examine), [8D](#8d-approach), [IDEA](#idea) (escalate if needed)
 
 **📋 Real-world example:** *Network performance degradation - Identify slowness, Collect metrics (latency, packet loss), Examine causes (routing changes, bandwidth saturation), Brainstorm solutions, Execute, Review with team, Gather feedback from users*
 ### IDEA
@@ -282,36 +262,26 @@ E - Execute Solution
 A - Assess Solution  
 ```
 
-**💡 When to use:**
-- Quick, simple problems (2-5 minutes)
-- Crisis situations requiring immediate action
-- Use [STOP](#stop) first if under stress
+**💡 When to use:** Quick, simple (2–5 min); crisis; use [STOP](#stop) first if stressed.
 
-**⚠️ Common pitfalls:**
-- **Escalation failure** - Not moving to [ICEBERG](#iceberg) or [PREPARE](#prepare) when problem reveals complexity. If you're past 10 minutes or hitting multiple blockers, escalate.
-- **Skipping assessment** - Executing without validating the solution worked. The "A" step prevents recurring issues.
+**⚠️ Pitfalls:** Escalation: if past 10 min or multiple blockers → [ICEBERG](#iceberg) or [PREPARE](#prepare). Skipping A: validate; prevents recurrence.
 
-**🔗 Combines well with:** [STOP](#stop) (crisis stress management), [PREPARE](#prepare)/[ICEBERG](#iceberg) (escalation path for complex issues)
+**🔗 Combines well with:** [STOP](#stop) (crisis), [PREPARE](#prepare)/[ICEBERG](#iceberg) (escalate)
 
 **📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
 ### 5 Whys
 * Keep asking why until root causes are identified
 
-**💡 When to use:**
-- Essential for root cause analysis
-- During [8D Approach](#8d-approach)'s D4 (Root Cause Analysis)
-- Combine with [ICEBERG](#iceberg) for systematic deep dives
+**💡 When to use:** Root cause analysis; [8D](#8d-approach) D4; combine with [ICEBERG](#iceberg) for deep dives.
 
-**⚠️ Common pitfalls:**
-- **Stopping at symptoms** - Stopping at "Why #3: Database slow" instead of drilling to root cause (missing migration). Keep asking until you reach a process/systemic failure.
-- **Assuming single root cause** - Complex problems often have multiple root causes. Use 5 Whys for each branch.
+**⚠️ Pitfalls:** Don’t stop at symptoms (e.g. "DB slow")—drill to process/systemic failure. Multiple root causes: use 5 Whys per branch.
 
-**🔗 Combines well with:** [ICEBERG](#iceberg) (structured approach), [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) (organize causes into branches, then ask "why" on each), [8D Approach](#8d-approach) (formal incident management)
+**🔗 Combines well with:** [ICEBERG](#iceberg), [Ishikawa](#ishikawa-fishbone-diagram) (branches, then "why" on each), [8D](#8d-approach)
 
 **📋 Real-world example:** *Deployment failures - Why? Pipeline failed. Why? Tests timed out. Why? Database slow. Why? Index missing. Why? Schema change didn't include migration. Root cause: Missing migration validation step*
 
 ### Ishikawa (Fishbone) Diagram
-*Cause–effect diagram; map multiple contributing causes to one problem. Pairs with 5 Whys.*
+*Cause–effect; map multiple causes to one problem. Pairs with 5 Whys.*
 ```
 1. State the problem (head of the fish)
 2. Choose categories (e.g. 6 M's: Machine, Method, Material, Manpower, Measurement, Milieu/Environment)
@@ -320,16 +290,11 @@ A - Assess Solution
 5. Identify root causes to address
 ```
 
-**💡 When to use:**
-- Multiple potential causes; 5 Whys alone might miss branches
-- During [8D Approach](#8d-approach)'s D4 (Root Cause Analysis) or [ICEBERG](#iceberg)'s "Examine causes"
-- Team brainstorming when causes span people, process, technology, environment
+**💡 When to use:** Multiple causes (5 Whys may miss branches); [8D](#8d-approach) D4 or [ICEBERG](#iceberg) Examine; brainstorm across people, process, tech, environment.
 
-**⚠️ Common pitfalls:**
-- **Too many bones** - Limit branches per category; focus on likely causes first.
-- **Skipping the drill-down** - Use [5 Whys](#5-whys) on the most likely bones to reach root cause.
+**⚠️ Pitfalls:** Too many bones: limit branches, focus on likely. Skipping drill-down: use [5 Whys](#5-whys) on likely bones.
 
-**🔗 Combines well with:** [5 Whys](#5-whys) (drill into branches), [8D Approach](#8d-approach) (D4), [ICEBERG](#iceberg) (Examine causes), [A3 Problem Solving](#a3-problem-solving) (document the fishbone on an A3)
+**🔗 Combines well with:** [5 Whys](#5-whys), [8D](#8d-approach) D4, [ICEBERG](#iceberg), [A3](#a3-problem-solving) (fishbone on A3)
 
 **📋 Real-world example:** *Uptime drop - Problem (head): "Services unreachable." Bones: Method (recent deploy), Machine (high CPU), Manpower (config change). Drill with 5 Whys on "recent deploy" → missing health-check in pipeline. Root cause: CI didn't run post-deploy checks.*
 
@@ -346,17 +311,11 @@ D7 - Prevent reoccurrence(s)
 D8 - Congratulate your team and close the loop (closure & celebration)
 ```
 
-**💡 When to use:**
-- Critical incidents requiring formal resolution
-- Problems needing documentation and prevention
-- When team coordination is essential (D1: use [RACI](#raci))
+**💡 When to use:** Critical incidents, formal resolution; documentation and prevention; team coordination (D1: [RACI](#raci)).
 
-**⚠️ Common pitfalls:**
-- **Stopping at D3** - Implementing the band-aid but never reaching D7 (Prevent Reoccurrence) means it will happen again.
-- **Solo 8D** - Trying to do all 8 steps alone instead of D1 (Form a team). Use [RACI](#raci) during D1 to clarify roles.
-- **Bureaucracy creep** - Over-formalizing 8D for simple problems. Use [IDEA](#idea) or [PREPARE](#prepare) for non-critical issues.
+**⚠️ Pitfalls:** Stopping at D3: reach D7 or it recurs. Solo 8D: use D1 (Form a team) and [RACI](#raci). Bureaucracy: use [IDEA](#idea) or [PREPARE](#prepare) for non-critical.
 
-**🔗 Combines well with:** [PADDER](#padder) (D3 interim fixes), [5 Whys](#5-whys) + [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) + [ICEBERG](#iceberg) (D4 root cause), [A3 Problem Solving](#a3-problem-solving) (one-page 8D summary), [RACI](#raci) (D1 team formation)
+**🔗 Combines well with:** [PADDER](#padder) (D3), [5 Whys](#5-whys)+[Ishikawa](#ishikawa-fishbone-diagram)+[ICEBERG](#iceberg) (D4), [A3](#a3-problem-solving) (one-page 8D), [RACI](#raci) (D1)
 
 **📋 Real-world example:** *Data breach incident - Form security response team ([RACI](#raci) roles), Describe scope, Contain (disable compromised accounts), Analyze root cause ([5 Whys](#5-whys): phishing → no MFA → insufficient training), Implement MFA, Validate with penetration test, Prevent (mandatory security awareness), Celebrate team response*
 
@@ -371,31 +330,23 @@ D8 - Congratulate your team and close the loop (closure & celebration)
 6. Implementation plan & follow-up (Check)
 ```
 
-**💡 When to use:**
-- Need to share a problem and plan with stakeholders on one page
-- Lighter-weight than full [8D Approach](#8d-approach); good for recurring or medium-severity issues
-- [ICEBERG](#iceberg) or [PADDER](#padder) output you need to socialize
+**💡 When to use:** Share problem and plan on one page; lighter than [8D](#8d-approach); recurring/medium severity; socialize [ICEBERG](#iceberg) or [PADDER](#padder) output.
 
-**⚠️ Common pitfalls:**
-- **Cramming** - If it doesn't fit on one page, the problem may be too large; split or use 8D.
-- **Skipping root cause** - The "Root cause analysis" box must use [5 Whys](#5-whys) or [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram), not just symptoms.
+**⚠️ Pitfalls:** Cramming: if it doesn’t fit, split or use 8D. Root cause box: use [5 Whys](#5-whys) or [Ishikawa](#ishikawa-fishbone-diagram), not symptoms.
 
-**🔗 Combines well with:** [5 Whys](#5-whys), [Ishikawa (Fishbone)](#ishikawa-fishbone-diagram) (for the root cause box), [8D Approach](#8d-approach) (A3 can summarize 8D), [ICEBERG](#iceberg), [PADDER](#padder)
+**🔗 Combines well with:** [5 Whys](#5-whys), [Ishikawa](#ishikawa-fishbone-diagram) (root cause box), [8D](#8d-approach) (A3 summarizes), [ICEBERG](#iceberg), [PADDER](#padder)
 
 **📋 Real-world example:** *Sprint overruns - A3: Background (delivery slipping), Current state (scope creep, no Definition of Done), Goal (predictable sprints), Root cause (5 Whys → no intake prioritization), Countermeasures (backlog refinement + DoD), Plan (next 2 sprints). Share with product and eng leadership on one page.*
 
 ### 5Ps
-* Poor planning produces pitiful products  
-
-- - - -
+*Poor planning produces pitiful products.* — Use as a reminder during planning; don’t skip [PREPARE](#prepare).
 
 ## 📊 Problem Analysis
 
-*Frameworks for understanding scope and impact*
+*Frameworks for scope and impact.*
 
-- - - - 
-### RACI 
-* Used to identify the roles and responsibilities of different stakeholders in a problem-solving process
+### RACI
+*Roles and responsibilities in problem-solving.*
 ```
 R - Responsible (does the work)
 A - Accountable (final approval)
@@ -403,19 +354,13 @@ C - Consulted (provides input)
 I - Informed (kept updated)
 ```
 
-**💡 When to use:**
-- Resolving role confusion in teams
-- [8D Approach](#8d-approach)'s D1 (Form a team) step
-- End of [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) chain for conflict resolution
+**💡 When to use:** Role confusion; [8D](#8d-approach) D1 (Form a team); end of WAIT→BREATHE→PAUSE for conflict.
 
-**⚠️ Common pitfalls:**
-- **Multiple Accountables** - More than one "A" creates confusion. There should be exactly one Accountable person per task.
-- **Too many Consulted** - Adding everyone as "C" slows decisions. Be selective - only include those with critical input.
+**⚠️ Pitfalls:** One "A" per task. Too many "C" slows decisions—only critical input.
 
-**📋 Real-world example:** *Infrastructure upgrade project - Responsible: DevOps engineers, Accountable: Infrastructure Manager, Consulted: Security team, Informed: All developers*
-### PESTEL 
-* Used to identify and analyze the external factors that may impact a problem or decision
-
+**📋 Example:** *Infra upgrade: R=DevOps, A=Infra Manager, C=Security, I=All devs.*
+### PESTEL
+*External factors that impact a problem or decision.*
 ```
 P - Political
 E - Economic
@@ -425,16 +370,12 @@ E - Environmental
 L - Legal
 ```
 
-**💡 When to use:**
-- Strategic planning external factor analysis
-- [SCALE](#scale-infrastructure-design) infrastructure design validation
-- Architecture reviews considering compliance/regulations
+**💡 When to use:** Strategic planning, external factors; [SCALE](#scale-infrastructure-design) validation; architecture, compliance.
 
 **📋 Real-world example:** *Cloud migration planning - Political (vendor lock-in concerns), Economic (cost optimization), Technological (API compatibility), Legal (data sovereignty requirements)*
 
 ### SWOT
-* Used to identify and analyze the internal and external factors that may impact a problem or decision
-
+*Internal and external factors for a problem or decision.*
 ```
 S - Strengths
 W - Weaknesses
@@ -449,33 +390,17 @@ T - Threats
 
 **📋 Real-world example:** *Choosing deployment strategy - Strengths: automated rollback, Weaknesses: longer deployment time, Opportunities: canary testing, Threats: increased complexity*
 ### SET (Systems Engineering Triangle)
-* Also called "Project Management Triangle" or "Iron Triangle"
-```
-1. Draw a triangle
-2. Put one of these 3 words at each corner: "good", "fast", "cheap"
-3. Pick 2 of them
-4. The other word is what the solution will not likely be
-   - A fast, cheap solution will not likely be good
-   - A fast and good solution will not likely be cheap 
-   - A good and cheap solution will not likely be fast
-```
+*Good, Fast, Cheap: pick 2; the third suffers.* (Fast+Cheap≠Good, Fast+Good≠Cheap, Good+Cheap≠Fast.)
 
-**💡 When to use:**
-- Setting stakeholder expectations
-- End of [SCALE](#scale-infrastructure-design) → [SWOT](#swot) → [PESTEL](#pestel) chain
-- Architecture trade-off discussions
+**💡 When to use:** Set expectations; end of SCALE→SWOT→PESTEL; architecture trade-offs.
 
-**📋 Real-world example:** *Urgent security patch needed - Choose: Good + Fast = Not Cheap (overtime, additional resources). Manage expectations with leadership accordingly*
+**📋 Real-world example:** *Urgent security patch — Good+Fast ⇒ not cheap (overtime). Set expectations with leadership.*
 
-*From the [SEBoK — Systems Engineering Body of Knowledge](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))*
-
-- - - -
+*[SEBoK](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))*
 
 ## ⚠️ Problem Resolution Threats
 
-*Identify blockers before they derail your solution*
-
-- - - -
+*Blockers before they derail.*
 
 ### DICE
 
@@ -486,10 +411,7 @@ C - Conflict
 E - External factors
 ```
 
-**💡 When to use:**
-- Part of [IDEA](#idea) → [DICE](#dice) → [FATE](#fate) rapid triage chain
-- Identifying blockers before execution
-- Risk assessment in [PREPARE](#prepare) phase
+**💡 When to use:** [IDEA](#idea)→[DICE](#dice)→[FATE](#fate) triage; blockers before execution; risk in [PREPARE](#prepare) phase.
 
 ### FATE
 ```
@@ -499,10 +421,8 @@ T - Time
 E - Expertise
 ```
 
-**💡 When to use:**
-- Resource validation in rapid triage
-- Feasibility assessment (10-30 min)
-- After [DICE](#dice) to validate resource availability
+**💡 When to use:** Resource validation in triage; feasibility (10–30 min); after [DICE](#dice) to validate resources.
+
 ### PEST
 ```
 P - Political
@@ -511,17 +431,12 @@ S - Social
 T - Technological
 ```
 
-**💡 When to use:**
-- Identifying external threats to solutions
-- Consider ways to combat/remove these threats
-
-- - - -
+**💡 When to use:** External threats to solutions; how to combat/remove.
 
 ## 🗣️ Communication & Conflict
 
-*Stay calm and productive during difficult conversations*
+*Calm, productive in difficult conversations.*
 
-- - - -
 ### BREATHE 
 ```
 B - Breathe deeply and slowly   
@@ -533,16 +448,11 @@ H - Hold back from reacting
 E - Express yourself calmly  
 ```
 
-**💡 When to use:**
-- First step when tensions rise (breathing regulates emotions)
-- Part of [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) → [RACI](#raci) conflict resolution chain
-- If break needed, escalate to PAUSE
+**💡 When to use:** First when tensions rise (breathing regulates); WAIT→BREATHE→PAUSE→[RACI](#raci); if break needed → PAUSE.
 
-**⚠️ Common pitfalls:**
-- **Fake composure** - Going through motions without actually regulating emotions. The breathing must be intentional and deep.
-- **Weaponizing calm** - Using "Let's BREATHE" dismissively to avoid addressing concerns. This damages trust - use it genuinely.
+**⚠️ Pitfalls:** Fake: breathing must be intentional and deep. Weaponizing: don’t use dismissively; damages trust.
 
-**🔗 Combines well with:** [WAIT](#wait) (listen first), [PAUSE](#pause) (step away if needed), [STOP](#stop) (stress management)
+**🔗 Combines well with:** [WAIT](#wait), [PAUSE](#pause), [STOP](#stop)
 
 **📋 Real-world example:** *Stakeholder disagrees with technical approach in meeting - Breathe deeply (regulate emotions), Remain rational, Empathize with their concerns, Ask clarifying questions, Take 5-minute break if tension escalates, Hold back defensive reactions, Express technical rationale calmly*
 ### PAUSE
@@ -564,29 +474,19 @@ E - Evaluate options and plan before acting
 **📋 Real-world example:** *Heated debate about architecture decision - Put in perspective (not life-or-death), Acknowledge both viewpoints have merit, Don't decide now, Step away for lunch break, Evaluate pros/cons offline, Return with structured comparison*
 
 ### WAIT
-* "Why am I troubled / talking?"  
-* Not all things need an answer or response; don't seek trouble and don't answer negativity negatively
+*"Why am I troubled / talking?"* — Choose the right response; often listening is better.
 
-**💡 When to use:**
-- Ask yourself before speaking - often listening is better
-- First step in WAIT → BREATHE → PAUSE → RACI chain
-- Use BREATHE first to regulate, then WAIT to choose response
+**💡 When to use:** Before speaking; first in WAIT→BREATHE→PAUSE→RACI. Use BREATHE to regulate, then WAIT to choose.
 
-**⚠️ Common pitfalls:**
-- **Passive-aggressive silence** - Using WAIT to avoid necessary communication. This isn't "don't respond" - it's "choose the right response."
-- **Escalation avoidance** - Not speaking up when issues need addressing. WAIT helps you respond effectively, not disappear.
+**⚠️ Pitfalls:** Not "don’t respond"—choose effectively. Don’t use WAIT to avoid necessary communication or to dodge escalation.
 
-**🔗 Combines well with:** [BREATHE](#breathe) (emotional regulation), [PAUSE](#pause) (step away technique)
+**🔗 Combines well with:** [BREATHE](#breathe), [PAUSE](#pause)
 
-**📋 Real-world example:** *Email with accusatory tone arrives - Ask "Why am I troubled?" (ego/defensiveness), "Why am I talking?" (to defend or to resolve?), Choose not to respond immediately, Use BREATHE + PAUSE, Respond later with facts, not emotion* 
-
-- - - -
+**📋 Example:** *Accusatory email: Ask "Why troubled?" (ego?) and "Why talking?" (defend or resolve?). BREATHE+PAUSE; respond later with facts.* 
 
 ## 🧘 Stress & Resilience
 
-*Staying calm and connected during high-pressure work*
-
-- - - -
+*Calm and connected under pressure.*
 
 ### PACE  
 ```
@@ -596,9 +496,7 @@ C - Coping skills
 E - Emotional awareness
 ```
 
-**💡 When to use:**
-- First step in PACE → ARIES → CALM → SHINE burnout recovery chain
-- Immediate stress management actions
+**💡 When to use:** First in PACE→ARIES→CALM→SHINE; immediate stress.
 
 ### STOP
 ```
@@ -630,21 +528,17 @@ E - Eat a healthy diet
 S - Sleep well
 ```
 
-**💡 When to use:**
-- Lifestyle changes in PACE → ARIES → CALM chain
-- Long-term stress reduction (2-4 weeks)
+**💡 When to use:** Lifestyle in PACE→ARIES→CALM; long-term (2–4 weeks).
 
 ### HELP
-* This mnemonic can help you remember four ways to manage stress: 
 ```
 H - Handle problems one at a time
 E - Exercise regularly
 L - Learn to relax
-P - Pace yourself and set limits.
+P - Pace yourself and set limits
 ```
 
 ### HANDLE
-- This mnemonic can help you remember six stress-management strategies: 
 ```
 H - Have a positive attitude
 A - Avoid unnecessary stress
@@ -694,18 +588,11 @@ N - Nourish positive relationships
 E - Express yourself  
 ```
 
-**💡 When to use:**
-- End of [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine) burnout recovery chain
-- Ongoing practice for sustainable positivity
-- Connects to [CALM](#calm) for building positive self-image
-
-- - - -
+**💡 When to use:** End of PACE→ARIES→CALM→SHINE; ongoing positivity; links to [CALM](#calm).
 
 ## 🔧 Infrastructure & Systems Engineering
 
-*Technical mnemonics for infrastructure and DevOps work*
-
-- - - -
+*Infra and DevOps.*
 
 ### TRACE (Network Troubleshooting)
 ```
@@ -716,12 +603,9 @@ C - Check configurations
 E - Escalate with documented evidence
 ```
 
-**💡 When to use:**
-- Use with [PREPARE](#prepare) and [8D Approach](#8d-approach) for systematic resolution
-- Start with T (Test) for quick diagnostics, escalate to A (Analyze) for deep dives
-- Document findings at each step for [8D Approach](#8d-approach)'s D2 (Describe the problem)
+**💡 When to use:** With [PREPARE](#prepare) and [8D](#8d-approach); T for quick, A for deep; document for 8D D2.
 
-**🔗 Combines well with:** Problem Solving ([PREPARE](#prepare), [8D Approach](#8d-approach))
+**🔗 Combines well with:** [PREPARE](#prepare), [8D](#8d-approach)
 
 ### SCALE (Infrastructure Design)
 ```
@@ -732,12 +616,9 @@ L - Load balancing
 E - Error handling/resilience
 ```
 
-**💡 When to use:**
-- Use [SWOT](#swot) analysis alongside for design validation
-- Apply [PESTEL](#pestel) to evaluate external factors affecting infrastructure
-- Consider [SET](#set-systems-engineering-triangle) Triangle trade-offs (fast/cheap/good) for each component
+**💡 When to use:** [SWOT](#swot) for design validation; [PESTEL](#pestel) for external factors; [SET](#set-systems-engineering-triangle) for trade-offs per component.
 
-**🔗 Combines well with:** Problem Analysis ([SWOT](#swot), [PESTEL](#pestel), [SET](#set-systems-engineering-triangle))
+**🔗 Combines well with:** [SWOT](#swot), [PESTEL](#pestel), [SET](#set-systems-engineering-triangle)
 
 ### DEBUG (Code & System Analysis)
 ```
@@ -748,211 +629,67 @@ U - Understand data flow
 G - Generate hypothesis and test
 ```
 
-**💡 When to use:**
-- Combines [5 Whys](#5-whys) questioning with [ICEBERG](#iceberg)'s systematic approach
-- Start with D (Define) - often the problem is unclear or misstated
-- Use with [TRACE](#trace-network-troubleshooting) for network/system issues
+**💡 When to use:** [5 Whys](#5-whys) + [ICEBERG](#iceberg); start with D (often misstated); with [TRACE](#trace-network-troubleshooting) for network/system.
 
-**🔗 Combines well with:** Problem Solving ([5 Whys](#5-whys), [ICEBERG](#iceberg)), Infrastructure ([TRACE](#trace-network-troubleshooting))
-
-- - - -
+**🔗 Combines well with:** [5 Whys](#5-whys), [ICEBERG](#iceberg), [TRACE](#trace-network-troubleshooting)
 
 ## 🔗 Proven Mnemonic Pipelines
 
-*When certain mnemonics are combined in sequence, they create powerful workflows that amplify effectiveness. These chains are battle-tested for specific high-pressure scenarios.*
-
----
+*Chains combine mnemonics into workflows for high-pressure scenarios; battle-tested.*
 
 ### **1. CRISIS RESPONSE CHAIN**
 **STOP → TRACE → DEBUG → 8D**
 
-**When to use:** Production outages, system failures, critical incidents
+**When:** Production outages, system failures, critical incidents · **Time:** 1–4 hr
 
-**The Flow:**
-```
-S - Step back (STOP)
-T - Take a deep breath (STOP)
-O - Observe what is happening (STOP)
-P - Pull back and put things in perspective (STOP)
-    ↓
-T - Test connectivity (TRACE)
-R - Review logs and metrics (TRACE)
-A - Analyze packet captures (TRACE)
-C - Check configurations (TRACE)
-E - Escalate with documented evidence (TRACE)
-    ↓
-D - Define the problem (DEBUG)
-E - Examine error messages/logs (DEBUG)
-B - Break down into components (DEBUG)
-U - Understand data flow (DEBUG)
-G - Generate hypothesis and test (DEBUG)
-    ↓
-D1-D8 - Full 8D resolution cycle (8D Approach)
-```
+**Flow:** [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) → [8D](#8d-approach). *Step details in each mnemonic above.*
 
-**Why it works:** STOP stabilizes you emotionally, TRACE gives you diagnostic data, DEBUG structures your analysis, 8D ensures you prevent recurrence.
-
-**Time investment:** 1-4 hours (depending on complexity)
-
----
+**Why:** STOP stabilizes; TRACE gathers evidence; DEBUG structures analysis; 8D prevents recurrence.
 
 ### **2. CONFLICT RESOLUTION CHAIN**
 **WAIT → BREATHE → PAUSE → RACI**
 
-**When to use:** Team disagreements, tense meetings, stakeholder conflicts
+**When:** Team disagreements, tense meetings, stakeholder conflicts · **Time:** 5–20 min
 
-**The Flow:**
-```
-W - "Why am I talking?" (WAIT - listen first)
-    ↓
-B - Breathe deeply and slowly (BREATHE)
-R - Remain rational and listen (BREATHE)
-E - Empathize with the other person's problem (BREATHE)
-A - Ask questions to understand (BREATHE)
-    ↓
-P - Put things in perspective (PAUSE)
-A - Acknowledge your feelings and theirs (PAUSE)
-U - Understand you don't have to react immediately (PAUSE)
-S - Step Away from the situation (PAUSE)
-E - Evaluate options and plan (PAUSE)
-    ↓
-R - Responsible (RACI - clarify roles)
-A - Accountable (RACI)
-C - Consulted (RACI)
-I - Informed (RACI)
-```
+**Flow:** [WAIT](#wait) → [BREATHE](#breathe) → [PAUSE](#pause) → [RACI](#raci). *Step details in each mnemonic above.*
 
-**Why it works:** WAIT prevents escalation, BREATHE regulates emotions, PAUSE creates space for rational thought, RACI resolves role confusion (often the root cause).
-
-**Time investment:** 5-20 minutes
-
----
+**Why:** WAIT prevents escalation; BREATHE regulates; PAUSE creates space; RACI clarifies roles (often the root cause).
 
 ### **3. ROOT CAUSE INVESTIGATION CHAIN**
 **ICEBERG → 5 Whys → PADDER → RACI**
 
-**When to use:** Recurring issues, complex system problems, post-incident analysis
+**When:** Recurring issues, complex systems, post-incident · **Time:** 1–2 hr
 
-**The Flow:**
-```
-I - Identify issue(s) (ICEBERG)
-C - Collect data and analyze situation (ICEBERG)
-E - Examine possible root causes (ICEBERG)
-    ↓
-Why #1 → Why #2 → Why #3 → Why #4 → Why #5 (5 Whys)
-    ↓
-D - Develop solution (PADDER)
-D - Design action plan (PADDER)
-E - Execute action plan & Monitor (PADDER)
-R - Reevaluate and refine (PADDER)
-    ↓
-R/A/C/I - Assign responsibilities (RACI)
-```
+**Flow:** [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [PADDER](#padder) → [RACI](#raci). *Step details in each mnemonic above.*
 
-**Why it works:** ICEBERG provides structure, 5 Whys drills to root cause, PADDER creates action plan, RACI ensures accountability.
-
-**Time investment:** 1-2 hours
-
----
+**Why:** ICEBERG structures; 5 Whys drill to root cause; PADDER plans; RACI ensures accountability.
 
 ### **4. STRATEGIC DESIGN CHAIN**
 **SCALE → SWOT → PESTEL → SET**
 
-**When to use:** Infrastructure planning, architecture reviews, capacity planning
+**When:** Infrastructure planning, architecture reviews, capacity · **Time:** 2–4 hr
 
-**The Flow:**
-```
-S - Security by design (SCALE)
-C - Capacity planning (SCALE)
-A - Automation-first (SCALE)
-L - Load balancing (SCALE)
-E - Error handling/resilience (SCALE)
-    ↓
-S - Strengths (SWOT - evaluate design)
-W - Weaknesses (SWOT)
-O - Opportunities (SWOT)
-T - Threats (SWOT)
-    ↓
-P - Political (PESTEL - external factors)
-E - Economic (PESTEL)
-S - Sociocultural (PESTEL)
-T - Technological (PESTEL)
-E - Environmental (PESTEL)
-L - Legal (PESTEL)
-    ↓
-Pick 2: Good / Fast / Cheap (SET Triangle - set expectations)
-```
+**Flow:** [SCALE](#scale-infrastructure-design) → [SWOT](#swot) → [PESTEL](#pestel) → [SET](#set-systems-engineering-triangle). *Step details in each mnemonic above.*
 
-**Why it works:** SCALE sets technical requirements, SWOT evaluates approach, PESTEL identifies external risks, SET manages stakeholder expectations.
-
-**Time investment:** 2-4 hours (planning phase)
-
----
+**Why:** SCALE sets requirements; SWOT evaluates; PESTEL finds external risks; SET manages expectations.
 
 ### **5. STRESS BURNOUT RECOVERY CHAIN**
 **PACE → ARIES → CALM → SHINE**
 
-**When to use:** Long-term stress, approaching burnout, need for lifestyle reset
+**When:** Long-term stress, approaching burnout, lifestyle reset · **Time:** 2–4 weeks (habit formation)
 
-**The Flow:**
-```
-P - Physical activity (PACE - immediate actions)
-A - Avoiding unhealthy behaviors (PACE)
-C - Coping skills (PACE)
-E - Emotional awareness (PACE)
-    ↓
-A - Avoid unnecessary stress (ARIES - lifestyle changes)
-R - Relax and take breaks (ARIES)
-I - Incorporate physical activity (ARIES)
-E - Eat a healthy diet (ARIES)
-S - Sleep well (ARIES)
-    ↓
-C - Confidence (CALM - mental framework)
-A - Awareness (CALM)
-L - Logic (CALM)
-M - Mindfulness (CALM)
-    ↓
-S - Stay present (SHINE - ongoing practice)
-H - Have healthy perspective (SHINE)
-I - Identify positive activities (SHINE)
-N - Nourish relationships (SHINE)
-E - Express yourself (SHINE)
-```
+**Flow:** [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) → [SHINE](#shine). *Step details in each mnemonic above.*
 
-**Why it works:** PACE handles immediate stress, ARIES addresses root lifestyle causes, CALM builds mental resilience, SHINE creates sustainable positivity.
-
-**Time investment:** Ongoing (2-4 weeks for habit formation)
-
----
+**Why:** PACE (immediate); ARIES (lifestyle); CALM (resilience); SHINE (sustainable).
 
 ### **6. RAPID TRIAGE CHAIN**
 **IDEA → DICE → FATE**
 
-**When to use:** Quick wins needed, time-critical decisions, assessing feasibility
+**When:** Quick wins, time-critical decisions, feasibility check · **Time:** 10–30 min
 
-**The Flow:**
-```
-I - Identify problem (IDEA)
-D - Develop Solution (IDEA)
-E - Execute Solution (IDEA)
-A - Assess Solution (IDEA)
-    ↓
-D - Delay (DICE - check for blockers)
-I - Incompetence (DICE)
-C - Conflict (DICE)
-E - External factors (DICE)
-    ↓
-F - Funding (FATE - resource check)
-A - Allocation of resources (FATE)
-T - Time (FATE)
-E - Expertise (FATE)
-```
+**Flow:** [IDEA](#idea) → [DICE](#dice) → [FATE](#fate). *Step details in each mnemonic above.*
 
-**Why it works:** IDEA provides fast framework, DICE identifies blockers, FATE validates resource availability.
-
-**Time investment:** 10-30 minutes
-
----
+**Why:** IDEA (fast frame); DICE (blockers); FATE (resources).
 
 ## 📊 Pipeline Selection Matrix
 
@@ -967,63 +704,27 @@ E - Expertise (FATE)
 
 ---
 
-## 💡 Pro Tips for Using Pipelines
+## 💡 Pro Tips
 
-1. **Don't skip steps** - Each mnemonic builds on the previous one
-2. **Document at each stage** - Your [STOP](#stop) insights inform [TRACE](#trace-network-troubleshooting), [TRACE](#trace-network-troubleshooting) data feeds [DEBUG](#debug-code--system-analysis), etc.
-3. **Know when to branch** - If [IDEA](#idea) reveals complexity, switch to [ICEBERG](#iceberg) → [5 Whys](#5-whys)
-4. **Combine with stress tools** - Always start with [STOP](#stop) if you're emotionally activated
-5. **Teach your team** - Shared vocabulary accelerates collaboration
-
----
-
-## 🎯 Common Mistakes to Avoid
-
-### ❌ **Jumping to Solutions**
-
-**🔴 Problem:** Skipping [STOP](#stop) or [WAIT](#wait) when stressed → poor decisions
-
-**✅ Fix:** Always use [STOP](#stop) first in crises, [WAIT](#wait) before reacting in conflicts
-
-**📋 Example:** *Production alert at 2 AM - Jumping straight to SSH without [STOP](#stop) → panic-driven wrong server reboot → extended downtime. Instead: [STOP](#stop) (30 seconds) → assess severity → then [TRACE](#trace-network-troubleshooting)*
+1. **Don’t skip steps** — Each mnemonic builds on the previous.
+2. **Document at each stage** — STOP→TRACE→DEBUG; each step feeds the next.
+3. **Branch when needed** — If [IDEA](#idea) reveals complexity, switch to [ICEBERG](#iceberg) → [5 Whys](#5-whys).
+4. **Start with [STOP](#stop)** when emotionally activated.
+5. **Teach your team** — Shared vocabulary speeds collaboration.
 
 ---
 
-### ❌ **Using Wrong Pipeline**
+## 🎯 Common Mistakes
 
-**🔴 Problem:** [IDEA](#idea) won't solve systemic issues
+| Mistake | Problem | Fix | Example |
+|---------|---------|-----|---------|
+| **Jumping to solutions** | Skip [STOP](#stop)/[WAIT](#wait) when stressed → bad decisions | [STOP](#stop) first in crises; [WAIT](#wait) before reacting | 2 AM alert: SSH without STOP → wrong reboot. STOP (30 s) → assess → [TRACE](#trace-network-troubleshooting). |
+| **Wrong pipeline** | [IDEA](#idea) won’t fix systemic issues | [ICEBERG](#iceberg) → [5 Whys](#5-whys) for recurring | Weekly DB timeouts: IDEA (restart) → returns. ICEBERG+5 Whys → missing pool config → permanent fix. |
+| **Incomplete execution** | [8D](#8d-approach) stopped at D3 (band-aid) | Always reach D7 (Prevent Reoccurrence) | — |
+| **Solo hero** | No [RACI](#raci) → no accountability if you’re out | [RACI](#raci) in 8D D1 (Form a team) | — |
+| **Analysis paralysis** | PREPARE→ICEBERG→5 Whys→8D for simple issues | Start with [IDEA](#idea); escalate if complexity emerges | — |
 
-**✅ Fix:** Use [ICEBERG](#iceberg) → [5 Whys](#5-whys) for recurring problems
-
-**📋 Example:** *Database timeouts happen weekly - Using [IDEA](#idea) to restart service each time → problem returns. Instead: [ICEBERG](#iceberg) → [5 Whys](#5-whys) reveals missing connection pool config → permanent fix*
-
----
-
-### ❌ **Incomplete Execution**
-
-**🔴 Problem:** Starting [8D Approach](#8d-approach) but stopping at D3 (band-aid)
-
-**✅ Fix:** Always reach D7 (Prevent Reoccurrence) or the problem returns
-
----
-
-### ❌ **Solo Hero Mode**
-
-**🔴 Problem:** Forgetting [RACI](#raci) → no accountability when you're unavailable
-
-**✅ Fix:** Use [RACI](#raci) in [8D Approach](#8d-approach)'s D1 (Form a team)
-
----
-
-### ❌ **Analysis Paralysis**
-
-**🔴 Problem:** [PREPARE](#prepare) → [ICEBERG](#iceberg) → [5 Whys](#5-whys) → [8D](#8d-approach) for simple problems
-
-**✅ Fix:** Start with [IDEA](#idea), escalate only if complexity emerges
-
-- - - -
-
-**[↑ Back to Quick Reference & On-Call Guide](#-quick-reference--on-call-guide)** | **[↑ Back to Top](#awesome-mnemonics---complete-guide)**
+**[↑ Quick Reference](#-quick-reference--on-call-guide) · [↑ Top](#awesome-mnemonics-)**
 
 ## 🤝 Contributing
 
@@ -1035,7 +736,17 @@ Got a mnemonic that's saved you countless times? **Share it!**
 - ✅ Include real-world usage context
 - ✅ Keep it memorable (that's the point!)
 
-See [CONTRIBUTING.md](https://github.com/StewAlexander-com/Awesome-Mnemonics/blob/main/CONTRIBUTING.md) for details.
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for details.
+
+---
+
+## 📥 Release Versions
+
+**v1.8** (2026-01-25) — Offline-ready (TOC, print-optimized). [CHANGELOG](../CHANGELOG.md)
+
+**ZIP (all formats):** [Complete](Awesome-Mnemonics-v1.8-Complete-Guide.zip) · [Quick Reference](Awesome-Mnemonics-v1.8-Quick-Reference.zip)
+
+**By format:** Complete — [PDF](Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](Awesome-Mnemonics-Complete-Guide.docx) [RTF](Awesome-Mnemonics-Complete-Guide.rtf) [MD](Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](Awesome-Mnemonics-Quick-Reference.docx) [RTF](Awesome-Mnemonics-Quick-Reference.rtf) [MD](Awesome-Mnemonics-Quick-Reference.md). *[releases/README](README.md) for details.*
 
 ---
 
@@ -1062,4 +773,4 @@ See [CONTRIBUTING.md](https://github.com/StewAlexander-com/Awesome-Mnemonics/blo
 - **BREATHE, PAUSE, WAIT, PACE, STOP, ARIES, HELP, HANDLE, CALM, PUSH, HOPE, SHINE** ℹ — Curated for stress management and conflict de-escalation.
 - **TRACE, SCALE, DEBUG** ℹ — Curated for infrastructure and troubleshooting.
 
-**Note:** ✓ = documented origin; ⚠ = widely used, adapted from a known source; ℹ = compiled/curated for learning in this guide. Some entries are established frameworks; others are educational compilations.
+**Note:** ✓ documented; ⚠ adapted; ℹ curated. Mix of established frameworks and educational compilations.

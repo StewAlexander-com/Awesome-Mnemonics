@@ -1,13 +1,12 @@
 # Incident Response Runbook — STOP → TRACE → DEBUG → 8D
 
-*Pre-filled from [Awesome Mnemonics](https://github.com/StewAlexander-com/Awesome-Mnemonics) Crisis Response Chain.  
-Use for production outages, system failures, and critical incidents. Time: 1–4 hours depending on complexity.*
+*[Awesome Mnemonics](https://github.com/StewAlexander-com/Awesome-Mnemonics) Crisis Response Chain. Production outages, system failures, critical incidents. 1–4 hr.*
 
 ---
 
 ## 1. STOP (2–5 min)
 
-*Step back before acting. Reduces panic and wrong moves.*
+*Step back before acting; reduces panic and wrong moves.*
 
 | Step | Done | Notes |
 |------|------|-------|
@@ -76,4 +75,4 @@ Use for production outages, system failures, and critical incidents. Time: 1–4
 
 ---
 
-*For more pipelines (conflict, root cause, stress, triage), see the [Proven Mnemonic Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#-proven-mnemonic-pipelines) section of Awesome Mnemonics.*
+*More pipelines: [Proven Mnemonic Pipelines](https://github.com/StewAlexander-com/Awesome-Mnemonics#-proven-mnemonic-pipelines).*

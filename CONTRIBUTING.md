@@ -1,10 +1,8 @@
 # Contributing to Awesome Mnemonics
 
-Thank you for contributing! This guide helps maintain consistency and quality.
-
 ## Submission Criteria
 
-All mnemonics must meet these requirements:
+All mnemonics must meet:
 
 - ✅ **Provable/actionable** - Not just motivational, must have concrete steps
 - ✅ **Cross-references** - Should link to related mnemonics where applicable
@@ -34,37 +32,12 @@ E - Meaning of third letter
 
 **🔗 Combines well with:** [Related Mnemonic](#link) (why it works together)
 
-**Source (if applicable):** Published framework, standard, or "Curated for this collection."
+**Source (if applicable):** Published framework or "Curated for this collection."
 
-**📋 Real-world example:** *Brief scenario showing the mnemonic in action*
+**📋 Real-world example:** *Brief scenario.*
 ```
 
-### Complete Example
-
-Here's a complete example following the template:
-
-```markdown
-### IDEA
-``` 
-I - Identify problem
-D - Develop Solution
-E - Execute Solution
-A - Assess Solution
-```
-
-**💡 When to use:**
-- Quick, simple problems (2-5 minutes)
-- Crisis situations requiring immediate action
-- Use [STOP](#stop) first if under stress
-
-**⚠️ Common pitfalls:**
-- **Escalation failure** - Not moving to [ICEBERG](#iceberg) or [PREPARE](#prepare) when problem reveals complexity. If you're past 10 minutes or hitting multiple blockers, escalate.
-- **Skipping assessment** - Executing without validating the solution worked. The "A" step prevents recurring issues.
-
-**🔗 Combines well with:** [STOP](#stop) (crisis stress management), [PREPARE](#prepare)/[ICEBERG](#iceberg) (escalation path for complex issues)
-
-**📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
-```
+*See [IDEA](README.md#idea) in README for a full example.*
 
 ## Submission Process
 
@@ -82,31 +55,31 @@ A - Assess Solution
 ## Section Guidelines
 
 ### 🧩 Problem Solving
-For frameworks that help identify root causes and develop solutions. Examples: PREPARE, ICEBERG, 8D Approach.
+Root causes, solutions. PREPARE, ICEBERG, 8D.
 
 ### 📊 Problem Analysis
-For tools that help understand stakeholder roles, external pressures, and scope. Examples: RACI, SWOT, PESTEL.
+Stakeholder roles, external pressures, scope. RACI, SWOT, PESTEL.
 
 ### ⚠️ Problem Resolution Threats
-For identifying blockers and resource constraints. Examples: DICE, FATE, PEST.
+Blockers, resource constraints. DICE, FATE, PEST.
 
 ### 🧘 Stress & Resilience
-For managing stress, building resilience, and maintaining well-being. Examples: STOP, PACE, CALM.
+Stress, resilience. STOP, PACE, CALM.
 
 ### 🗣️ Communication & Conflict
-For staying calm and productive during difficult conversations. Examples: BREATHE, PAUSE, WAIT.
+Calm in difficult conversations. BREATHE, PAUSE, WAIT.
 
 ### 🔧 Infrastructure & Systems Engineering
-For technical mnemonics specific to infrastructure and DevOps work. Examples: TRACE, SCALE, DEBUG.
+Infra, DevOps. TRACE, SCALE, DEBUG.
 
 ## Pipeline Contributions
 
-If you're proposing a new mnemonic pipeline (combination of multiple mnemonics), include:
+For a new pipeline, include:
 
-- **When to use** - Specific scenario
-- **The Flow** - Step-by-step breakdown
-- **Why it works** - Explanation of the synergy
-- **Time investment** - Realistic time estimate
+- **When to use** — scenario
+- **Flow** — step-by-step
+- **Why it works** — synergy
+- **Time** — estimate
 
 ## Quality Standards
 
@@ -116,33 +89,19 @@ If you're proposing a new mnemonic pipeline (combination of multiple mnemonics),
 - **Consistency** - Follow existing formatting and style
 - **Attribution** - For established frameworks, provide sources so maintainers can classify them (✓ verified / ⚠ common usage / ℹ curated) in the [Sources & References](README.md#sources--references) section.
 
-## Mobile & Print Considerations
+## Mobile & Print
 
-When adding mnemonics, keep in mind:
-
-- **Mobile readability** - Keep descriptions concise; on-call engineers may be reading on phones
-- **Print-friendly** - High-priority mnemonics may be added to `PRINT-QUICK-REFERENCE.md`
-- **Link formatting** - Use proper anchor links (e.g., `[STOP](#stop)`) for cross-references
-- **Code blocks** - Use triple backticks for mnemonic breakdowns to ensure proper formatting on all devices
+Keep descriptions concise (on-call = phones). Use `[STOP](#stop)`-style anchors. Mnemonic letters in triple-backtick blocks. High-priority items may go in `PRINT-QUICK-REFERENCE.md`.
 
 ## Who Uses This?
 
-If your team or organization uses these mnemonics, we'd love to showcase you! Add yourself to the "Who Uses This?" section in `README.md`.
+Add your team to the "Who Uses This?" section in `README.md` via PR:
 
-**How to add:**
-1. Fork the repository
-2. Add your entry to the "Who Uses This?" section in `README.md`:
-   ```markdown
-   - **[Your Organization/Team Name](https://your-website.com)** - Brief description (optional)
-   ```
-3. Submit a pull request
+```markdown
+- **[Org/Team](https://url)** - Brief description
+```
 
-**Examples:**
-- `- **[Acme Corp](https://acme.com)** - Our SRE team uses STOP → TRACE → DEBUG daily`
-- `- **[Tech Startup](https://techstartup.io)** - On-call engineers reference this during incidents`
-- `- **Engineering Team at BigCo** - We've integrated these into our incident response playbooks`
-
-**Note:** Only add if you're actually using these mnemonics in production. This helps build credibility and shows real-world adoption.
+*Only if you use these in production. Example: `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBUG daily`.*
 
 ## Questions?
 

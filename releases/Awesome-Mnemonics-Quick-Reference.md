@@ -2,49 +2,35 @@
 
 **Print this page for your desk or on-call kit**
 
-*Release v1.5 — 2026-01-25*
+*Release v1.8 — 2026-01-25*
 
 ---
 
-## Table of Contents
-
-- [Crisis Response (Production Down)](#crisis-response-production-down)
-- [Quick Decisions](#quick-decisions)
-- [Conflict Resolution](#conflict-resolution)
-- [Root Cause Analysis](#root-cause-analysis)
-- [Stress Management](#stress-management)
-- [Infrastructure Design](#infrastructure-design)
-- [Quick Situation Guide](#quick-situation-guide)
-- [Network Troubleshooting](#network-troubleshooting)
-- [Key Principles](#key-principles)
-
----
-
-## Crisis Response (Production Down)
+## 🚨 CRISIS RESPONSE (Production Down)
 
 **STOP → TRACE → DEBUG → 8D**
 
-### STOP (2-5 min)
+**STOP** (2-5 min)
 - S - Step back
 - T - Take a deep breath
 - O - Observe what is happening
 - P - Pull back and put things in perspective
 
-### TRACE (Network/System)
+**TRACE** (Network/System)
 - T - Test connectivity
 - R - Review logs and metrics
 - A - Analyze packet captures
 - C - Check configurations
 - E - Escalate with documented evidence
 
-### DEBUG (Analysis)
+**DEBUG** (Analysis)
 - D - Define the problem
 - E - Examine error messages/logs
 - B - Break down into components
 - U - Understand data flow
 - G - Generate hypothesis and test
 
-### 8D Approach (Resolution)
+**8D Approach** (Resolution)
 - D1 - Form a team
 - D2 - Describe the problem
 - D3 - Interim Containment Action
@@ -56,23 +42,23 @@
 
 ---
 
-## Quick Decisions
+## ⚡ QUICK DECISIONS
 
 **IDEA → DICE → FATE** (10-30 min)
 
-### IDEA
+**IDEA**
 - I - Identify problem
 - D - Develop Solution
 - E - Execute Solution
 - A - Assess Solution
 
-### DICE (Check Blockers)
+**DICE** (Check Blockers)
 - D - Delay
 - I - Incompetence
 - C - Conflict
 - E - External factors
 
-### FATE (Resource Check)
+**FATE** (Resource Check)
 - F - Funding
 - A - Allocation of resources
 - T - Time
@@ -80,14 +66,14 @@
 
 ---
 
-## Conflict Resolution
+## 👥 CONFLICT RESOLUTION
 
 **WAIT → BREATHE → PAUSE → RACI** (5-20 min)
 
-### WAIT
+**WAIT**
 - "Why am I talking?" - Listen first
 
-### BREATHE
+**BREATHE**
 - B - Breathe deeply and slowly
 - R - Remain rational and listen
 - E - Empathize with the other person's problem
@@ -96,14 +82,14 @@
 - H - Hold back from reacting
 - E - Express yourself calmly
 
-### PAUSE
+**PAUSE**
 - P - Put things in perspective
 - A - Acknowledge your feelings and theirs
 - U - Understand you don't have to react immediately
 - S - Step Away from the situation
 - E - Evaluate options and plan
 
-### RACI (Clarify Roles)
+**RACI** (Clarify Roles)
 - R - Responsible (does the work)
 - A - Accountable (final approval)
 - C - Consulted (provides input)
@@ -111,11 +97,11 @@
 
 ---
 
-## Root Cause Analysis
+## 🔍 ROOT CAUSE ANALYSIS
 
 **ICEBERG → 5 Whys → PADDER** (1-2 hours)
 
-### ICEBERG
+**ICEBERG**
 - I - Identify issue(s)
 - C - Collect data and analyze situation
 - E - Examine possible (root) causes
@@ -124,17 +110,17 @@
 - R - Review, evaluate, and adjust solutions
 - G - Gather feedback
 
-### 5 Whys
+**5 Whys**
 - Keep asking "Why?" until root cause identified
 - Usually 3-5 iterations
 
-### Ishikawa (Fishbone)
+**Ishikawa (Fishbone)**
 - State problem (head); choose categories (e.g. 6 M's); brainstorm causes (bones); use 5 Whys on branches
 
-### A3 Problem Solving
+**A3 Problem Solving**
 - One-page: Background, Current state, Goal, Root cause (5 Whys/Ishikawa), Countermeasures, Plan
 
-### PADDER
+**PADDER**
 - P - Pinpoint problem
 - A - Analyze data and look for patterns
 - D - Develop solution & consider other ways—try to have more than one option
@@ -144,24 +130,24 @@
 
 ---
 
-## Stress Management
+## 😰 STRESS MANAGEMENT
 
 **PACE → ARIES → CALM** (10-15 min immediate, 2-4 weeks long-term)
 
-### PACE (Immediate)
+**PACE** (Immediate)
 - P - Physical activity
 - A - Avoiding unhealthy behaviors
 - C - Coping skills
 - E - Emotional awareness
 
-### ARIES (Lifestyle)
+**ARIES** (Lifestyle)
 - A - Avoid unnecessary stress
 - R - Relax and take breaks
 - I - Incorporate physical activity
 - E - Eat a healthy diet
 - S - Sleep well
 
-### CALM (Mental Framework)
+**CALM** (Mental Framework)
 - C - Confidence: Believe in your abilities
 - A - Awareness: Stay conscious of thoughts/feelings
 - L - Logic: Use rational thinking
@@ -169,24 +155,24 @@
 
 ---
 
-## Infrastructure Design
+## 🏗️ INFRASTRUCTURE DESIGN
 
 **SCALE → SWOT → PESTEL → SET**
 
-### SCALE
+**SCALE**
 - S - Security by design
 - C - Capacity planning
 - A - Automation-first
 - L - Load balancing
 - E - Error handling/resilience
 
-### SWOT (Evaluate Design)
+**SWOT** (Evaluate Design)
 - S - Strengths
 - W - Weaknesses
 - O - Opportunities
 - T - Threats
 
-### PESTEL (External Factors)
+**PESTEL** (External Factors)
 - P - Political
 - E - Economic
 - S - Sociocultural
@@ -194,15 +180,13 @@
 - E - Environmental
 - L - Legal
 
-### SET Triangle (Pick 2)
+**SET Triangle** (Pick 2)
 - Good / Fast / Cheap
 - The third is what you won't get
 
 ---
 
-## Quick Situation Guide
-
-*(If icons don’t display in your viewer: 🚨=crisis, 🔍=root cause, 👥=conflict, 📊=planning, 🏗️=design, 🐛=debug, 😰=stress. Row text is sufficient.)*
+## 📊 QUICK SITUATION GUIDE
 
 | Situation | Use This | Time |
 |-----------|----------|------|
@@ -216,9 +200,9 @@
 
 ---
 
-## Network Troubleshooting
+## 🔧 NETWORK TROUBLESHOOTING
 
-### TRACE
+**TRACE**
 - T - Test connectivity (ping, traceroute)
 - R - Review logs and metrics
 - A - Analyze packet captures
@@ -227,7 +211,7 @@
 
 ---
 
-## Key Principles
+## 💡 KEY PRINCIPLES
 
 1. **Don't skip steps** - Each mnemonic builds on the previous one
 2. **Document at each stage** - Your insights inform the next step
