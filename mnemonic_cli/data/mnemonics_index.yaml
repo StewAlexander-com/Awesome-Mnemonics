@@ -50,16 +50,8 @@ mnemonics:
     tags: [stress, immediate]
   - id: ARIES
     tags: [stress, lifestyle]
-  - id: HELP
-    tags: [stress]
-  - id: HANDLE
-    tags: [stress]
   - id: CALM
     tags: [stress, resilience]
-  - id: PUSH
-    tags: [stress, positivity]
-  - id: HOPE
-    tags: [stress, positivity]
   - id: SHINE
     tags: [stress, ongoing]
 

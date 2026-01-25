@@ -6,7 +6,7 @@
 
 **Disclaimer:** Established frameworks (e.g. 8D, SWOT, PESTEL, RACI, SET) and curated mnemonics for learning and incident use. [Sources & References](#sources--references) for attribution.
 
-*Release v2.1 — 2026-01-25*
+*Release v2.5 — 2026-01-25*
 
 *In PDF and DOCX, the table of contents and in-text links are clickable; use the TOC to jump to sections.*
 
@@ -93,10 +93,6 @@
 | [PACE](#pace) | Immediate stress management—Physical activity, Avoid unhealthy behaviors, Coping skills, Emotional awareness |
 | [ARIES](#aries) | Lifestyle changes for long-term stress reduction (2-4 weeks) |
 | [CALM](#calm) | Build resilience—Confidence, Awareness, Logic, Mindfulness |
-| [HELP](#help) | Stress management strategies—Handle one at a time, Exercise, Learn to relax, Pace yourself |
-| [HANDLE](#handle) | Six stress-management strategies including positive attitude and support system |
-| [PUSH](#push) | Build positivity—Practice Gratitude, Use affirmations, Spend time with positive people, Have positive outlook |
-| [HOPE](#hope) | Harness positive thoughts, Open up, Prioritize self-care, Exercise regularly |
 | [SHINE](#shine) | Ongoing practice for sustainable positivity—Stay present, Healthy perspective, Identify positive activities, Nourish relationships, Express yourself |
 
 ---
@@ -186,11 +182,7 @@ One-line PR, e.g. `**[Acme](https://acme.com)** — SRE uses STOP→TRACE→DEBU
     - [PACE](#pace)
     - [STOP](#stop)
     - [ARIES](#aries)
-    - [HELP](#help)
-    - [HANDLE](#handle)
     - [CALM](#calm)
-    - [PUSH](#push)
-    - [HOPE](#hope)
     - [SHINE](#shine)
   - [🔧 Infrastructure \& Systems Engineering](#infrastructure--systems-engineering)
     - [TRACE (Network Troubleshooting)](#trace-network-troubleshooting)
@@ -545,24 +537,6 @@ S - Sleep well
 
 **💡 When to use:** Lifestyle in PACE→ARIES→CALM; long-term (2–4 weeks).
 
-### HELP
-```
-H - Handle problems one at a time
-E - Exercise regularly
-L - Learn to relax
-P - Pace yourself and set limits
-```
-
-### HANDLE
-```
-H - Have a positive attitude
-A - Avoid unnecessary stress
-N - Nurture a strong support system
-D - Deal with problems directly
-L - Learn to relax
-E - Exercise regularly
-```
-
 ### CALM
 ```
 C - Confidence: Believe in your abilities and strengths
@@ -573,26 +547,10 @@ M - Mindfulness: Practice being present and focused
 
 **💡 When to use:**
 - Builds long-term resilience and confidence
-- Confidence connects to HOPE and SHINE (both build positive self-image)
+- Confidence connects to SHINE (positive self-image)
 - Use after PACE or ARIES for comprehensive stress management
 
-**🔗 Combines well with:** Positivity ([HOPE](#hope), [SHINE](#shine)), Stress Management ([PACE](#pace), [ARIES](#aries))
-
-### PUSH
-```
-P - Practice Gratitude   
-U - Use positive affirmations  
-S - Spend time with positive people  
-H - Have a positive outlook  
-```
-
-### HOPE
-```
-H - Harness positive thoughts  
-O - Open up to others   
-P - Prioritize self-care  
-E - Exercise regularly  
-```
+**🔗 Combines well with:** [SHINE](#shine), [PACE](#pace), [ARIES](#aries)
 
 ### SHINE
 ```
@@ -785,7 +743,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for details.
 - **DICE, FATE** ℹ — Educational mnemonics for blockers and resource checks in this collection.
 
 ### Communication, Stress & Resilience, Infrastructure
-- **BREATHE, PAUSE, WAIT, PACE, STOP, ARIES, HELP, HANDLE, CALM, PUSH, HOPE, SHINE** ℹ — Curated for stress management and conflict de-escalation.
+- **BREATHE, PAUSE, WAIT, PACE, STOP, ARIES, CALM, SHINE** ℹ — Curated for stress management and conflict de-escalation.
 - **TRACE, SCALE, DEBUG** ℹ — Curated for infrastructure and troubleshooting.
 
 **Note:** ✓ documented; ⚠ adapted; ℹ curated. Mix of established frameworks and educational compilations.

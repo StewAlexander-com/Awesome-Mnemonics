@@ -4,6 +4,16 @@ All notable changes to Awesome Mnemonics are documented here. The format is base
 
 ## [Unreleased]
 
+## [2.5.0] - 2026-01-25
+
+### Removed
+- **HELP, HANDLE, PUSH, HOPE** — Stress bloat (per review: consolidate to top 3–4). Kept STOP, PACE, ARIES, CALM, SHINE.
+
+### Changed
+- **Downloadable docs** — Complete Guide and Quick Reference synced to README/PRINT; v2.5 ZIPs; PDF, DOCX, RTF rebuilt.
+
+---
+
 ## [2.1.0] - 2026-01-25
 
 ### Changed
