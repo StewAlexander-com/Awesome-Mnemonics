@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# Cursor (project-level)
+.cursor/
+
+# Temp / backup
+*.bak
+*.tmp
+
+# Env and logs (if you add tooling later)
+.env
+.env.*
+*.log
+
+# Build / cache (if you add doc-generation, e.g. pandoc)
+.cache/
+build/
+out/
