@@ -36,3 +36,7 @@ build/
 out/
 *.egg-info/
 __pycache__/
+
+# Documentation / setup files (local only)
+GITHUB_TOPICS_SETUP.md
+LINK_TEST_REPORT.md
