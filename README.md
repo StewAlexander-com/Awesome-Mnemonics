@@ -16,7 +16,7 @@
 
 **📚 Sources & Authenticity:** [SOURCES.md](SOURCES.md) — Full citations, Framework Confidence Ratings (⭐⭐⭐⭐⭐ to ⭐⭐⭐), and academic references for all frameworks.
 
-**📥 Download (v2.6):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v2.6-Complete-Guide.zip) · [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v2.6-Quick-Reference.zip) · [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) · [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) · [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) · [MD](releases/Awesome-Mnemonics-Complete-Guide.md). *ZIP = all formats. [Quick Ref formats](releases/README.md).*
+**📥 Download (v2.7):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v2.7-Complete-Guide.zip) · [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v2.7-Quick-Reference.zip) · [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) · [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) · [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) · [MD](releases/Awesome-Mnemonics-Complete-Guide.md). *ZIP = all formats. [Quick Ref formats](releases/README.md).*
 
 **Tools & docs:** [CLI](#cli) · [Scenarios](SCENARIOS.md) · [Sources](SOURCES.md) · [Runbook](templates/incident-response-runbook.md) · [Metrics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md). **Domain guides:** [Network](docs/network-engineering.md) · [Cloud-native](docs/cloud-native.md) · [Database](docs/database-performance.md).
 
@@ -730,9 +730,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## 📥 Release Versions
 
-**v2.6** (2026-01-25) — Domain addenda, Quick Start, Evidence tier, Tools & docs, Awesome-list clarity; downloadable docs synced. [CHANGELOG](CHANGELOG.md)
+**v2.7** (2026-01-26) — Added SCENARIOS.md (6 real-world scenarios, decision tree), SOURCES.md (citations, confidence ratings), updated downloadable docs with repository references. [CHANGELOG](CHANGELOG.md)
 
-**ZIP (all formats):** [Complete](releases/Awesome-Mnemonics-v2.6-Complete-Guide.zip) · [Quick Reference](releases/Awesome-Mnemonics-v2.6-Quick-Reference.zip)
+**ZIP (all formats):** [Complete](releases/Awesome-Mnemonics-v2.7-Complete-Guide.zip) · [Quick Reference](releases/Awesome-Mnemonics-v2.7-Quick-Reference.zip)
 
 **By format:** Complete — [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) [MD](releases/Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](releases/Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](releases/Awesome-Mnemonics-Quick-Reference.docx) [RTF](releases/Awesome-Mnemonics-Quick-Reference.rtf) [MD](releases/Awesome-Mnemonics-Quick-Reference.md). *[releases/README](releases/README.md) for details.*
 
