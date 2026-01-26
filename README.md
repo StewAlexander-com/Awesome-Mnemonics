@@ -8,7 +8,9 @@
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
-**A curated list of problem-solving and stress-management mnemonics.** Acronyms that compress workflows into actionable steps—for incidents, RCAs (root cause analysis), design decisions, and high-stress situations.
+**A curated playbook of problem-solving and stress-management mnemonics.** Acronyms that compress workflows into actionable steps—for incidents, RCAs (root cause analysis), design decisions, and high-stress situations.
+
+**Note:** This is a **field guide/playbook** with opinionated workflows (e.g., STOP → TRACE → DEBUG → 8D) rather than a traditional awesome list of external links. It focuses on battle-tested mnemonics with detailed guidance, real-world scenarios, and proven pipelines.
 
 **Disclaimer:** Includes established frameworks (8D, SWOT, PESTEL, RACI, SET) and curated mnemonics. [Sources & References](#sources--references) for attribution.
 
@@ -716,13 +718,16 @@ G - Generate hypothesis and test
 
 ## 🤝 Contributing
 
-**Submission criteria:**
-- ✅ Must be provable/actionable (not just motivational)
-- ✅ Should cross-reference existing mnemonics where applicable
-- ✅ Include real-world usage context
-- ✅ Keep it memorable (that's the point!)
+**This is a curated playbook, not a link collection.** We focus on battle-tested mnemonics with complete definitions, not external resources.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+**Submission criteria:**
+- ✅ **Battle-tested** — Used in production, real incidents, or engineering decisions
+- ✅ **Provable/actionable** — Not just motivational, must have concrete steps
+- ✅ **Cross-references** — Should link to related mnemonics where applicable
+- ✅ **Real-world context** — Include actual usage examples
+- ✅ **Memorable** — The acronym/pattern should be easy to recall under pressure
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines and submission template.
 
 **Suggested GitHub topics for discoverability:** `8d-methodology`, `swot-analysis`, `pestel`, `systems-engineering`, `incident-response`, `root-cause-analysis`, `problem-solving`, `mnemonics`, `sre`, `devops`, `stress-management`, `framework`
 

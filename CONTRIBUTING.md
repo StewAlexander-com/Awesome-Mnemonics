@@ -1,12 +1,22 @@
 # Contributing to Awesome Mnemonics
 
+## What This Repository Is
+
+This is a **curated playbook/field guide** of battle-tested mnemonics, not a traditional awesome list of external links. We focus on:
+
+- **Production-tested frameworks** — Mnemonics that have been used in real incidents, RCAs, and engineering decisions
+- **Opinionated workflows** — Proven pipelines (e.g., STOP → TRACE → DEBUG → 8D) with step-by-step guidance
+- **Practical density** — Each mnemonic includes "when to use," "pitfalls," "combines well with," and real-world examples
+- **Actionable content** — Not just links, but complete definitions and scenarios you can use immediately
+
 ## Submission Criteria
 
 All mnemonics must meet:
 
+- ✅ **Battle-tested** - Used in production environments, real incidents, or engineering decisions (not just theoretical)
 - ✅ **Provable/actionable** - Not just motivational, must have concrete steps
 - ✅ **Cross-references** - Should link to related mnemonics where applicable
-- ✅ **Real-world context** - Include actual usage examples
+- ✅ **Real-world context** - Include actual usage examples from incidents, projects, or teams
 - ✅ **Memorable** - The acronym/pattern should be easy to recall under pressure
 - ✅ **Source/origin (if known)** - For established frameworks, note the origin (e.g. "Ford 8D", "Toyota 5 Whys"). For original or curated mnemonics, write "Curated for this collection." Maintainers may classify entries in the [Sources & References](README.md#sources--references) section.
 
