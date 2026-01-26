@@ -1,12 +1,17 @@
 # macOS
 .DS_Store
+.DS_Store?
+._*
 .AppleDouble
 .LSOverride
+.Spotlight-V100
+.Trashes
 
 # Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+$RECYCLE.BIN/
 
 # Editor / IDE
 .idea/
@@ -15,6 +20,10 @@ Desktop.ini
 *.swo
 *~
 *.sublime-*
+*.code-workspace
+.project
+.pydevproject
+.settings/
 
 # Cursor (project-level)
 .cursor/
@@ -22,21 +31,74 @@ Desktop.ini
 # Temp / backup
 *.bak
 *.tmp
+*.temp
 
-# Env and logs (if you add tooling later)
+# Env and logs
 .env
 .env.*
 *.log
 .venv/
 venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# Build / cache (if you add doc-generation, e.g. pandoc)
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Build / cache (pandoc, LaTeX, etc.)
 .cache/
 build/
+dist/
 out/
-*.egg-info/
-__pycache__/
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex(busy)
+
+# Distribution / packaging
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.spec
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmpy.json
+.pytype/
 
 # Documentation / setup files (local only)
 GITHUB_TOPICS_SETUP.md
 LINK_TEST_REPORT.md
+
+# Old release ZIP files (keep only current version in future)
+# Note: Historical ZIPs (v1.5-v2.6) are already tracked and kept for reference
+# Future old versions will be ignored automatically
