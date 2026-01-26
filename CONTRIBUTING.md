@@ -94,6 +94,7 @@ Keep descriptions concise (on-call = phones). Use `[STOP](#stop)`-style anchors.
 
 - **Domain addenda** — [network-engineering](docs/network-engineering.md), [cloud-native](docs/cloud-native.md), [database-performance](docs/database-performance.md): BGP, K8s, service mesh, query/connection-pool content. Stubs in place; add via PR.
 - **Field Reports** — [FIELD-REPORTS.md](docs/FIELD-REPORTS.md): incident write-ups with MTTR, what worked, improvements.
+- **Scenarios** — [SCENARIOS.md](SCENARIOS.md): Real-world walkthroughs showing how frameworks chain together. Use the [scenario request template](.github/ISSUE_TEMPLATE/scenario-request.md) or submit a PR with a complete scenario following the format in SCENARIOS.md.
 
 ## Who Uses This?
 

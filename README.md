@@ -3,6 +3,8 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/StewAlexander-com/Awesome-Mnemonics/graphs/commit-activity)
+[![Frameworks](https://img.shields.io/badge/Frameworks-11-blue.svg)](README.md#categorized-index)
+[![Verified](https://img.shields.io/badge/Verified-Yes-brightgreen.svg)](SOURCES.md)
 
 <img src="images/awesome-mnemonics-header.png" alt="Awesome Mnemonics - Problem-solving and stress-management memory hacks for engineers" width="100%" style="max-width: 800px;">
 
@@ -10,9 +12,13 @@
 
 **Disclaimer:** Includes established frameworks (8D, SWOT, PESTEL, RACI, SET) and curated mnemonics. [Sources & References](#sources--references) for attribution.
 
+**🎯 New:** [Real-World Scenarios](SCENARIOS.md) — Step-by-step walkthroughs showing how frameworks chain together in IT incidents, security assessments, project management, and more.
+
+**📚 Sources & Authenticity:** [SOURCES.md](SOURCES.md) — Full citations, Framework Confidence Ratings (⭐⭐⭐⭐⭐ to ⭐⭐⭐), and academic references for all frameworks.
+
 **📥 Download (v2.6):** [Complete Guide (ZIP)](releases/Awesome-Mnemonics-v2.6-Complete-Guide.zip) · [Quick Reference (ZIP)](releases/Awesome-Mnemonics-v2.6-Quick-Reference.zip) · [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) · [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) · [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) · [MD](releases/Awesome-Mnemonics-Complete-Guide.md). *ZIP = all formats. [Quick Ref formats](releases/README.md).*
 
-**Tools & docs:** [CLI](#cli) · [Runbook](templates/incident-response-runbook.md) · [Metrics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md). **Domain guides:** [Network](docs/network-engineering.md) · [Cloud-native](docs/cloud-native.md) · [Database](docs/database-performance.md).
+**Tools & docs:** [CLI](#cli) · [Scenarios](SCENARIOS.md) · [Sources](SOURCES.md) · [Runbook](templates/incident-response-runbook.md) · [Metrics](docs/METRICS.md) · [Field Reports](docs/FIELD-REPORTS.md). **Domain guides:** [Network](docs/network-engineering.md) · [Cloud-native](docs/cloud-native.md) · [Database](docs/database-performance.md).
 
 ## 🚨 Quick Reference & On-Call Guide
 
@@ -151,20 +157,20 @@
 
 ## Table of Contents
 
-- [Awesome Mnemonics](#awesome-mnemonics)
-  - [🚨 Quick Reference \& On-Call Guide](#quick-reference--on-call-guide)
-  - [📑 Categorized Index](#categorized-index)
-    - [🔧 Ops](#ops)
-    - [🔍 RCA (Root Cause Analysis)](#rca-root-cause-analysis)
-    - [🏗️ Systems Design](#systems-design)
-    - [👥 Human Factors](#human-factors)
-    - [🧘 Personal Life](#personal-life)
+- [Awesome Mnemonics ](#awesome-mnemonics-)
+  - [🚨 Quick Reference \& On-Call Guide](#-quick-reference--on-call-guide)
+  - [📑 Categorized Index](#-categorized-index)
+    - [🔧 Ops](#-ops)
+    - [🔍 RCA (Root Cause Analysis)](#-rca-root-cause-analysis)
+    - [🏗️ Systems Design](#️-systems-design)
+    - [👥 Human Factors](#-human-factors)
+    - [🧘 Personal Life](#-personal-life)
   - [Who Uses This?](#who-uses-this)
   - [CLI](#cli)
   - [Quick Start (SRE / Infra)](#quick-start-sre--infra)
-  - [🔄 Mnemonic Selection Flowchart](#mnemonic-selection-flowchart)
+  - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
   - [Table of Contents](#table-of-contents)
-  - [🧩 Problem Solving Techniques](#problem-solving-techniques)
+  - [🧩 Problem Solving Techniques](#-problem-solving-techniques)
     - [PREPARE](#prepare)
     - [PADDER](#padder)
     - [ICEBERG](#iceberg)
@@ -174,41 +180,41 @@
     - [8D Approach](#8d-approach)
     - [A3 Problem Solving](#a3-problem-solving)
     - [5Ps](#5ps)
-  - [📊 Problem Analysis](#problem-analysis)
+  - [📊 Problem Analysis](#-problem-analysis)
     - [RACI](#raci)
     - [PESTEL](#pestel)
     - [SWOT](#swot)
     - [SET (Systems Engineering Triangle)](#set-systems-engineering-triangle)
-  - [⚠️ Problem Resolution Threats](#problem-resolution-threats)
+  - [⚠️ Problem Resolution Threats](#️-problem-resolution-threats)
     - [DICE](#dice)
     - [FATE](#fate)
     - [PEST](#pest)
-  - [🗣️ Communication \& Conflict](#communication--conflict)
+  - [🗣️ Communication \& Conflict](#️-communication--conflict)
     - [BREATHE](#breathe)
     - [PAUSE](#pause)
     - [WAIT](#wait)
-  - [🧘 Stress \& Resilience](#stress--resilience)
+  - [🧘 Stress \& Resilience](#-stress--resilience)
     - [PACE](#pace)
     - [STOP](#stop)
     - [ARIES](#aries)
     - [CALM](#calm)
     - [SHINE](#shine)
-  - [🔧 Infrastructure \& Systems Engineering](#infrastructure--systems-engineering)
+  - [🔧 Infrastructure \& Systems Engineering](#-infrastructure--systems-engineering)
     - [TRACE (Network Troubleshooting)](#trace-network-troubleshooting)
     - [SCALE (Infrastructure Design)](#scale-infrastructure-design)
     - [DEBUG (Code \& System Analysis)](#debug-code--system-analysis)
-  - [🔗 Proven Mnemonic Pipelines](#proven-mnemonic-pipelines)
+  - [🔗 Proven Mnemonic Pipelines](#-proven-mnemonic-pipelines)
     - [**1. CRISIS RESPONSE CHAIN**](#1-crisis-response-chain)
     - [**2. CONFLICT RESOLUTION CHAIN**](#2-conflict-resolution-chain)
     - [**3. ROOT CAUSE INVESTIGATION CHAIN**](#3-root-cause-investigation-chain)
     - [**4. STRATEGIC DESIGN CHAIN**](#4-strategic-design-chain)
     - [**5. STRESS BURNOUT RECOVERY CHAIN**](#5-stress-burnout-recovery-chain)
     - [**6. RAPID TRIAGE CHAIN**](#6-rapid-triage-chain)
-  - [📊 Pipeline Selection Matrix](#pipeline-selection-matrix)
-  - [💡 Pro Tips](#pro-tips)
-  - [🎯 Common Mistakes](#common-mistakes)
-  - [🤝 Contributing](#contributing)
-  - [📥 Release Versions](#release-versions)
+  - [📊 Pipeline Selection Matrix](#-pipeline-selection-matrix)
+  - [💡 Pro Tips](#-pro-tips)
+  - [🎯 Common Mistakes](#-common-mistakes)
+  - [🤝 Contributing](#-contributing)
+  - [📥 Release Versions](#-release-versions)
   - [Sources \& References](#sources--references)
     - [Problem-Solving Methodologies](#problem-solving-methodologies)
     - [Strategic \& Analysis Frameworks](#strategic--analysis-frameworks)
@@ -718,6 +724,8 @@ G - Generate hypothesis and test
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
+**Suggested GitHub topics for discoverability:** `8d-methodology`, `swot-analysis`, `pestel`, `systems-engineering`, `incident-response`, `root-cause-analysis`, `problem-solving`, `mnemonics`, `sre`, `devops`, `stress-management`, `framework`
+
 ---
 
 ## 📥 Release Versions
@@ -731,6 +739,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 ---
 
 ## Sources & References
+
+**📚 For detailed citations, confidence ratings, and academic references, see [SOURCES.md](SOURCES.md).**
+
+**🎯 For real-world scenarios showing how frameworks chain together, see [SCENARIOS.md](SCENARIOS.md).**
 
 ### Problem-Solving Methodologies
 - **8D (Eight Disciplines)** ✓ — Ford Motor Company (1987). *Team Oriented Problem Solving Manual*. Evolved from TQM; in wide use in automotive and aerospace. [Wikipedia](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving)
@@ -756,3 +768,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 **Note:** ✓ documented; ⚠ adapted; ℹ curated. Mix of established frameworks and educational compilations.
 
 **Evidence:** ★★★ strongly validated (5 Whys, 8D, Ishikawa); ★★ industry standard (SWOT, RACI, A3, SET); ★ curated. ✓/⚠/ℹ = attribution; ★ = evidence strength.
+
+**See [SOURCES.md](SOURCES.md) for:** Full citations, Framework Confidence Ratings table, academic citation formats, and verification status.
