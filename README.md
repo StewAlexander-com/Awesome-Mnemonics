@@ -12,7 +12,7 @@
 
 **Note:** This is a **field guide/playbook** with opinionated workflows (e.g., STOP → TRACE → DEBUG → 8D) rather than a traditional awesome list of external links. It focuses on battle-tested mnemonics with detailed guidance, real-world scenarios, and proven pipelines.
 
-**Quick links:** [📥 Downloads](releases/) · [🎯 Scenarios](SCENARIOS.md) · [📚 Sources](SOURCES.md) · [🔧 CLI](#cli) · [📋 Table of Contents](#table-of-contents)
+**Quick links:** [📥 Downloads](releases/README.md) · [🎯 Scenarios](SCENARIOS.md) · [📚 Sources](SOURCES.md) · [🔧 CLI](#cli) · [📋 Table of Contents](#table-of-contents)
 
 ## 🚨 Quick Reference
 
