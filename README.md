@@ -684,9 +684,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines and submission templa
 
 **v2.8** (2026-01-26) — Streamlined README: reduced content before TOC from ~160 to 31 lines, condensed Categorized Index, moved detailed sections after TOC for better navigation. [CHANGELOG](CHANGELOG.md)
 
-**ZIP (all formats):** [Complete](releases/Awesome-Mnemonics-v2.8-Complete-Guide.zip) · [Quick Reference](releases/Awesome-Mnemonics-v2.8-Quick-Reference.zip)
+**ZIP (all formats):** [Complete](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Complete-Guide.zip) · [Quick Reference](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Quick-Reference.zip)
 
-**By format:** Complete — [PDF](releases/Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](releases/Awesome-Mnemonics-Complete-Guide.docx) [RTF](releases/Awesome-Mnemonics-Complete-Guide.rtf) [MD](releases/Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](releases/Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](releases/Awesome-Mnemonics-Quick-Reference.docx) [RTF](releases/Awesome-Mnemonics-Quick-Reference.rtf) [MD](releases/Awesome-Mnemonics-Quick-Reference.md). *[releases/README](releases/README.md) for details.*
+**By format:** Complete — [PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.docx) [RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.rtf) [MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.docx) [RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.rtf) [MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.md). *[releases/README](releases/README.md) for details.*
 
 ---
 

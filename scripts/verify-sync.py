@@ -94,10 +94,19 @@ def get_download_links_from_readme() -> List[str]:
     """Extract all download file links from README."""
     try:
         content = README.read_text(encoding="utf-8")
-        # Find all releases/... file references (more precise pattern)
+        links = []
+        
+        # Find relative releases/... file references
         pattern = r'\]\(releases/([^\s\)]+\.(?:pdf|docx|rtf|md|zip))\)'
         matches = re.findall(pattern, content)
-        return [f"releases/{match}" for match in matches]
+        links.extend([f"releases/{match}" for match in matches])
+        
+        # Find GitHub raw URLs
+        raw_pattern = r'\]\(https://github\.com/[^/]+/[^/]+/raw/[^/]+/releases/([^\s\)]+\.(?:pdf|docx|rtf|md|zip))\)'
+        raw_matches = re.findall(raw_pattern, content)
+        links.extend([f"releases/{match}" for match in raw_matches])
+        
+        return links
     except Exception as e:
         return []
 
