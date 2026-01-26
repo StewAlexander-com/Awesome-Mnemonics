@@ -846,7 +846,7 @@ Choose your role to jump to the most relevant scenario:
 **How frameworks chain together in real workflows:**
 
 ```
-                    ┌─────────────┐
+                    ┌────────────-─┐
                     │   Problem    │
                     └──────┬───────┘
                            │
@@ -861,9 +861,9 @@ Choose your role to jump to the most relevant scenario:
     │ STOP         │  │ ICEBERG      │  │ STOP         │
     │ (2-5 min)    │  │ (30-60 min)  │  │ (2-5 min)    │
     └───┬──────────┘  └───┬──────────┘  └───┬──────────┘
-        │                  │                  │
+        │                 │                 │
     ┌───▼──────────┐  ┌───▼──────────┐  ┌───▼──────────┐
-    │ TRACE        │  │ 5 Whys      │  │ PACE          │
+    │ TRACE        │  │ 5 Whys       │  │ PACE         │
     │ (10-15 min)  │  │ (15-30 min)  │  │ (10-15 min)  │
     └───┬──────────┘  └───┬──────────┘  └───┬──────────┘
         │                 │                 |
