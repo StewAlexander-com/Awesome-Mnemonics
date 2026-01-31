@@ -214,8 +214,6 @@ E - **Evaluate** and revise plan as necessary
 **📋 Example:** *Infra migration: PREPARE for structure, RACI for roles, SWOT for cloud provider choice.*
 ### PADDER
 
-**Use when:** Data-driven; pattern identification | **Time:** 15–60 min | **Complexity:** ★★☆
-
 ```
 P - **Pinpoint** problem  
 A - **Analyze** data and look for patterns  
@@ -225,7 +223,7 @@ E - **Execute** action plan & Monitor Results
 R - **Reevaluate** and refine plan as needed  
 ```
 
-**💡 When to use:** Data-driven; pattern identification. Pairs with [8D](#8d-approach) D3 (Interim Containment) for quick fixes.
+**When to use:** Data-driven; pattern identification. Pairs with [8D](#8d-approach) D3 (Interim Containment) for quick fixes. **Time:** 15–60 min. **Complexity:** ★★☆.
 
 **🔗 Combines well with:** [IDEA](#idea) (simpler), [8D](#8d-approach) (formal), [A3](#a3-problem-solving) (one-page PADDER for sharing)
 
@@ -253,16 +251,14 @@ G - **Gather** feedback
 **📋 Real-world example:** *Network performance degradation - Identify slowness, Collect metrics (latency, packet loss), Examine causes (routing changes, bandwidth saturation), Brainstorm solutions, Execute, Review with team, Gather feedback from users*
 ### IDEA
 
-**Use when:** Quick, simple; crisis | **Time:** 2–5 min | **Complexity:** ★☆☆
-
-``` 
+```
 I - **Identify** problem  
 D - **Develop** Solution  
 E - **Execute** Solution
 A - **Assess** Solution  
 ```
 
-**💡 When to use:** Quick, simple (2–5 min); crisis; use [STOP](#stop) first if stressed.
+**When to use:** Quick, simple; crisis—use [STOP](#stop) first if stressed. **Time:** 2–5 min. **Complexity:** ★☆☆.
 
 **⚠️ Pitfalls:** Escalation: if past 10 min or multiple blockers → [ICEBERG](#iceberg) or [PREPARE](#prepare). Skipping A: validate; prevents recurrence.
 
@@ -270,9 +266,10 @@ A - **Assess** Solution
 
 **📋 Real-world example:** *User can't access VPN - Identify (connection error), Develop (reset credentials), Execute (send new password), Assess (confirm access restored)*
 ### 5 Whys
+
 * Keep asking why until root causes are identified
 
-**💡 When to use:** Root cause analysis; [8D](#8d-approach) D4; combine with [ICEBERG](#iceberg) for deep dives.
+**When to use:** Root cause analysis; [8D](#8d-approach) D4; combine with [ICEBERG](#iceberg) for deep dives. **Time:** variable. **Complexity:** ★★☆.
 
 **⚠️ Pitfalls:** Don’t stop at symptoms (e.g. "DB slow")—drill to process/systemic failure. Multiple root causes: use 5 Whys per branch.
 
@@ -281,9 +278,8 @@ A - **Assess** Solution
 **📋 Real-world example:** *Deployment failures - Why? Pipeline failed. Why? Tests timed out. Why? Database slow. Why? Index missing. Why? Schema change didn't include migration. Root cause: Missing migration validation step*
 
 ### Ishikawa (Fishbone) Diagram
-*Cause–effect; map multiple causes to one problem. Pairs with 5 Whys.*
 
-**Use when:** Multiple causes; 8D D4 or ICEBERG Examine | **Time:** 30–60 min | **Complexity:** ★★☆
+*Cause–effect; map multiple causes to one problem. Pairs with 5 Whys.*
 
 ```
 1. State the problem (head of the fish)
@@ -293,7 +289,7 @@ A - **Assess** Solution
 5. Identify root causes to address
 ```
 
-**💡 When to use:** Multiple causes (5 Whys may miss branches); [8D](#8d-approach) D4 or [ICEBERG](#iceberg) Examine; brainstorm across people, process, tech, environment.
+**When to use:** Multiple causes (5 Whys may miss branches); [8D](#8d-approach) D4 or [ICEBERG](#iceberg) Examine; brainstorm across people, process, tech, environment. **Time:** 30–60 min. **Complexity:** ★★☆.
 
 **⚠️ Pitfalls:** Too many bones: limit branches, focus on likely. Skipping drill-down: use [5 Whys](#5-whys) on likely bones.
 
@@ -302,9 +298,8 @@ A - **Assess** Solution
 **📋 Real-world example:** *Uptime drop - Problem (head): "Services unreachable." Bones: Method (recent deploy), Machine (high CPU), Manpower (config change). Drill with 5 Whys on "recent deploy" → missing health-check in pipeline. Root cause: CI didn't run post-deploy checks.*
 
 ### 8D Approach
-*Industry standard in automotive/manufacturing, adapted for IT incident management*
 
-**Use when:** Critical incidents, formal resolution; team coordination | **Time:** 30 min–4 wks | **Complexity:** ★★★
+*Industry standard in automotive/manufacturing, adapted for IT incident management*
 
 ```
 D1 - **Form** a team  
@@ -317,7 +312,7 @@ D7 - **Prevent** reoccurrence(s)
 D8 - **Congratulate** your team and close the loop (closure & celebration)
 ```
 
-**💡 When to use:** Critical incidents, formal resolution; documentation and prevention; team coordination (D1: [RACI](#raci)).
+**When to use:** Critical incidents, formal resolution; documentation and prevention; team coordination (D1: [RACI](#raci)). **Time:** 30 min–4 wks. **Complexity:** ★★★.
 
 **⚠️ Pitfalls:** Stopping at D3: reach D7 or it recurs. Solo 8D: use D1 (Form a team) and [RACI](#raci). Bureaucracy: use [IDEA](#idea) or [PREPARE](#prepare) for non-critical.
 
@@ -326,9 +321,8 @@ D8 - **Congratulate** your team and close the loop (closure & celebration)
 **📋 Real-world example:** *Data breach incident - Form security response team ([RACI](#raci) roles), Describe scope, Contain (disable compromised accounts), Analyze root cause ([5 Whys](#5-whys): phishing → no MFA → insufficient training), Implement MFA, Validate with penetration test, Prevent (mandatory security awareness), Celebrate team response*
 
 ### A3 Problem Solving
-*Toyota's single-page (A3 size) structured problem-solving. Plan–Do–Check–Act on one sheet for clarity and alignment.*
 
-**Use when:** Share problem and plan on one page; recurring/medium severity | **Time:** 1–2 hr | **Complexity:** ★★☆
+*Toyota's single-page (A3 size) structured problem-solving. Plan–Do–Check–Act on one sheet for clarity and alignment.*
 
 ```
 1. Background & problem statement
@@ -339,7 +333,7 @@ D8 - **Congratulate** your team and close the loop (closure & celebration)
 6. Implementation plan & follow-up (Check)
 ```
 
-**💡 When to use:** Share problem and plan on one page; lighter than [8D](#8d-approach); recurring/medium severity; socialize [ICEBERG](#iceberg) or [PADDER](#padder) output.
+**When to use:** Share problem and plan on one page; lighter than [8D](#8d-approach); recurring/medium severity; socialize [ICEBERG](#iceberg) or [PADDER](#padder) output. **Time:** 1–2 hr. **Complexity:** ★★☆.
 
 **⚠️ Pitfalls:** Cramming: if it doesn’t fit, split or use 8D. Root cause box: use [5 Whys](#5-whys) or [Ishikawa](#ishikawa-fishbone-diagram), not symptoms.
 
@@ -355,9 +349,8 @@ D8 - **Congratulate** your team and close the loop (closure & celebration)
 *Frameworks for scope and impact.*
 
 ### RACI
-*Roles and responsibilities in problem-solving.*
 
-**Use when:** Role confusion; 8D D1 (Form a team); end of WAIT→BREATHE→PAUSE | **Time:** Ongoing | **Complexity:** ★☆☆
+*Roles and responsibilities in problem-solving.*
 
 ```
 R - **Responsible** (does the work)
@@ -366,15 +359,14 @@ C - **Consulted** (provides input)
 I - **Informed** (kept updated)
 ```
 
-**💡 When to use:** Role confusion; [8D](#8d-approach) D1 (Form a team); end of WAIT→BREATHE→PAUSE for conflict.
+**When to use:** Role confusion; [8D](#8d-approach) D1 (Form a team); end of WAIT→BREATHE→PAUSE for conflict. **Time:** ongoing. **Complexity:** ★☆☆.
 
 **⚠️ Pitfalls:** One "A" per task. Too many "C" slows decisions—only critical input.
 
 **📋 Example:** *Infra upgrade: R=DevOps, A=Infra Manager, C=Security, I=All devs.*
 ### PESTEL
-*External factors that impact a problem or decision.*
 
-**Use when:** Strategic planning, external factors; SCALE validation | **Time:** 1–4 hrs | **Complexity:** ★★☆
+*External factors that impact a problem or decision.*
 
 ```
 P - **Political**
@@ -385,14 +377,13 @@ E - **Environmental**
 L - **Legal**
 ```
 
-**💡 When to use:** Strategic planning, external factors; [SCALE](#scale-infrastructure-design) validation; architecture, compliance.
+**When to use:** Strategic planning, external factors; [SCALE](#scale-infrastructure-design) validation; architecture, compliance. **Time:** 1–4 hrs. **Complexity:** ★★☆.
 
 **📋 Real-world example:** *Cloud migration planning - Political (vendor lock-in concerns), Economic (cost optimization), Technological (API compatibility), Legal (data sovereignty requirements)*
 
 ### SWOT
-*Internal and external factors for a problem or decision.*
 
-**Use when:** PREPARE Evaluate options; SCALE design validation; strategic decisions | **Time:** 1–4 hrs | **Complexity:** ★★☆
+*Internal and external factors for a problem or decision.*
 
 ```
 S - **Strengths**
@@ -401,16 +392,13 @@ O - **Opportunities**
 T - **Threats**
 ```
 
-**💡 When to use:**
-- [PREPARE](#prepare)'s "Evaluate options" step
-- [SCALE](#scale-infrastructure-design) design validation
-- Strategic decision making (1-2 hours)
+**When to use:** [PREPARE](#prepare)'s "Evaluate options" step; [SCALE](#scale-infrastructure-design) design validation; strategic decision making. **Time:** 1–4 hrs. **Complexity:** ★★☆.
 
 **📋 Real-world example:** *Choosing deployment strategy - Strengths: automated rollback, Weaknesses: longer deployment time, Opportunities: canary testing, Threats: increased complexity*
 ### SET (Systems Engineering Triangle)
 *Good, Fast, Cheap: pick 2; the third suffers.* (Fast+Cheap≠Good, Fast+Good≠Cheap, Good+Cheap≠Fast.)
 
-**💡 When to use:** Set expectations; end of SCALE→SWOT→PESTEL; architecture trade-offs.
+**When to use:** Set expectations; end of SCALE→SWOT→PESTEL; architecture trade-offs. **Time:** quick. **Complexity:** ★☆☆.
 
 **📋 Real-world example:** *Urgent security patch — Good+Fast ⇒ not cheap (overtime). Set expectations with leadership.*
 
@@ -422,8 +410,6 @@ T - **Threats**
 
 ### DICE
 
-**Use when:** IDEA→DICE→FATE triage; blockers before execution | **Time:** 10–30 min | **Complexity:** ★☆☆
-
 ```
 D - **Delay**
 I - **Incompetence**
@@ -431,11 +417,9 @@ C - **Conflict**
 E - **External** factors
 ```
 
-**💡 When to use:** [IDEA](#idea)→[DICE](#dice)→[FATE](#fate) triage; blockers before execution; risk in [PREPARE](#prepare) phase.
+**When to use:** [IDEA](#idea)→[DICE](#dice)→[FATE](#fate) triage; blockers before execution; risk in [PREPARE](#prepare) phase. **Time:** 10–30 min. **Complexity:** ★☆☆.
 
 ### FATE
-
-**Use when:** Resource validation in triage; feasibility check | **Time:** 10–30 min | **Complexity:** ★☆☆
 
 ```
 F - **Funding**
@@ -444,11 +428,9 @@ T - **Time**
 E - **Expertise**
 ```
 
-**💡 When to use:** Resource validation in triage; feasibility (10–30 min); after [DICE](#dice) to validate resources.
+**When to use:** Resource validation in triage; feasibility; after [DICE](#dice) to validate resources. **Time:** 10–30 min. **Complexity:** ★☆☆.
 
 ### PEST
-
-**Use when:** External threats to solutions; how to combat/remove | **Time:** 15–30 min | **Complexity:** ★☆☆
 
 ```
 P - **Political**
@@ -457,15 +439,13 @@ S - **Social**
 T - **Technological**
 ```
 
-**💡 When to use:** External threats to solutions; how to combat/remove.
+**When to use:** External threats to solutions; how to combat/remove. **Time:** 15–30 min. **Complexity:** ★☆☆.
 
 ## 🗣️ Communication & Conflict
 
 *Calm, productive in difficult conversations.*
 
-### BREATHE 
-
-**Use when:** First when tensions rise; WAIT→BREATHE→PAUSE→RACI | **Time:** 3–7 min | **Complexity:** ★☆☆
+### BREATHE
 
 ```
 B - **Breathe** deeply and slowly   
@@ -477,7 +457,7 @@ H - **Hold** back from reacting
 E - **Express** yourself calmly  
 ```
 
-**💡 When to use:** First when tensions rise (breathing regulates); WAIT→BREATHE→PAUSE→[RACI](#raci); if break needed → PAUSE.
+**When to use:** First when tensions rise (breathing regulates); WAIT→BREATHE→PAUSE→[RACI](#raci); if break needed → PAUSE. **Time:** 3–7 min. **Complexity:** ★☆☆.
 
 **⚠️ Pitfalls:** Fake: breathing must be intentional and deep. Weaponizing: don’t use dismissively; damages trust.
 
@@ -485,8 +465,6 @@ E - **Express** yourself calmly
 
 **📋 Real-world example:** *Stakeholder disagrees with technical approach in meeting - Breathe deeply (regulate emotions), Remain rational, Empathize with their concerns, Ask clarifying questions, Take 5-minute break if tension escalates, Hold back defensive reactions, Express technical rationale calmly*
 ### PAUSE
-
-**Use when:** BREATHE isn't enough; need physical separation | **Time:** 5–20 min | **Complexity:** ★☆☆
 
 ```
 P - **Put** things in perspective   
@@ -496,10 +474,7 @@ S - **Step** Away from the situation
 E - **Evaluate** options and plan before acting   
 ```
 
-**💡 When to use:**
-- When BREATHE isn't enough - need physical separation
-- "Step Away" connects to WAIT philosophy
-- Combine with STOP for immediate stress de-escalation (5-20 min)
+**When to use:** When BREATHE isn't enough—need physical separation; "Step Away" connects to WAIT; combine with STOP for immediate stress de-escalation. **Time:** 5–20 min. **Complexity:** ★☆☆.
 
 **🔗 Combines well with:** [BREATHE](#breathe) (first step), [WAIT](#wait) (listen before speaking), [STOP](#stop) (stress response)
 
@@ -508,7 +483,7 @@ E - **Evaluate** options and plan before acting
 ### WAIT
 *"Why am I troubled / talking?"* — Choose the right response; often listening is better.
 
-**💡 When to use:** Before speaking; first in WAIT→BREATHE→PAUSE→RACI. Use BREATHE to regulate, then WAIT to choose.
+**When to use:** Before speaking; first in WAIT→BREATHE→PAUSE→RACI. Use BREATHE to regulate, then WAIT to choose. **Time:** instant. **Complexity:** ★☆☆.
 
 **⚠️ Pitfalls:** Not "don’t respond"—choose effectively. Don’t use WAIT to avoid necessary communication or to dodge escalation.
 
@@ -520,9 +495,7 @@ E - **Evaluate** options and plan before acting
 
 *Calm and connected under pressure.*
 
-### PACE  
-
-**Use when:** First in PACE→ARIES→CALM; immediate stress | **Time:** 5–10 min | **Complexity:** ★☆☆
+### PACE
 
 ```
 P - **Physical** activity
@@ -531,11 +504,9 @@ C - **Coping** skills
 E - **Emotional** awareness
 ```
 
-**💡 When to use:** First in PACE→ARIES→CALM→SHINE; immediate stress.
+**When to use:** First in PACE→ARIES→CALM→SHINE; immediate stress. **Time:** 5–10 min. **Complexity:** ★☆☆.
 
 ### STOP
-
-**Use when:** First response to ANY crisis; immediate stress management | **Time:** 2–5 min | **Complexity:** ★☆☆
 
 ```
 S - **Step** back
@@ -544,10 +515,7 @@ O - **Observe** what is happening
 P - **Pull** back and put things in perspective
 ```
 
-**💡 When to use:**
-- First response to ANY crisis - immediate stress management (2-5 min)
-- Start of [STOP](#stop) → [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) → [8D](#8d-approach) crisis response chain
-- Use with IDEA for quick problem resolution in crisis
+**When to use:** First response to ANY crisis—immediate stress management; start of STOP→[TRACE](#trace-network-troubleshooting)→[DEBUG](#debug-code--system-analysis)→[8D](#8d-approach) crisis chain; use with IDEA for quick problem resolution. **Time:** 2–5 min. **Complexity:** ★☆☆.
 
 **⚠️ Common pitfalls:**
 - **Going through motions** - Rushing through STOP without actually calming. The "Take a deep breath" must be intentional - pause for 3-5 seconds.
@@ -559,8 +527,6 @@ P - **Pull** back and put things in perspective
 
 ### ARIES
 
-**Use when:** Lifestyle in PACE→ARIES→CALM; long-term stress | **Time:** 2–4 weeks | **Complexity:** ★★☆
-
 ```
 A - **Avoid** unnecessary stress
 R - **Relax** and take breaks
@@ -569,11 +535,9 @@ E - **Eat** a healthy diet
 S - **Sleep** well
 ```
 
-**💡 When to use:** Lifestyle in PACE→ARIES→CALM; long-term (2–4 weeks).
+**When to use:** Lifestyle in PACE→ARIES→CALM; long-term stress recovery. **Time:** 2–4 weeks. **Complexity:** ★★☆.
 
 ### CALM
-
-**Use when:** Builds long-term resilience; after PACE or ARIES | **Time:** 5–10 min (ongoing) | **Complexity:** ★☆☆
 
 ```
 C - **Confidence:** Believe in your abilities and strengths
@@ -582,16 +546,11 @@ L - **Logic:** Use rational thinking to overcome doubts
 M - **Mindfulness:** Practice being present and focused
 ```
 
-**💡 When to use:**
-- Builds long-term resilience and confidence
-- Confidence connects to SHINE (positive self-image)
-- Use after PACE or ARIES for comprehensive stress management
+**When to use:** Builds long-term resilience and confidence; use after PACE or ARIES for comprehensive stress management; confidence connects to SHINE. **Time:** 5–10 min (ongoing). **Complexity:** ★☆☆.
 
 **🔗 Combines well with:** [SHINE](#shine), [PACE](#pace), [ARIES](#aries)
 
 ### SHINE
-
-**Use when:** End of PACE→ARIES→CALM→SHINE; ongoing positivity | **Time:** Ongoing | **Complexity:** ★☆☆
 
 ```
 S - **Stay** present, in the moment  
@@ -601,15 +560,13 @@ N - **Nourish** positive relationships
 E - **Express** yourself  
 ```
 
-**💡 When to use:** End of PACE→ARIES→CALM→SHINE; ongoing positivity; links to [CALM](#calm).
+**When to use:** End of PACE→ARIES→CALM→SHINE; ongoing positivity; links to [CALM](#calm). **Time:** ongoing. **Complexity:** ★☆☆.
 
 ## 🔧 Infrastructure & Systems Engineering
 
 *Infra and DevOps.*
 
 ### TRACE (Network Troubleshooting)
-
-**Use when:** With PREPARE and 8D; network/system diagnostics | **Time:** Variable | **Complexity:** ★★☆
 
 ```
 T - **Test** connectivity (ping, traceroute)
@@ -619,13 +576,11 @@ C - **Check** configurations
 E - **Escalate** with documented evidence
 ```
 
-**💡 When to use:** With [PREPARE](#prepare) and [8D](#8d-approach); T for quick, A for deep; document for 8D D2.
+**When to use:** With [PREPARE](#prepare) and [8D](#8d-approach); T for quick, A for deep; document for 8D D2. **Time:** variable. **Complexity:** ★★☆.
 
 **🔗 Combines well with:** [PREPARE](#prepare), [8D](#8d-approach)
 
 ### SCALE (Infrastructure Design)
-
-**Use when:** SWOT for design validation; PESTEL for external factors | **Time:** 1–4 hrs | **Complexity:** ★★☆
 
 ```
 S - **Security** by design
@@ -635,13 +590,11 @@ L - **Load** balancing
 E - **Error** handling/resilience
 ```
 
-**💡 When to use:** [SWOT](#swot) for design validation; [PESTEL](#pestel) for external factors; [SET](#set-systems-engineering-triangle) for trade-offs per component.
+**When to use:** [SWOT](#swot) for design validation; [PESTEL](#pestel) for external factors; [SET](#set-systems-engineering-triangle) for trade-offs per component. **Time:** 1–4 hrs. **Complexity:** ★★☆.
 
 **🔗 Combines well with:** [SWOT](#swot), [PESTEL](#pestel), [SET](#set-systems-engineering-triangle)
 
 ### DEBUG (Code & System Analysis)
-
-**Use when:** 5 Whys + ICEBERG; with TRACE for network/system | **Time:** Variable | **Complexity:** ★★☆
 
 ```
 D - **Define** the problem (what changed?)
@@ -651,7 +604,7 @@ U - **Understand** data flow
 G - **Generate** hypothesis and test
 ```
 
-**💡 When to use:** [5 Whys](#5-whys) + [ICEBERG](#iceberg); start with D (often misstated); with [TRACE](#trace-network-troubleshooting) for network/system.
+**When to use:** [5 Whys](#5-whys) + [ICEBERG](#iceberg); start with D (often misstated); with [TRACE](#trace-network-troubleshooting) for network/system. **Time:** variable. **Complexity:** ★★☆.
 
 **🔗 Combines well with:** [5 Whys](#5-whys), [ICEBERG](#iceberg), [TRACE](#trace-network-troubleshooting)
 
