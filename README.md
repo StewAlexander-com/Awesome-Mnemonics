@@ -744,7 +744,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines and submission templa
 
 ## 📥 Release Versions
 
-**v2.8** (2026-01-26) — Streamlined README: reduced content before TOC from ~160 to 31 lines, condensed Categorized Index, moved detailed sections after TOC for better navigation. [CHANGELOG](CHANGELOG.md)
+**v2.8** (2026-01-31) — Regenerated release artifacts from README; merged "Use when" / "When to use" into single statement. [CHANGELOG](CHANGELOG.md)
 
 **ZIP (all formats):** [Complete](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Complete-Guide.zip) · [Quick Reference](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Quick-Reference.zip)
 

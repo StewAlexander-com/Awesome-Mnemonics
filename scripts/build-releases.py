@@ -17,7 +17,7 @@ RELEASES_DIR = ROOT / "releases"
 OUT_MD = RELEASES_DIR / "Awesome-Mnemonics-Complete-Guide.md"
 OUT_QUICK_MD = RELEASES_DIR / "Awesome-Mnemonics-Quick-Reference.md"
 VERSION = "2.8"
-DATE = "2026-01-26"
+DATE = "2026-01-31"
 
 def main():
     text = README.read_text(encoding="utf-8")
