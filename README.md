@@ -191,9 +191,7 @@
 
 *Full definitions for each mnemonic; [Categorized Index](#categorized-index) above to browse by use case.*
 
-### PREPARE  
-
-**Use when:** Strategic planning, multi-stakeholder; needs structure | **Time:** 1–2 hr | **Complexity:** ★★☆
+### PREPARE
 
 ```
 P - **Prioritize** the problem  
@@ -205,7 +203,7 @@ R - **Reflect** on results
 E - **Evaluate** and revise plan as necessary  
 ```
 
-**💡 When to use:** Strategic planning (1–2 hr); medium complexity, multi-stakeholder; needs structure. *Not for outages—use [STOP](#stop)→[TRACE](#trace-network-troubleshooting)→[DEBUG](#debug-code--system-analysis) first; PREPARE in post-mortem.*
+**When to use:** Strategic planning; medium complexity, multi-stakeholder; needs structure. **Time:** 1–2 hr. **Complexity:** ★★☆. *Not for outages—use [STOP](#stop)→[TRACE](#trace-network-troubleshooting)→[DEBUG](#debug-code--system-analysis) first; PREPARE in post-mortem.*
 
 **⚠️ Pitfalls:** Analysis paralysis — if past 30 min on Research, switch to [IDEA](#idea). Skipping Reflect/Evaluate → recurring issues.
 
@@ -230,8 +228,6 @@ R - **Reevaluate** and refine plan as needed
 **📋 Real-world example:** *Recurring server crashes - Pinpoint timing, Analyze logs for patterns, Develop interim solutions (restart service) + permanent fix (increase memory), Monitor effectiveness*
 ### ICEBERG
 
-**Use when:** Complex, deep analysis; surface symptoms hide root causes | **Time:** 30–60 min | **Complexity:** ★★★
-
 ```
 I - **Identify** issue(s)  
 C - **Collect** data and analyze situation  
@@ -242,7 +238,7 @@ R - **Review**, evaluate, and adjust solutions
 G - **Gather** feedback  
 ```
 
-**💡 When to use:** Complex, deep analysis (30–60 min); surface symptoms hide root causes; escalate from [IDEA](#idea) when complexity grows.
+**When to use:** Complex, deep analysis; surface symptoms hide root causes; escalate from [IDEA](#idea) when complexity grows. **Time:** 30–60 min. **Complexity:** ★★★.
 
 **⚠️ Pitfalls:** Too deep on simple (e.g. 5‑min password reset): start with IDEA, escalate if needed. Skipping G (feedback): prevents recurrence; complete the cycle.
 
