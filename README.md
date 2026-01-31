@@ -19,15 +19,16 @@
 
 ## 🚨 Quick Reference
 
-| **Situation** | **Use This** | **Time** |
-|---------------|--------------|----------|
-| 🚨 Immediate crisis | [IDEA](#idea) → [STOP](#stop) | 2-5 min |
-| 🔍 Root cause needed | [ICEBERG](#iceberg) + [5 Whys](#5-whys) | 30-60 min |
-| 👥 Team conflict | [BREATHE](#breathe) → [PAUSE](#pause) → [WAIT](#wait) | 5-10 min |
-| 📊 Strategic planning | [PREPARE](#prepare) + [SWOT](#swot) | 1-2 hours |
-| 🏗️ System design | [SCALE](#scale-infrastructure-design) + [PESTEL](#pestel) | Planning |
-| 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
-| 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
+| Situation | Use These | Time |
+|-----------|-----------|------|
+| Crisis/Emergency | [STOP](#stop), [BREATHE](#breathe) | 2-5 min |
+| Stress/Overwhelm | [PACE](#pace), [CALM](#calm), [ARIES](#aries) | 5-10 min |
+| Argument/Conflict | [BREATHE](#breathe), [PAUSE](#pause), [WAIT](#wait) | 3-7 min |
+| Root cause needed | [5 Whys](#5-whys), [ICEBERG](#iceberg), [8D](#8d-approach) | 30 min–4 wks |
+| Problem solving | [IDEA](#idea), [PREPARE](#prepare), [PADDER](#padder) | 15-60 min |
+| Strategic analysis | [SWOT](#swot), [PESTEL](#pestel) | 1-4 hrs |
+| Team coordination | [RACI](#raci), [8D](#8d-approach) | Ongoing |
+| Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
 
 **Crisis?** → [STOP → TRACE → DEBUG → 8D](#1-crisis-response-chain) | **Quick decision?** → [IDEA → DICE → FATE](#6-rapid-triage-chain)
 
@@ -98,18 +99,6 @@
     - [Strategic \& Analysis Frameworks](#strategic--analysis-frameworks)
     - [Problem Resolution Threats \& Triage](#problem-resolution-threats--triage)
     - [Communication, Stress \& Resilience, Infrastructure](#communication-stress--resilience-infrastructure)
-
-## Quick Reference
-
-| Situation | Use These | Time |
-|-----------|-----------|------|
-| Crisis/Emergency | STOP, BREATHE | 2-5 min |
-| Stress/Overwhelm | PACE, CALM, ARIES | 5-10 min |
-| Argument/Conflict | BREATHE, PAUSE, WAIT | 3-7 min |
-| Root Cause Analysis | 5 Whys, ICEBERG, 8D | 30min-4wks |
-| Problem Solving | IDEA, PREPARE, PADDER | 15-60 min |
-| Strategic Analysis | SWOT, PESTEL | 1-4 hrs |
-| Team Coordination | RACI, 8D Approach | Ongoing |
 
 ---
 
@@ -694,10 +683,8 @@ G - **Generate** hypothesis and test
 | **Incomplete execution** | [8D](#8d-approach) stopped at D3 (band-aid) | Always reach D7 (Prevent Reoccurrence) | — |
 | **Solo hero** | No [RACI](#raci) → no accountability if you’re out | [RACI](#raci) in 8D D1 (Form a team) | — |
 | **Analysis paralysis** | PREPARE→ICEBERG→5 Whys→8D for simple issues | Start with [IDEA](#idea); escalate if complexity emerges | — |
-
-- Don't use SWOT for root cause (use 5 Whys/ICEBERG instead)
-- Don't start 8D solo (requires team)
-- Don't apply multiple frameworks (pick ONE)
+| **Wrong tool** | SWOT for root cause; 8D solo | Use [5 Whys](#5-whys)/[ICEBERG](#iceberg) for root cause; [8D](#8d-approach) requires team ([RACI](#raci)) | — |
+| **Multiple frameworks** | Using several at once → confusion | Pick ONE matching your situation | — |
 
 ---
 
@@ -719,7 +706,7 @@ G - **Generate** hypothesis and test
 
 ---
 
-**[↑ Quick Reference](#quick-reference--on-call-guide) · [↑ Top](#awesome-mnemonics)**
+**[↑ Quick Reference](#-quick-reference) · [↑ Top](#awesome-mnemonics)**
 
 ## 🤝 Contributing
 

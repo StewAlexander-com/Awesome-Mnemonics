@@ -61,16 +61,4 @@ These release versions are generated from the main repository files. For the lat
 
 ---
 
-*Generated with pandoc — v2.8 (2026-01-26)*
-
----
-
-## 📥 Quick Download Links
-
-**All formats download directly when clicked (no GitHub file viewer):**
-
-### Complete Guide
-- [📄 PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.pdf) · [📝 DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.docx) · [📄 RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.rtf) · [📋 MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.md) · [📦 ZIP (all formats)](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Complete-Guide.zip)
-
-### Quick Reference
-- [📄 PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.pdf) · [📝 DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.docx) · [📄 RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.rtf) · [📋 MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.md) · [📦 ZIP (all formats)](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Quick-Reference.zip)
+*Generated with pandoc — v2.8 (2026-01-31)*
