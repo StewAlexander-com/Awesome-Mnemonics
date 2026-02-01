@@ -17,6 +17,8 @@
 
 **Quick links:** [📥 Downloads](releases/README.md) · [🎯 Scenarios](SCENARIOS.md) · [📚 Sources](SOURCES.md) · [🔧 CLI](#cli) · [📋 Table of Contents](#table-of-contents)
 
+**Jump to:** [Quick Reference](#-quick-reference) · [Categorized Index](#-categorized-index) · [Problem Solving](#-problem-solving-techniques) · [Pipelines](#-proven-mnemonic-pipelines) · [Common Mistakes](#-common-mistakes) · [Contributing](#-contributing)
+
 ## 🚨 Quick Reference
 
 | Situation | Use These | Time |
@@ -95,10 +97,6 @@
   - [🤝 Contributing](#-contributing)
   - [📥 Release Versions](#-release-versions)
   - [Sources \& References](#sources--references)
-    - [Problem-Solving Methodologies](#problem-solving-methodologies)
-    - [Strategic \& Analysis Frameworks](#strategic--analysis-frameworks)
-    - [Problem Resolution Threats \& Triage](#problem-resolution-threats--triage)
-    - [Communication, Stress \& Resilience, Infrastructure](#communication-stress--resilience-infrastructure)
 
 ---
 
@@ -737,33 +735,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines and submission templa
 
 ## Sources & References
 
-**📚 For detailed citations, confidence ratings, and academic references, see [SOURCES.md](SOURCES.md).**
+**📚 For complete citations, confidence ratings, and attribution, see [SOURCES.md](SOURCES.md).**
 
 **🎯 For real-world scenarios showing how frameworks chain together, see [SCENARIOS.md](SCENARIOS.md).**
 
-### Problem-Solving Methodologies
-- **8D (Eight Disciplines)** ✓ — Ford Motor Company (1987). *Team Oriented Problem Solving Manual*. Evolved from TQM; in wide use in automotive and aerospace. [Wikipedia](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving)
-- **5 Whys** ⚠ — Toyota Production System root cause technique; widely adapted across industries.
-- **Ishikawa (Fishbone) Diagram** ✓ — Ishikawa, K. (1960s). University of Tokyo. Cause–effect diagram; central to Japanese quality control and Toyota. [Wikipedia](https://en.wikipedia.org/wiki/Ishikawa_diagram)
-- **A3 Problem Solving** ✓ — Toyota Production System. Single A3-page structured problem-solving (plan–do–check–act); one-page report for alignment. [Wikipedia](https://en.wikipedia.org/wiki/A3_problem_solving)
-- **PADDER, ICEBERG, IDEA, PREPARE** ℹ — Curated/educational problem-solving mnemonics for this collection.
-
-### Strategic & Analysis Frameworks
-- **PESTEL** ✓ — Aguilar, F. (1967). *Scanning the Business Environment*. Harvard; later extended to PESTLE/PESTEL (Legal, Environmental). [Background](https://www.linkedin.com/pulse/background-development-pestel-analysis-biplab-paul-8hj0c)
-- **PEST** ℹ — Four-factor variant (Political, Economic, Social, Technological); conceptually from the PESTEL lineage.
-- **SWOT** ✓ — Humphrey, A. (1960s–70s). Stanford Research Institute (SRI International); developed with Fortune 500 planning research. [e.g. Ninety](https://www.ninety.io/hubfs/Founders%20Framework%20-%20The%20SWOT%20Analysis%20and%20Strategic%20Planning%20Framework.pdf)
-- **RACI** ✓ — Responsibility Assignment Matrix; emerged ~1950s–70s, no single inventor. [Wikipedia RAM](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
-- **SET (Systems Engineering Triangle)** ✓ — SEBoK, *Guide to the Systems Engineering Body of Knowledge*. [SEBoK](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))
-
-### Problem Resolution Threats & Triage
-- **DICE, FATE** ℹ — Educational mnemonics for blockers and resource checks in this collection.
-
-### Communication, Stress & Resilience, Infrastructure
-- **BREATHE, PAUSE, WAIT, PACE, STOP, ARIES, CALM, SHINE** ℹ — Curated for stress management and conflict de-escalation.
-- **TRACE, SCALE, DEBUG** ℹ — Curated for infrastructure and troubleshooting.
-
-**Note:** ✓ documented; ⚠ adapted; ℹ curated. Mix of established frameworks and educational compilations.
-
-**Evidence:** ★★★ strongly validated (5 Whys, 8D, Ishikawa); ★★ industry standard (SWOT, RACI, A3, SET); ★ curated. ✓/⚠/ℹ = attribution; ★ = evidence strength.
-
-**See [SOURCES.md](SOURCES.md) for:** Full citations, Framework Confidence Ratings table, academic citation formats, and verification status.
+**Legend:** ✓ documented; ⚠ adapted; ℹ curated. ★★★ strongly validated; ★★ industry standard; ★ curated. SOURCES.md is the single source of truth for detailed citations.
