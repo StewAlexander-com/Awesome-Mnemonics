@@ -38,6 +38,7 @@
 
 - [Awesome Mnemonics ](#awesome-mnemonics-)
   - [🚨 Quick Reference](#-quick-reference)
+  - [Table of Contents](#table-of-contents)
   - [📑 Categorized Index](#-categorized-index)
     - [🔧 Ops](#-ops)
     - [🔍 RCA (Root Cause Analysis)](#-rca-root-cause-analysis)
@@ -48,7 +49,6 @@
   - [CLI](#cli)
   - [Quick Start (SRE / Infra)](#quick-start-sre--infra)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
-  - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#-problem-solving-techniques)
     - [PREPARE](#prepare)
     - [PADDER](#padder)
@@ -725,9 +725,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines and submission templa
 
 ## 📥 Release Versions
 
-**v2.8** (2026-01-31) — Regenerated release artifacts from README; merged "Use when" / "When to use" into single statement. [CHANGELOG](CHANGELOG.md)
+**v2.9** (2026-01-31) — Docs: Jump to nav, Sources consolidation; release artifacts regenerated. [CHANGELOG](CHANGELOG.md)
 
-**ZIP (all formats):** [Complete](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Complete-Guide.zip) · [Quick Reference](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Quick-Reference.zip)
+**ZIP (all formats):** [Complete](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.9-Complete-Guide.zip) · [Quick Reference](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.9-Quick-Reference.zip)
 
 **By format:** Complete — [PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.docx) [RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.rtf) [MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.docx) [RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.rtf) [MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.md). *[releases/README](releases/README.md) for details.*
 

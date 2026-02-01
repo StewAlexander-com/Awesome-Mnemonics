@@ -16,7 +16,7 @@ QUICK_REF = ROOT / "PRINT-QUICK-REFERENCE.md"
 RELEASES_DIR = ROOT / "releases"
 OUT_MD = RELEASES_DIR / "Awesome-Mnemonics-Complete-Guide.md"
 OUT_QUICK_MD = RELEASES_DIR / "Awesome-Mnemonics-Quick-Reference.md"
-VERSION = "2.8"
+VERSION = "2.9"
 DATE = "2026-01-31"
 
 def main():

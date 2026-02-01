@@ -12,7 +12,7 @@
 
 **Note:** This is a **field guide/playbook** with opinionated workflows (e.g., STOP → TRACE → DEBUG → 8D) rather than a traditional awesome list of external links. It focuses on battle-tested mnemonics with detailed guidance, real-world scenarios, and proven pipelines.
 
-*Release v2.8 — 2026-01-26*
+*Release v2.9 — 2026-01-31*
 
 *In PDF and DOCX, the table of contents and in-text links are clickable; use the TOC to jump to sections.*
 
@@ -23,17 +23,20 @@
 
 **Quick links:** [📥 Downloads](releases/README.md) · [🎯 Scenarios](../SCENARIOS.md) *(available in repository)* · [📚 Sources](../SOURCES.md) *(available in repository)* · [🔧 CLI](#cli) · [📋 Table of Contents](#table-of-contents)
 
+**Jump to:** [Quick Reference](#-quick-reference) · [Categorized Index](#-categorized-index) · [Problem Solving](#-problem-solving-techniques) · [Pipelines](#-proven-mnemonic-pipelines) · [Common Mistakes](#-common-mistakes) · [Contributing](#-contributing)
+
 ## 🚨 Quick Reference
 
-| **Situation** | **Use This** | **Time** |
-|---------------|--------------|----------|
-| 🚨 Immediate crisis | [IDEA](#idea) → [STOP](#stop) | 2-5 min |
-| 🔍 Root cause needed | [ICEBERG](#iceberg) + [5 Whys](#5-whys) | 30-60 min |
-| 👥 Team conflict | [BREATHE](#breathe) → [PAUSE](#pause) → [WAIT](#wait) | 5-10 min |
-| 📊 Strategic planning | [PREPARE](#prepare) + [SWOT](#swot) | 1-2 hours |
-| 🏗️ System design | [SCALE](#scale-infrastructure-design) + [PESTEL](#pestel) | Planning |
-| 🐛 Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
-| 😰 Stress overload | [PACE](#pace) → [ARIES](#aries) → [CALM](#calm) | 10-15 min |
+| Situation | Use These | Time |
+|-----------|-----------|------|
+| Crisis/Emergency | [STOP](#stop), [BREATHE](#breathe) | 2-5 min |
+| Stress/Overwhelm | [PACE](#pace), [CALM](#calm), [ARIES](#aries) | 5-10 min |
+| Argument/Conflict | [BREATHE](#breathe), [PAUSE](#pause), [WAIT](#wait) | 3-7 min |
+| Root cause needed | [5 Whys](#5-whys), [ICEBERG](#iceberg), [8D](#8d-approach) | 30 min–4 wks |
+| Problem solving | [IDEA](#idea), [PREPARE](#prepare), [PADDER](#padder) | 15-60 min |
+| Strategic analysis | [SWOT](#swot), [PESTEL](#pestel) | 1-4 hrs |
+| Team coordination | [RACI](#raci), [8D](#8d-approach) | Ongoing |
+| Technical debugging | [TRACE](#trace-network-troubleshooting) → [DEBUG](#debug-code--system-analysis) | Variable |
 
 **Crisis?** → [STOP → TRACE → DEBUG → 8D](#1-crisis-response-chain) | **Quick decision?** → [IDEA → DICE → FATE](#6-rapid-triage-chain)
 
@@ -41,6 +44,7 @@
 
 - [Awesome Mnemonics ](#awesome-mnemonics-)
   - [🚨 Quick Reference](#-quick-reference)
+  - [Table of Contents](#table-of-contents)
   - [📑 Categorized Index](#-categorized-index)
     - [🔧 Ops](#-ops)
     - [🔍 RCA (Root Cause Analysis)](#-rca-root-cause-analysis)
@@ -51,7 +55,6 @@
   - [CLI](#cli)
   - [Quick Start (SRE / Infra)](#quick-start-sre--infra)
   - [🔄 Mnemonic Selection Flowchart](#-mnemonic-selection-flowchart)
-  - [Table of Contents](#table-of-contents)
   - [🧩 Problem Solving Techniques](#-problem-solving-techniques)
     - [PREPARE](#prepare)
     - [PADDER](#padder)
@@ -100,22 +103,6 @@
   - [🤝 Contributing](#-contributing)
   - [📥 Release Versions](#-release-versions)
   - [Sources \& References](#sources--references)
-    - [Problem-Solving Methodologies](#problem-solving-methodologies)
-    - [Strategic \& Analysis Frameworks](#strategic--analysis-frameworks)
-    - [Problem Resolution Threats \& Triage](#problem-resolution-threats--triage)
-    - [Communication, Stress \& Resilience, Infrastructure](#communication-stress--resilience-infrastructure)
-
-## Quick Reference
-
-| Situation | Use These | Time |
-|-----------|-----------|------|
-| Crisis/Emergency | STOP, BREATHE | 2-5 min |
-| Stress/Overwhelm | PACE, CALM, ARIES | 5-10 min |
-| Argument/Conflict | BREATHE, PAUSE, WAIT | 3-7 min |
-| Root Cause Analysis | 5 Whys, ICEBERG, 8D | 30min-4wks |
-| Problem Solving | IDEA, PREPARE, PADDER | 15-60 min |
-| Strategic Analysis | SWOT, PESTEL | 1-4 hrs |
-| Team Coordination | RACI, 8D Approach | Ongoing |
 
 ---
 
@@ -197,9 +184,7 @@
 
 *Full definitions for each mnemonic; [Categorized Index](#categorized-index) above to browse by use case.*
 
-### PREPARE  
-
-**Use when:** Strategic planning, multi-stakeholder; needs structure | **Time:** 1–2 hr | **Complexity:** ★★☆
+### PREPARE
 
 ```
 P - **Prioritize** the problem  
@@ -211,7 +196,7 @@ R - **Reflect** on results
 E - **Evaluate** and revise plan as necessary  
 ```
 
-**💡 When to use:** Strategic planning (1–2 hr); medium complexity, multi-stakeholder; needs structure. *Not for outages—use [STOP](#stop)→[TRACE](#trace-network-troubleshooting)→[DEBUG](#debug-code--system-analysis) first; PREPARE in post-mortem.*
+**When to use:** Strategic planning; medium complexity, multi-stakeholder; needs structure. **Time:** 1–2 hr. **Complexity:** ★★☆. *Not for outages—use [STOP](#stop)→[TRACE](#trace-network-troubleshooting)→[DEBUG](#debug-code--system-analysis) first; PREPARE in post-mortem.*
 
 **⚠️ Pitfalls:** Analysis paralysis — if past 30 min on Research, switch to [IDEA](#idea). Skipping Reflect/Evaluate → recurring issues.
 
@@ -236,8 +221,6 @@ R - **Reevaluate** and refine plan as needed
 **📋 Real-world example:** *Recurring server crashes - Pinpoint timing, Analyze logs for patterns, Develop interim solutions (restart service) + permanent fix (increase memory), Monitor effectiveness*
 ### ICEBERG
 
-**Use when:** Complex, deep analysis; surface symptoms hide root causes | **Time:** 30–60 min | **Complexity:** ★★★
-
 ```
 I - **Identify** issue(s)  
 C - **Collect** data and analyze situation  
@@ -248,7 +231,7 @@ R - **Review**, evaluate, and adjust solutions
 G - **Gather** feedback  
 ```
 
-**💡 When to use:** Complex, deep analysis (30–60 min); surface symptoms hide root causes; escalate from [IDEA](#idea) when complexity grows.
+**When to use:** Complex, deep analysis; surface symptoms hide root causes; escalate from [IDEA](#idea) when complexity grows. **Time:** 30–60 min. **Complexity:** ★★★.
 
 **⚠️ Pitfalls:** Too deep on simple (e.g. 5‑min password reset): start with IDEA, escalate if needed. Skipping G (feedback): prevents recurrence; complete the cycle.
 
@@ -704,10 +687,8 @@ G - **Generate** hypothesis and test
 | **Incomplete execution** | [8D](#8d-approach) stopped at D3 (band-aid) | Always reach D7 (Prevent Reoccurrence) | — |
 | **Solo hero** | No [RACI](#raci) → no accountability if you’re out | [RACI](#raci) in 8D D1 (Form a team) | — |
 | **Analysis paralysis** | PREPARE→ICEBERG→5 Whys→8D for simple issues | Start with [IDEA](#idea); escalate if complexity emerges | — |
-
-- Don't use SWOT for root cause (use 5 Whys/ICEBERG instead)
-- Don't start 8D solo (requires team)
-- Don't apply multiple frameworks (pick ONE)
+| **Wrong tool** | SWOT for root cause; 8D solo | Use [5 Whys](#5-whys)/[ICEBERG](#iceberg) for root cause; [8D](#8d-approach) requires team ([RACI](#raci)) | — |
+| **Multiple frameworks** | Using several at once → confusion | Pick ONE matching your situation | — |
 
 ---
 
@@ -729,7 +710,7 @@ G - **Generate** hypothesis and test
 
 ---
 
-**[↑ Quick Reference](#quick-reference--on-call-guide) · [↑ Top](#awesome-mnemonics---complete-guide)**
+**[↑ Quick Reference](#-quick-reference) · [↑ Top](#awesome-mnemonics---complete-guide)**
 
 ## 🤝 Contributing
 
@@ -750,9 +731,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for full guidelines and submission tem
 
 ## 📥 Release Versions
 
-**v2.8** (2026-01-26) — Streamlined README: reduced content before TOC from ~160 to 31 lines, condensed Categorized Index, moved detailed sections after TOC for better navigation. [CHANGELOG](../CHANGELOG.md)
+**v2.9** (2026-01-31) — Docs: Jump to nav, Sources consolidation; release artifacts regenerated. [CHANGELOG](../CHANGELOG.md)
 
-**ZIP (all formats):** [Complete](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-v2.8-Complete-Guide.zip) · [Quick Reference](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-v2.8-Quick-Reference.zip)
+**ZIP (all formats):** [Complete](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-v2.9-Complete-Guide.zip) · [Quick Reference](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-v2.9-Quick-Reference.zip)
 
 **By format:** Complete — [PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Complete-Guide.pdf) [DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Complete-Guide.docx) [RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Complete-Guide.rtf) [MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Complete-Guide.md) · Quick — [PDF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Quick-Reference.pdf) [DOCX](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Quick-Reference.docx) [RTF](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Quick-Reference.rtf) [MD](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/Awesome-Mnemonics-Quick-Reference.md). *[README](README.md) for details.*
 
@@ -760,33 +741,8 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for full guidelines and submission tem
 
 ## Sources & References
 
-**📚 For detailed citations, confidence ratings, and academic references, see [SOURCES.md](../SOURCES.md) *(available in repository)*.**
+**📚 For complete citations, confidence ratings, and attribution, see [SOURCES.md](../SOURCES.md) *(available in repository)*.**
 
 **🎯 For real-world scenarios showing how frameworks chain together, see [SCENARIOS.md](../SCENARIOS.md) *(available in repository)*.**
 
-### Problem-Solving Methodologies
-- **8D (Eight Disciplines)** ✓ — Ford Motor Company (1987). *Team Oriented Problem Solving Manual*. Evolved from TQM; in wide use in automotive and aerospace. [Wikipedia](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving)
-- **5 Whys** ⚠ — Toyota Production System root cause technique; widely adapted across industries.
-- **Ishikawa (Fishbone) Diagram** ✓ — Ishikawa, K. (1960s). University of Tokyo. Cause–effect diagram; central to Japanese quality control and Toyota. [Wikipedia](https://en.wikipedia.org/wiki/Ishikawa_diagram)
-- **A3 Problem Solving** ✓ — Toyota Production System. Single A3-page structured problem-solving (plan–do–check–act); one-page report for alignment. [Wikipedia](https://en.wikipedia.org/wiki/A3_problem_solving)
-- **PADDER, ICEBERG, IDEA, PREPARE** ℹ — Curated/educational problem-solving mnemonics for this collection.
-
-### Strategic & Analysis Frameworks
-- **PESTEL** ✓ — Aguilar, F. (1967). *Scanning the Business Environment*. Harvard; later extended to PESTLE/PESTEL (Legal, Environmental). [Background](https://www.linkedin.com/pulse/background-development-pestel-analysis-biplab-paul-8hj0c)
-- **PEST** ℹ — Four-factor variant (Political, Economic, Social, Technological); conceptually from the PESTEL lineage.
-- **SWOT** ✓ — Humphrey, A. (1960s–70s). Stanford Research Institute (SRI International); developed with Fortune 500 planning research. [e.g. Ninety](https://www.ninety.io/hubfs/Founders%20Framework%20-%20The%20SWOT%20Analysis%20and%20Strategic%20Planning%20Framework.pdf)
-- **RACI** ✓ — Responsibility Assignment Matrix; emerged ~1950s–70s, no single inventor. [Wikipedia RAM](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
-- **SET (Systems Engineering Triangle)** ✓ — SEBoK, *Guide to the Systems Engineering Body of Knowledge*. [SEBoK](https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))
-
-### Problem Resolution Threats & Triage
-- **DICE, FATE** ℹ — Educational mnemonics for blockers and resource checks in this collection.
-
-### Communication, Stress & Resilience, Infrastructure
-- **BREATHE, PAUSE, WAIT, PACE, STOP, ARIES, CALM, SHINE** ℹ — Curated for stress management and conflict de-escalation.
-- **TRACE, SCALE, DEBUG** ℹ — Curated for infrastructure and troubleshooting.
-
-**Note:** ✓ documented; ⚠ adapted; ℹ curated. Mix of established frameworks and educational compilations.
-
-**Evidence:** ★★★ strongly validated (5 Whys, 8D, Ishikawa); ★★ industry standard (SWOT, RACI, A3, SET); ★ curated. ✓/⚠/ℹ = attribution; ★ = evidence strength.
-
-**See [SOURCES.md](../SOURCES.md) *(available in repository)* for:** Full citations, Framework Confidence Ratings table, academic citation formats, and verification status.
+**Legend:** ✓ documented; ⚠ adapted; ℹ curated. ★★★ strongly validated; ★★ industry standard; ★ curated. SOURCES.md is the single source of truth for detailed citations.

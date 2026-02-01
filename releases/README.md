@@ -20,11 +20,11 @@ A condensed one-page reference card perfect for printing or keeping on your desk
 - **RTF** ([Awesome-Mnemonics-Quick-Reference.rtf](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.rtf)) - Universal RTF format - *Click to download*
 - **Markdown** ([Awesome-Mnemonics-Quick-Reference.md](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-Quick-Reference.md)) - Quick reference in markdown format - *Click to download*
 
-### ZIP bundles (v2.8)
+### ZIP bundles (v2.9)
 One-click archives containing all formats for each guide:
 
-- **Complete Guide** ([Awesome-Mnemonics-v2.8-Complete-Guide.zip](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Complete-Guide.zip)) — PDF, DOCX, RTF, Markdown - *Click to download*
-- **Quick Reference** ([Awesome-Mnemonics-v2.8-Quick-Reference.zip](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.8-Quick-Reference.zip)) — PDF, DOCX, RTF, Markdown - *Click to download*
+- **Complete Guide** ([Awesome-Mnemonics-v2.9-Complete-Guide.zip](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.9-Complete-Guide.zip)) — PDF, DOCX, RTF, Markdown - *Click to download*
+- **Quick Reference** ([Awesome-Mnemonics-v2.9-Quick-Reference.zip](https://github.com/StewAlexander-com/Awesome-Mnemonics/raw/main/releases/Awesome-Mnemonics-v2.9-Quick-Reference.zip)) — PDF, DOCX, RTF, Markdown - *Click to download*
 
 ## Features
 
@@ -61,4 +61,4 @@ These release versions are generated from the main repository files. For the lat
 
 ---
 
-*Generated with pandoc — v2.8 (2026-01-31)*
+*Generated with pandoc — v2.9 (2026-01-31)*
